@@ -41,9 +41,29 @@ public class @InputControl : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Move"",
+                    ""type"": ""Value"",
+                    ""id"": ""f2bf7f5a-3921-4eed-857d-1abc5d66d370"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
-            ""bindings"": []
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""774ef469-ba15-4d1d-ae21-7483c0432cb1"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -53,6 +73,7 @@ public class @InputControl : IInputActionCollection, IDisposable
         m_FighterControl_Punch = m_FighterControl.FindAction("Punch", throwIfNotFound: true);
         m_FighterControl_Kick = m_FighterControl.FindAction("Kick", throwIfNotFound: true);
         m_FighterControl_Block = m_FighterControl.FindAction("Block", throwIfNotFound: true);
+        m_FighterControl_Move = m_FighterControl.FindAction("Move", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -105,6 +126,7 @@ public class @InputControl : IInputActionCollection, IDisposable
     private readonly InputAction m_FighterControl_Punch;
     private readonly InputAction m_FighterControl_Kick;
     private readonly InputAction m_FighterControl_Block;
+    private readonly InputAction m_FighterControl_Move;
     public struct FighterControlActions
     {
         private @InputControl m_Wrapper;
@@ -112,6 +134,7 @@ public class @InputControl : IInputActionCollection, IDisposable
         public InputAction @Punch => m_Wrapper.m_FighterControl_Punch;
         public InputAction @Kick => m_Wrapper.m_FighterControl_Kick;
         public InputAction @Block => m_Wrapper.m_FighterControl_Block;
+        public InputAction @Move => m_Wrapper.m_FighterControl_Move;
         public InputActionMap Get() { return m_Wrapper.m_FighterControl; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -130,6 +153,9 @@ public class @InputControl : IInputActionCollection, IDisposable
                 @Block.started -= m_Wrapper.m_FighterControlActionsCallbackInterface.OnBlock;
                 @Block.performed -= m_Wrapper.m_FighterControlActionsCallbackInterface.OnBlock;
                 @Block.canceled -= m_Wrapper.m_FighterControlActionsCallbackInterface.OnBlock;
+                @Move.started -= m_Wrapper.m_FighterControlActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_FighterControlActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_FighterControlActionsCallbackInterface.OnMove;
             }
             m_Wrapper.m_FighterControlActionsCallbackInterface = instance;
             if (instance != null)
@@ -143,6 +169,9 @@ public class @InputControl : IInputActionCollection, IDisposable
                 @Block.started += instance.OnBlock;
                 @Block.performed += instance.OnBlock;
                 @Block.canceled += instance.OnBlock;
+                @Move.started += instance.OnMove;
+                @Move.performed += instance.OnMove;
+                @Move.canceled += instance.OnMove;
             }
         }
     }
@@ -152,5 +181,6 @@ public class @InputControl : IInputActionCollection, IDisposable
         void OnPunch(InputAction.CallbackContext context);
         void OnKick(InputAction.CallbackContext context);
         void OnBlock(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
     }
 }

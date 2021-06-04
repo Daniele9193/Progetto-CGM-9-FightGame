@@ -1,0 +1,37 @@
+{
+    "name": "Input Control",
+    "maps": [
+        {
+            "name": "FighterControl",
+            "id": "d93a79fc-6b4c-40d9-b559-6a87f6fff7f2",
+            "actions": [
+                {
+                    "name": "Punch",
+                    "type": "Button",
+                    "id": "6bb385ca-b12b-413e-a06d-4d6b8296c9c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Kick",
+                    "type": "Button",
+                    "id": "6c35534e-3685-4232-a0e6-86dec01aed67",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Block",
+                    "type": "Button",
+                    "id": "9fadf5d9-be6f-4581-808f-86c767182a20",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": []
+        }
+    ],
+    "controlSchemes": []
+}

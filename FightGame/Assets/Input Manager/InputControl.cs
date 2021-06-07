@@ -44,11 +44,11 @@ public class @InputControl : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Move"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""f2bf7f5a-3921-4eed-857d-1abc5d66d370"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": ""Hold""
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [

@@ -48,7 +48,7 @@ public class @InputControl : IInputActionCollection, IDisposable
                     ""id"": ""f2bf7f5a-3921-4eed-857d-1abc5d66d370"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Hold""
                 }
             ],
             ""bindings"": [

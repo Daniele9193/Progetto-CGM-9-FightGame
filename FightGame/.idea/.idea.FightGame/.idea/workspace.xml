@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="245aa227-9db5-4faf-a0f0-7591f1467c04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FightGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FightGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/Input Control.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/Input Control.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/Input Control.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/Input Control.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/InputControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input Manager/InputControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/InputControl.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input Manager/InputControl.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -66,6 +66,7 @@
       <updated>1622465462420</updated>
       <workItem from="1622800859839" duration="243000" />
       <workItem from="1622803692699" duration="1048000" />
+      <workItem from="1623075494482" duration="1352000" />
     </task>
     <servers />
   </component>

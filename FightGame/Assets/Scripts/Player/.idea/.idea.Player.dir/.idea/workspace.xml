@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb9b240-f623-438d-bbc8-f048cdfed58b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Animations/PlayerAnimation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../../Animations/PlayerAnimation.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Player.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -38,14 +44,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624544594052</updated>
-      <workItem from="1624544637897" duration="3863000" />
+      <workItem from="1624544637897" duration="4419000" />
+      <workItem from="1624952775814" duration="5789000" />
+      <workItem from="1624959218738" duration="5423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

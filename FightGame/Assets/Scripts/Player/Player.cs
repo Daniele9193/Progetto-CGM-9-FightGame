@@ -5,6 +5,10 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    public int health;
+    public int maxHealth= 100;
+    public HealthBar healthBar;
+    
     [SerializeField] private float _speed = 0.005f;
     private Vector2 _inputMovement;
     [SerializeField] private InputControl _inputControl;
@@ -16,6 +20,8 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _anim = GetComponent<Animator>();
+        health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     private void Awake()
@@ -44,6 +50,12 @@ public class Player : MonoBehaviour
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f);
         }
+    }
+
+    void TakeDamage(int damage)
+    {
+        health -= damage;
+        healthBar.SetHealth(health);
     }
 
     public void OnMovement(InputAction.CallbackContext value)

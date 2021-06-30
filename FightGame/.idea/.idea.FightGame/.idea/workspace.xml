@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="245aa227-9db5-4faf-a0f0-7591f1467c04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FightGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FightGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FightingMotionsVolume1/FBX/move_backward_B.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FightingMotionsVolume1/FBX/move_backward_B.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FightingMotionsVolume1/FBX/move_forward_B.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FightingMotionsVolume1/FBX/move_forward_B.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/InputControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input Manager/InputControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Input Manager/InputControl.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Input Manager/InputControl.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +17,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar/HealthBar.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1tInQPstUnILqUwlSZaNNjbl7Yy" />
@@ -35,6 +31,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>

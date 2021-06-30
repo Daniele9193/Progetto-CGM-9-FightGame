@@ -6,8 +6,13 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     public int health;
-    public int maxHealth= 100;
+    public int maxHealth= 1000;
     public HealthBar healthBar;
+    public PowerBar powerBar;
+    public int power=0;
+    public int maxPower = 1000;
+    
+    
     
     [SerializeField] private float _speed = 10.0f;
     private Vector2 _inputMovement;
@@ -50,12 +55,29 @@ public class Player : MonoBehaviour
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime *2, 0.0f, 0.0f);
         }
+        
+        TakeDamage(1);
+        GainPower();
+    }
+
+
+    void GainPower()
+    {
+        if (power<maxPower)
+        {
+            power += 1;
+            powerBar.SetPower(power);
+        }
     }
 
     void TakeDamage(int damage)
     {
-        health -= damage;
-        healthBar.SetHealth(health);
+        if ((health - damage) >= 0)
+        {
+            health -= damage;
+            healthBar.SetHealth(health);
+        }
+        
     }
 
     public void OnMovement(InputAction.CallbackContext value)

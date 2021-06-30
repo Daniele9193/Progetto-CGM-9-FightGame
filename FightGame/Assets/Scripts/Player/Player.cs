@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public int maxHealth= 100;
     public HealthBar healthBar;
     
-    [SerializeField] private float _speed = 0.005f;
+    [SerializeField] private float _speed = 10.0f;
     private Vector2 _inputMovement;
     [SerializeField] private InputControl _inputControl;
     private Animator _anim;
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
 
         if (_anim.GetBool("IsDead") == false && _anim.GetBool("IsKnocked") == false && _anim.GetBool("IsBlocking")==false)
         {
-            transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f);
+            transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime *2, 0.0f, 0.0f);
         }
     }
 

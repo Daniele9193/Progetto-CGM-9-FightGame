@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb9b240-f623-438d-bbc8-f048cdfed58b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Animations/PlayerAnimation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../../Animations/PlayerAnimation.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

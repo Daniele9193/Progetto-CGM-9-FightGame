@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         _inputControl.FighterControl.Block.Enable();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         Animazione();
 
@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         if ((health - damage) >= 0)
         {

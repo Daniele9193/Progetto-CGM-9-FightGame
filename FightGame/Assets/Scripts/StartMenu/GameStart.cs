@@ -25,6 +25,16 @@ public class GameStart : MonoBehaviour
         }
     }
 
+    public void Command()
+    {
+        SceneManager.LoadScene("CommandScene");
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadScene("Starter Scene");
+    }
+
     public void Skull()
     {
         if (isSkull)

@@ -8,6 +8,7 @@ public class CharacterSelection : MonoBehaviour
     private GameObject[] characterList;
     private int index;
     private int arena;
+    private int rival;
 
     void Start()
     {
@@ -55,9 +56,15 @@ public class CharacterSelection : MonoBehaviour
         arena = x;
     }
 
+    public void SelezionaRivale(int x)
+    {
+        rival = x;
+    }
+
     public void PulsanteConferma()
     {
         PlayerPrefs.SetInt("PersonaggioSelezionato", index);
+		PlayerPrefs.SetInt("AvversarioSelezionato", rival);
         switch (arena)
         {
             case 0:

@@ -87,7 +87,7 @@ public class Pg : MonoBehaviour
     }
     public void LeftPunch(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             _anim.SetTrigger("PunchLeft");
         }

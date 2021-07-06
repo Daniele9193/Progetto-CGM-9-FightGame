@@ -59,23 +59,22 @@ public class Player : MonoBehaviour
 		
 		TakeDamage(1);
         GainPower();
-
-        if (health == 0)
+		
+		if (health == 0 && _anim.GetBool("Knocked") == false)
         {
-            _anim.SetBool("Knocked", true);
-            _anim.SetBool("Dead", true);
+			_anim.SetBool("Knocked", true);
+        	_anim.Play("Knocked");
+			   
         }
-
-        if (_anim.GetBool("Dead"))
+		
+		if (_anim.GetBool("Dead"))
         {
-            Thread.Sleep(5000);
-            SceneManager.LoadScene("YouLose");
+         SceneManager.LoadScene("YouLose");
         }
     
 	}
-    
 
-	void GainPower()
+	private void GainPower()
     {
         if (power<maxPower)
         {
@@ -97,11 +96,8 @@ public class Player : MonoBehaviour
     public void OnMovement(InputAction.CallbackContext value)
     {
         _inputMovement = value.ReadValue<Vector2>();
-        if (_anim.GetBool("Knocked") == true)
-        {
-            _anim.SetBool("Knocked", false);
-        }
     }
+
     public void RightKick(InputAction.CallbackContext value)
     {
         if (Input.GetKeyDown(KeyCode.K))

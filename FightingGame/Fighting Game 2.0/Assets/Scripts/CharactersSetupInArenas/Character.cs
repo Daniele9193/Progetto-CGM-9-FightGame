@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class RivalList : MonoBehaviour
+public class Character : MonoBehaviour
 {
-   private GameObject[] characterList;
+    private GameObject[] characterList;
     private int index;
+    private int arena;
+    private int rival;
 
     void Start()
     {
-        index = PlayerPrefs.GetInt("AvversarioSelezionato");
+        index = PlayerPrefs.GetInt("PersonaggioSelezionato");
         characterList = new GameObject[transform.childCount]; //instanziamo una nuova lista di GameObject per creare la lista dei personaggi
                                                               //childCount prende il numero di figli dell'oggetto a cui è associato lo script
 
@@ -23,5 +26,4 @@ public class RivalList : MonoBehaviour
             characterList[index].SetActive(true); //tranne il primo personaggio se c'è (nella scena di selezione)
                                                   //se è stato selezionato un personaggio attiviamo quello.
     }
-
 }

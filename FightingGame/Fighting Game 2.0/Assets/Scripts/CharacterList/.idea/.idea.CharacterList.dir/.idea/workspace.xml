@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4eefe08-24da-437e-86aa-dca31789c961" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Scenes/CharacterSelection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/CharacterSelection.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/Build01.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/Build01.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/Build01_pfefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/Build01_pfefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/BRICK30_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/BRICK30_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/BRICK_plesen_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/BRICK_plesen_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Concrete_PBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Concrete_PBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Kafel02_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Kafel02_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Metall01_01_PBR.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Metall01_01_PBR.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Metall02_01_PBR 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Metall02_01_PBR 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Parket_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Parket_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Plitka03_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Plitka03_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Plitka05_PBR_Final 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Plitka05_PBR_Final 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Plitka06_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Plitka06_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wall01_PBR_Final 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wall01_PBR_Final 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wall03_PBR_Final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wall03_PBR_Final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wood03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wood03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wood_planks01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Material/Tiled/Wood_planks01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30/_Brick30OGL_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30/_Brick30OGL_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30/_Brick30OGL_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30/_Brick30OGL_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30/_Brick30OGL_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick30/_Brick30OGL_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen/Brick_plesen_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen/Brick_plesen_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen/Brick_plesen_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen/Brick_plesen_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen/Brick_plesen_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Brick_plesen/Brick_plesen_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_Ambient_OcclusionAmbient_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_Ambient_OcclusionAmbient_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_Base_ColorBase_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_Base_ColorBase_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_HeightHeight.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_HeightHeight.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_NormalNormal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Concrete/_Concrete_NormalNormal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02/Kafel02_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02/Kafel02_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02/Kafel02_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02/Kafel02_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02/Kafel02_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Kafel02/Kafel02_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall01/MET_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall01/MET_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall01/met_2N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall01/met_2N.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall02/METALL02_mainColor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall02/METALL02_mainColor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall02/metall02_normalMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Metall02/metall02_normalMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket/Parket_Base_ColorBase_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket/Parket_Base_ColorBase_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket/Parket_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket/Parket_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket/Parket_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Parket/Parket_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03/Plitka03Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03/Plitka03Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03/Plitka03_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03/Plitka03_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03/Plitka03_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka03/Plitka03_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06/Plitka_06_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06/Plitka_06_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06/Plitka_06_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06/Plitka_06_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06/Plitka_06_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka06/Plitka_06_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05/Plitka_05_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05/Plitka_05_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05/Plitka_05_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05/Plitka_05_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05/Plitka_05_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Plitka_05/Plitka_05_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01/Wall01_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01/Wall01_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01/Wall01_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01/Wall01_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01/Wall01_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall01/Wall01_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03/Wall03_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03/Wall03_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03/Wall03_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03/Wall03_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03/Wall03_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wall03/Wall03_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01/Wood_01_Base_Color.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01/Wood_01_Base_Color.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01/Wood_01_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01/Wood_01_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01/Wood_01_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/Wood01/Wood_01_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks/wood_planks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks/wood_planks.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks/wood_planks_hm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks/wood_planks_hm.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks/wood_planks_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Elements/Build01/TiledMaterials&amp;Textures/Texture/Tiled/WoodPlanks/wood_planks_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/Cb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/Cb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/Concrete wall smooth pillar texture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/Concrete wall smooth pillar texture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/TexturesCom_WoodFine0003_seamless_S.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/TexturesCom_WoodFine0003_seamless_S.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door texture 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door texture 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door texture 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door texture 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door texture 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door texture 4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/door.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/emesive.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/emesive.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/marble_1_basecolor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/marble_1_basecolor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/the book texture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/the book texture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/the chandelier hand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/the chandelier hand.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/the chandelier.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Materials/the chandelier.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/Note.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/Note.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/post proscessing 1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/post proscessing 1.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/post proscessing 2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/post proscessing 2.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/post proscessing 3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/post proscessing 3.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/setting screenshot 1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/Settings/setting screenshot 1.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/CHs0.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/CHs0.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/A01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/A01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/Material.045.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/Material.045.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/black_painted_metal.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/black_painted_metal.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/black_painted_metal.018.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/black_painted_metal.018.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/book.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/book.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/book.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/book.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/bookcasewood.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/bookcasewood.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/bookcasewood.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/bookcasewood.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/bookcasewood.007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/bookcasewood.007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/booksonthecase.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/booksonthecase.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/booksonthecase.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/booksonthecase.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/booksonthecase.013.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/booksonthecase.013.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/border.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/border.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/border.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/border.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/candel_yelosh.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/candel_yelosh.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/candel_yelosh.018.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/candel_yelosh.018.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/door.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/door.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/door.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/door.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/fine_wood.018.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/fine_wood.018.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/glass.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/glass.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/glass.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/glass.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/ground tiles.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/ground tiles.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/ground tiles.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/ground tiles.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/pilers.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/pilers.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/top_roof_wood.008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/top_roof_wood.008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wall_stone_brick.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wall_stone_brick.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.000.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.000.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.009.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/Materials/wood the tabel and chaer.009.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/book.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/book.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/bookcase 00.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/bookcase 00.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/chair 00.fbx .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/chair 00.fbx .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/chandiler.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/chandiler.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/door 00.fbx .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/door 00.fbx .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/fire.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/fire.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/ground plane 00.fbx .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/ground plane 00.fbx .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/pillars 00.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/pillars 00.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/rooftop-00.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/rooftop-00.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/table 00.fbx .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/table 00.fbx .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/window 00.fbx .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/models/window 00.fbx .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/CH0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/CH0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/Full roof.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/Full roof.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/Ground.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/Ground.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/Window.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/Window.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/book.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/book.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/bookcase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/bookcase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/candle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/candle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/chair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/chair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/chandiler.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/chandiler.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/door.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/door.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/fire.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/fire.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/miain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/miain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/pillers.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/pillers.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/roof piece.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/roof piece.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/tabel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/tabel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/window00.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/prefabs/window00.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/Cb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/Cb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/Materials/book-case-9.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/Materials/book-case-9.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/Materials/bookcasewood_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/Materials/bookcasewood_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/New_Graph_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/New_Graph_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/book-case-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/book-case-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Mixed_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Mixed_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Normal_DirectX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Normal_DirectX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/bookcase/bookcasewood_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Metallic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Metallic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Roughness.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/Materials/wood the tabel and chaer.002_Roughness.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Mixed_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Mixed_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Normal_DirectX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Normal_DirectX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/chiar/wood the tabel and chaer.002_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/door texture 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/door texture 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/door texture 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/door texture 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/4K/marble_1_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/New Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/New Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/marble_1_basecolor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/marble_1_basecolor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/marble_1_metallic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/marble_1_metallic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/marble_1_roughness.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/Materials/marble_1_roughness.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/floor/marble_1_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/Materials/pilers_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/Materials/pilers_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Mixed_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Mixed_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Normal_DirectX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Normal_DirectX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/pillars/pilers_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/Materials/top_roof_wood_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/Materials/top_roof_wood_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/Materials/top_roof_wood_Normal_DirectX.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/Materials/top_roof_wood_Normal_DirectX.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Mixed_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Mixed_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Normal_DirectX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Normal_DirectX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/roofrop/top_roof_wood_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Metallic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Metallic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Roughness.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/Materials/wood the tabel and chaer_Roughness.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Normal_DirectX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Normal_DirectX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/table/wood the tabel and chaer_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/the book texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/the book texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/the chandelier hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/the chandelier hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/the chandelier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/the chandelier.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/Materials/brick_uneven_stones_basecolor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/Materials/brick_uneven_stones_basecolor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_ambient_occlusion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_ambient_occlusion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_basecolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_basecolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/wall/brick_uneven_stones_roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/border.001_Base_Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/border.001_Base_Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/iner 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/iner 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/iner 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/iner 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/iner.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/iner.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/trancpernt + base color1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/Materials/trancpernt + base color1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Base_Color.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Base_Color.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Metallic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Metallic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Mixed_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Mixed_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Normal_DirectX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Normal_DirectX.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Roughness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/border.001_Roughness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/iner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/iner.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/trancpernt + base color 2.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/trancpernt + base color 2.hdr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/trancpernt + base color emmesive.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/trancpernt + base color emmesive.hdr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/trancpernt + base color1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Room/textures/window/trancpernt + base color1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Ruins Arena.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Ruins Arena.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials/Environments.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials/Environments/TrainingStage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials/Environments/TrainingStage/TrainSta_GridGlow_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials/Environments/TrainingStage/TrainSta_GridGlow_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials/Environments/TrainingStage/TrainSta_Grid_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Materials/Environments/TrainingStage/TrainSta_Grid_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Mesh/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Mesh/Environment/TrainingStage.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Mesh/Environment/TrainingStage.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Attributes/DecoratorAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Attributes/DecoratorAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Attributes/PostProcessEditorAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Attributes/PostProcessEditorAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/BaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/BaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators/AttributeDecorator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators/AttributeDecorator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators/Decorators.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators/Decorators.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators/TrackballDecorator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Decorators/TrackballDecorator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/EffectListEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/EffectListEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/AmbientOcclusionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/AmbientOcclusionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/AutoExposureEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/AutoExposureEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/BloomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/BloomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/ChromaticAberrationEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/ChromaticAberrationEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/ColorGradingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/ColorGradingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/DefaultPostProcessEffectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/DefaultPostProcessEffectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/DepthOfFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/DepthOfFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/LensDistortionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/LensDistortionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/ScreenSpaceReflectionsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/ScreenSpaceReflectionsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/VignetteEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Effects/VignetteEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessDebugEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessDebugEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessEffectBaseEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessEffectBaseEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessEffectEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessEffectEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessLayerEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessLayerEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessProfileEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessProfileEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessVolumeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/PostProcessVolumeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/CubeLutAssetFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/CubeLutAssetFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/CubeLutAssetImporter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/CubeLutAssetImporter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/DefineSetter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/DefineSetter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/ProfileFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/ProfileFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/ResourceAssetFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/ResourceAssetFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/VolumeFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Tools/VolumeFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/CurveEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/CurveEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/EditorUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/EditorUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/GlobalSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/GlobalSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/PostProcessShaderIncludePath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/PostProcessShaderIncludePath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/SerializedParameterOverride.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/SerializedParameterOverride.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/Styling.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Editor/Utils/Styling.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Gizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Gizmos/PostProcessLayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Gizmos/PostProcessLayer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/PostProcessResources.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/PostProcessResources.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/DisplayNameAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/DisplayNameAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/MaxAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/MaxAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/MinAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/MinAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/MinMaxAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/MinMaxAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/PostProcessAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/PostProcessAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/TrackballAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Attributes/TrackballAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/AmbientOcclusion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/AmbientOcclusion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/AutoExposure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/AutoExposure.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Bloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Bloom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ChromaticAberration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ChromaticAberration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ColorGrading.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ColorGrading.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/DepthOfField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/DepthOfField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Dithering.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Dithering.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/FastApproximateAntialiasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/FastApproximateAntialiasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Fog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Fog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Grain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Grain.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/LensDistortion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/LensDistortion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/MotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/MotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/MultiScaleVO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/MultiScaleVO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ScalableAO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ScalableAO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ScreenSpaceReflections.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/ScreenSpaceReflections.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/SubpixelMorphologicalAntialiasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/SubpixelMorphologicalAntialiasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/TemporalAntialiasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/TemporalAntialiasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Vignette.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Effects/Vignette.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/HistogramMonitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/HistogramMonitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/LightMeterMonitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/LightMeterMonitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/Monitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/Monitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/VectorscopeMonitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/VectorscopeMonitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/WaveformMonitor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Monitors/WaveformMonitor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/ParameterOverride.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/ParameterOverride.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessBundle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessBundle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessDebug.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessDebug.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessDebugLayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessDebugLayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessEffectRenderer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessEffectRenderer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessEffectSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessEffectSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessLayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessLayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessProfile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessProfile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessRenderContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessRenderContext.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessResources.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessResources.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessVolume.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/PostProcessVolume.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/ColorUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/ColorUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/HableCurve.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/HableCurve.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/HaltonSeq.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/HaltonSeq.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/LogHistogram.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/LogHistogram.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/MeshUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/MeshUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/PropertySheet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/PropertySheet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/PropertySheetFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/PropertySheetFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/RuntimeUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/RuntimeUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/ShaderIDs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/ShaderIDs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/Spline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/Spline.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/TargetPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/TargetPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/TextureFormatUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/TextureFormatUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/TextureLerper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/TextureLerper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/XRSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Runtime/Utils/XRSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/ACES.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/ACES.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/D3D11.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/D3D11.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/D3D12.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/D3D12.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/D3D9.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/D3D9.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/Metal.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/Metal.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/OpenGL.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/OpenGL.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/PSP2.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/PSP2.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/PSSL.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/PSSL.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/Switch.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/Switch.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/Vulkan.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/Vulkan.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/XboxOne.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/API/XboxOne.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/AutoExposure.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/AutoExposure.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Bloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Bloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Copy.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Copy.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/CopyStd.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/CopyStd.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DeferredFog.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DeferredFog.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DepthOfField.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DepthOfField.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DepthOfField.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DepthOfField.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DiscardAlpha.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DiscardAlpha.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DiskKernels.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/DiskKernels.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Distortion.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Distortion.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Dithering.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Dithering.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ExposureHistogram.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ExposureHistogram.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ExposureHistogram.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ExposureHistogram.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/FastApproximateAntialiasing.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/FastApproximateAntialiasing.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/FinalPass.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/FinalPass.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Fog.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Fog.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/GaussianDownsample.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/GaussianDownsample.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/GrainBaker.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/GrainBaker.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Lut2DBaker.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Lut2DBaker.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Lut3DBaker.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Lut3DBaker.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVO.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVO.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScalableAO.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScalableAO.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScalableAO.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScalableAO.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasingBridge.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasingBridge.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Texture2DLerp.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Texture2DLerp.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Texture3DLerp.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Texture3DLerp.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Uber.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Builtins/Uber.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Colors.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Colors.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Histogram.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Histogram.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Histogram.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Histogram.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/LightMeter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/LightMeter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Overlays.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Overlays.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Vectorscope.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Vectorscope.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Vectorscope.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Vectorscope.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Waveform.compute" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Waveform.compute.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Waveform.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Debug/Waveform.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor/ConvertToLog.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor/ConvertToLog.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor/CurveGrid.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor/CurveGrid.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor/Trackball.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Editor/Trackball.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Sampling.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/Sampling.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/StdLib.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/StdLib.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/xRLib.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Shaders/xRLib.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 256px/LDR_LLL1_7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_21.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_22.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_23.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_24.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_25.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_26.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_27.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_28.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_29.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_30.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_31.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_32.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_33.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_34.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_35.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_36.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_37.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_38.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_39.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_40.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_41.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_42.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_43.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_44.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_45.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_46.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_47.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_48.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_49.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_50.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_51.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_52.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_53.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_54.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_55.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_56.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_57.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_58.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_59.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_60.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_61.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_62.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_63.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Blue Noise 64px/LDR_LLL1_9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Linear to Unity Log r1.cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Linear to Unity Log r1.cube.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Linear to sRGB r1.cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Linear to sRGB r1.cube.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Unity Log to Linear r1.cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Unity Log to Linear r1.cube.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Unity Log to sRGB r1.cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/Unity Log to sRGB r1.cube.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/sRGB to Linear r1.cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/sRGB to Linear r1.cube.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/sRGB to Unity Log r1.cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Cubes/sRGB to Unity Log r1.cube.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/LUTs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/LUTs/NeutralLdrLut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/LUTs/NeutralLdrLut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Lens Dirt/LensDirt03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/SMAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/SMAA/AreaTex.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/SMAA/AreaTex.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/SMAA/SearchTex.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/SMAA/SearchTex.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_BlueRed.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_GreenPurple.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_PurpleGreen.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_RedBlue.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/PostProcessing/Textures/Spectral LUTs/SpectralLut_RedBlue.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Prefabs/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Prefabs/Environment/TrainingStage_Background.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Prefabs/Environment/TrainingStage_Background.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/TrainingStage_PostProfile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Scenes/Stage_BasicTraining/TrainingStage_PostProfile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/Enviornmants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/Enviornmants/Training_Stage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/Enviornmants/Training_Stage/Grid_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/Enviornmants/Training_Stage/Grid_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/Enviornmants/Training_Stage/Grid_Normals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/Enviornmants/Training_Stage/Grid_Normals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/HDRI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/HDRI/HDRI_Training_Stage.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/HDRI/HDRI_Training_Stage.hdr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/HDRI/HDRI_Training_Stage_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/HDRI/HDRI_Training_Stage_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/LUT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/LUT/_LUTs_SDF_Training.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/SDF_BasicTrainingStage/Textures/LUT/_LUTs_SDF_Training.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Training Arena.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Training Arena.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CharacterList.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterList.dir/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterList.dir/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterList.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CharacterList.dir/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CharacterSelection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CharacterSelection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RivalList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RivalList.cs.meta" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/../Selections/ArenaSelection.cs" />
+      <option value="$PROJECT_DIR$/CharacterSelection.cs" />
+      <option value="$PROJECT_DIR$/../Selections/RivalSelection.cs" />
+      <option value="$PROJECT_DIR$/../../RivalSelection.cs" />
+      <option value="$PROJECT_DIR$/../Selections/CharacterSelection.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1uw0rypiAjZlNfor8IiCgqe0epa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4eefe08-24da-437e-86aa-dca31789c961" name="Default Changelist" comment="" />
+      <created>1625561562658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625561562658</updated>
+      <workItem from="1625561580241" duration="2291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

@@ -5,14 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
-    private GameObject[] characterList;
+   private GameObject[] characterList;
     private int index;
     private int arena;
     private int rival;
 
     void Start()
     {
-        index = PlayerPrefs.GetInt("PersonaggioSelezionato");
+        index = 0;
+        arena = PlayerPrefs.GetInt("ArenaSelezionata");
+        rival = PlayerPrefs.GetInt("AvversarioSelezionato");
         characterList = new GameObject[transform.childCount]; //instanziamo una nuova lista di GameObject per creare la lista dei personaggi
                                                               //childCount prende il numero di figli dell'oggetto a cui è associato lo script
 
@@ -51,48 +53,46 @@ public class CharacterSelection : MonoBehaviour
                                               //se il personaggio attuale è l'ultimo visualizziamo il primo personaggio della lista.
     }
 
-    public void SelezionaArena(int x)
-    {
-        arena = x;
-    }
-
-    public void SelezionaRivale(int x)
-    {
-        rival = x;
-    }
-
     public void PulsanteConferma()
     {
         PlayerPrefs.SetInt("PersonaggioSelezionato", index);
-		PlayerPrefs.SetInt("AvversarioSelezionato", rival);
         switch (arena)
         {
             case 0:
-                SceneManager.LoadScene("Training Arena");
+                SceneManager.LoadScene("TrainingArena");
                 break;
             case 1:
-                SceneManager.LoadScene("Skull Arena");
+                SceneManager.LoadScene("SkullArena");
                 break;
             case 2:
-                SceneManager.LoadScene("Box Arena");
+                SceneManager.LoadScene("BoxArena");
                 break;
             case 3:
-                SceneManager.LoadScene("Forest Arena");
+                SceneManager.LoadScene("ForestArena");
                 break;
             case 4:
-                SceneManager.LoadScene("Village Arena");
+                SceneManager.LoadScene("VillageArena");
                 break;
             case 5:
-                SceneManager.LoadScene("Ruins Arena");
+                SceneManager.LoadScene("RuinsArena");
                 break;
             case 6:
-                SceneManager.LoadScene("House Arena");
+                SceneManager.LoadScene("HouseArena");
                 break;
             case 7:
-                SceneManager.LoadScene("City Arena");
+                SceneManager.LoadScene("CityArena");
                 break;
             case 8:
-                SceneManager.LoadScene("Sky Arena");
+                SceneManager.LoadScene("SkyArena");
+                break;
+            case 9:
+                SceneManager.LoadScene("HospitalArena");
+                break;
+            case 10:
+                SceneManager.LoadScene("TempleArena");
+                break;
+            case 11:
+                SceneManager.LoadScene("VolcanoArena");
                 break;
         }
     }

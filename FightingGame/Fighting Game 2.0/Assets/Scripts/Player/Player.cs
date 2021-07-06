@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Pg : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public int health;
     public int maxHealth= 1000;
-    //public HealthBar healthBar;
-    //public PowerBar powerBar;
+    public HealthBar healthBar;
+    public PowerBar powerBar;
     public int power=0;
     public int maxPower = 1000;
     
@@ -23,6 +23,8 @@ public class Pg : MonoBehaviour
     void Start()
     {
         _anim = GetComponent<Animator>();
+		health = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     private void Awake()
@@ -52,8 +54,32 @@ public class Pg : MonoBehaviour
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         }
-    }
+		
+		TakeDamage(1);
+        GainPower();
     
+	}
+    
+
+	void GainPower()
+    {
+        if (power<maxPower)
+        {
+            power += 1;
+            powerBar.SetPower(power);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if ((health - damage) >= 0)
+        {
+            health -= damage;
+            healthBar.SetHealth(health);
+        }
+        
+    }
+
     public void OnMovement(InputAction.CallbackContext value)
     {
         _inputMovement = value.ReadValue<Vector2>();

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Threading;
 
 public class Player : MonoBehaviour
 {
@@ -57,6 +59,18 @@ public class Player : MonoBehaviour
 		
 		TakeDamage(1);
         GainPower();
+
+        if (health == 0)
+        {
+            _anim.SetBool("Knocked", true);
+            _anim.SetBool("Dead", true);
+        }
+
+        if (_anim.GetBool("Dead"))
+        {
+            Thread.Sleep(5000);
+            SceneManager.LoadScene("YouLose");
+        }
     
 	}
     

@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     private bool forward = false;
     private bool backward = false;
     
+    private AnimatorStateInfo x;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -64,13 +66,17 @@ public class Player : MonoBehaviour
         {
 			_anim.SetBool("Knocked", true);
         	_anim.Play("Knocked");
-			   
+            _anim.SetBool("Dead", true);
+            
+            if (_anim.GetCurrentAnimatorStateInfo(0).normalizedTime>1)
+            {
+                SceneManager.LoadScene("YouLose");
+                
+            }
+
         }
 		
-		if (_anim.GetBool("Dead"))
-        {
-         SceneManager.LoadScene("YouLose");
-        }
+		
     
 	}
 

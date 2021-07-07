@@ -69,10 +69,19 @@ public class Player : MonoBehaviour
             loseUI.SetActive(true);
 
         }
-		
-		
-    
-	}
+
+        if (block)
+        {
+            _anim.SetBool("Blocking", true);
+        }
+        else if (!block)
+        {
+            _anim.SetBool("Blocking", false);
+        }
+
+
+
+    }
 
 	private void GainPower()
     {
@@ -134,7 +143,9 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //_anim.SetTrigger("Blocking");
-            _anim.SetBool("Blocking", true);
+            //_anim.SetBool("Blocking", true);
+            block = !block;
+
         }
     }
     

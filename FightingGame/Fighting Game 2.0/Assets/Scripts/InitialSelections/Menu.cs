@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour
         RivalList.SetActive(false);
         CharacterList.SetActive(false);
         ArenasCanvas.SetActive(false);
-        OptionCanvas.SetActive(false);
+        OptionsCanvas.SetActive(false);
         StartCanvas.SetActive(true);
     }
 
@@ -20,5 +20,17 @@ public class Menu : MonoBehaviour
         RivalList.SetActive(true);
         StartCanvas.SetActive(false);
     }
+
+    public void Opzioni()
+    {
+        OptionsCanvas.SetActive(true);
+        StartCanvas.SetActive(false);
+    }
     
+    public void InizioOpzioni()
+    {
+        StartCanvas.SetActive(true);
+        OptionsCanvas.SetActive(false);
+        
+    }
 }

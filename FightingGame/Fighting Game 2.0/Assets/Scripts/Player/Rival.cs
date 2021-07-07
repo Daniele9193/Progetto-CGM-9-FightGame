@@ -10,7 +10,7 @@ public class Rival : MonoBehaviour
     public PowerBar powerBar;
     public int power=0;
     public int maxPower = 1000;
-    
+    public Player player;
     public GameObject loseUI;
     private Animator _anim;
 
@@ -34,6 +34,7 @@ public class Rival : MonoBehaviour
         {
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
+            player._anim.SetBool("Winner", true);
             loseUI.SetActive(true);
 
         }

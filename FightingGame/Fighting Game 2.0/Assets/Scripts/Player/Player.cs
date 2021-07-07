@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
     [SerializeField] private Controls _inputControl;
-    private Animator _anim;
+    public Animator _anim;
     private bool forward = false;
     private bool backward = false;
 

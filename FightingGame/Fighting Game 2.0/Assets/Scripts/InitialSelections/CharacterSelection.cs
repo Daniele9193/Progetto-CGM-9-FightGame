@@ -68,16 +68,16 @@ public class CharacterSelection : MonoBehaviour
                 SceneManager.LoadScene("BoxArena");
                 break;
             case 3:
-                SceneManager.LoadScene("ForestArena");
+                SceneManager.LoadScene("RomanArena");
                 break;
             case 4:
-                SceneManager.LoadScene("VillageArena");
+                SceneManager.LoadScene("HouseArena");
                 break;
             case 5:
                 SceneManager.LoadScene("RuinsArena");
                 break;
             case 6:
-                SceneManager.LoadScene("HouseArena");
+                SceneManager.LoadScene("VillageArena");
                 break;
             case 7:
                 SceneManager.LoadScene("CityArena");

@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
-using System.Threading;
 
 public class Player : MonoBehaviour
 {
@@ -14,21 +12,22 @@ public class Player : MonoBehaviour
     public int power=0;
     public int maxPower = 1000;
     
+    public GameObject loseUI;
+    
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
     [SerializeField] private Controls _inputControl;
     private Animator _anim;
     private bool forward = false;
     private bool backward = false;
-    
-    private AnimatorStateInfo x;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
 		health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        loseUI.SetActive(false);
     }
 
     private void Awake()
@@ -59,20 +58,14 @@ public class Player : MonoBehaviour
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         }
 		
-		TakeDamage(1);
+		//TakeDamage(1);
         GainPower();
 		
 		if (health == 0 && _anim.GetBool("Knocked") == false)
         {
 			_anim.SetBool("Knocked", true);
-        	_anim.Play("Knocked");
             _anim.SetBool("Dead", true);
-            
-            if (_anim.GetCurrentAnimatorStateInfo(0).normalizedTime>1)
-            {
-                SceneManager.LoadScene("YouLose");
-                
-            }
+            loseUI.SetActive(true);
 
         }
 		

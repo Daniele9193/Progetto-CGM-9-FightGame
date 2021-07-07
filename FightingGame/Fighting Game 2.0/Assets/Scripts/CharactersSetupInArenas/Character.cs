@@ -7,8 +7,6 @@ public class Character : MonoBehaviour
 {
     private GameObject[] characterList;
     private int index;
-    private int arena;
-    private int rival;
 
     void Start()
     {

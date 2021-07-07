@@ -8,8 +8,6 @@ public class PowerBar : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
     public Image fill;
-    
-    
 
     public void SetPower(int power)
     {

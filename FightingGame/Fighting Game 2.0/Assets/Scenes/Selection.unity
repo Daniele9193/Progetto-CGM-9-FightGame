@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.44421646, g: 0.493657, b: 0.57305, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3158,7 +3158,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &736758930
 PrefabInstance:
@@ -4302,7 +4302,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5e6d30e11573c22478e8ea437fb51e1a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1d1af15d5fc69748ab53495e0df6435, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8245,6 +8245,7 @@ GameObject:
   - component: {fileID: 1722295828}
   - component: {fileID: 1722295827}
   - component: {fileID: 1722295826}
+  - component: {fileID: 1722295830}
   m_Layer: 5
   m_Name: StartCanvas
   m_TagString: Untagged
@@ -8335,6 +8336,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1722295830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722295825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968e594c145b8a942a2a09a1dabdb29c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RivalList: {fileID: 2143861886}
+  CharacterList: {fileID: 693596305}
+  ArenasCanvas: {fileID: 551984033}
+  StartCanvas: {fileID: 1722295825}
+  OptionsCanvas: {fileID: 1918639443}
+  MenuCanvas: {fileID: 1722295825}
 --- !u!1001 &1731898004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9137,7 +9156,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1841957963
 GameObject:
@@ -9197,7 +9216,7 @@ Transform:
   - {fileID: 1256815013}
   - {fileID: 86366294}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1855602785
 GameObject:
@@ -9474,7 +9493,7 @@ GameObject:
   - component: {fileID: 1918639445}
   - component: {fileID: 1918639444}
   m_Layer: 5
-  m_Name: OtionsCanvas
+  m_Name: OptionsCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9567,7 +9586,7 @@ RectTransform:
   - {fileID: 1205767102}
   - {fileID: 789580113}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10402,7 +10421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -41.988, y: -385}
+  m_AnchoredPosition: {x: -0.000022888, y: -385}
   m_SizeDelta: {x: 756.5667, y: 256.3165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2080980862
@@ -10529,7 +10548,7 @@ RectTransform:
   - {fileID: 1855602786}
   - {fileID: 597623236}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

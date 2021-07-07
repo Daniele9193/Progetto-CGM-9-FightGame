@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public Animator _anim;
     private bool forward = false;
     private bool backward = false;
+    private bool block = false;
 
     // Start is called before the first frame update
     void Start()
@@ -127,11 +128,24 @@ public class Player : MonoBehaviour
             _anim.SetTrigger("PunchLeft");
         }
     }
+    
+    public void Blocking(InputAction.CallbackContext value)
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //_anim.SetTrigger("Blocking");
+            _anim.SetBool("Blocking", true);
+        }
+    }
+    
     private void Animazione()
     {
         forward = (_inputMovement.x > 0.1f) ? true: false;
         _anim.SetBool("Forward", forward);
         backward = (_inputMovement.x < -0.1f) ? true: false;
         _anim.SetBool("Backward", backward);
+        
+        
+        
     }
 }

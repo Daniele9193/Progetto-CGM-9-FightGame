@@ -4692,7 +4692,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &1285131088
 MonoBehaviour:
@@ -6054,6 +6054,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 0ac14430-ecab-41e1-9de7-92341b811c02
     m_ActionName: Fighter/View[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1622188665}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Blocking
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7b8e6923-fdf4-4969-a01c-53df3f26a9ae
+    m_ActionName: Fighter/Defense[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Fighter

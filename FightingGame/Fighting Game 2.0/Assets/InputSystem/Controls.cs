@@ -65,6 +65,14 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Defense"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""7b8e6923-fdf4-4969-a01c-53df3f26a9ae"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Hold""
                 }
             ],
             ""bindings"": [
@@ -177,6 +185,17 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""action"": ""View"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""650d9541-4ff1-4b1b-b73b-eecd125a9a11"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Defense"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -191,6 +210,7 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Fighter_PunchRight = m_Fighter.FindAction("PunchRight", throwIfNotFound: true);
         m_Fighter_PunchLeft = m_Fighter.FindAction("PunchLeft", throwIfNotFound: true);
         m_Fighter_View = m_Fighter.FindAction("View", throwIfNotFound: true);
+        m_Fighter_Defense = m_Fighter.FindAction("Defense", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -246,6 +266,7 @@ public class @Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_Fighter_PunchRight;
     private readonly InputAction m_Fighter_PunchLeft;
     private readonly InputAction m_Fighter_View;
+    private readonly InputAction m_Fighter_Defense;
     public struct FighterActions
     {
         private @Controls m_Wrapper;
@@ -256,6 +277,7 @@ public class @Controls : IInputActionCollection, IDisposable
         public InputAction @PunchRight => m_Wrapper.m_Fighter_PunchRight;
         public InputAction @PunchLeft => m_Wrapper.m_Fighter_PunchLeft;
         public InputAction @View => m_Wrapper.m_Fighter_View;
+        public InputAction @Defense => m_Wrapper.m_Fighter_Defense;
         public InputActionMap Get() { return m_Wrapper.m_Fighter; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -283,6 +305,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @View.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnView;
                 @View.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnView;
                 @View.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnView;
+                @Defense.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
+                @Defense.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
+                @Defense.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
             }
             m_Wrapper.m_FighterActionsCallbackInterface = instance;
             if (instance != null)
@@ -305,6 +330,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @View.started += instance.OnView;
                 @View.performed += instance.OnView;
                 @View.canceled += instance.OnView;
+                @Defense.started += instance.OnDefense;
+                @Defense.performed += instance.OnDefense;
+                @Defense.canceled += instance.OnDefense;
             }
         }
     }
@@ -317,5 +345,6 @@ public class @Controls : IInputActionCollection, IDisposable
         void OnPunchRight(InputAction.CallbackContext context);
         void OnPunchLeft(InputAction.CallbackContext context);
         void OnView(InputAction.CallbackContext context);
+        void OnDefense(InputAction.CallbackContext context);
     }
 }

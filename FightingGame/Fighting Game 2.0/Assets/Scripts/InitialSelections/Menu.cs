@@ -1,46 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-
+    public GameObject RivalList, CharacterList, ArenasCanvas, StartCanvas, OptionsCanvas;
     
-    public GameObject RivalList, CharacterList, ArenasCanvas, StartCanvas, OptionsCanvas, MenuCanvas;
+    void Start()
+    {
+        RivalList.SetActive(false);
+        CharacterList.SetActive(false);
+        ArenasCanvas.SetActive(false);
+        OptionCanvas.SetActive(false);
+        StartCanvas.SetActive(true);
+    }
 
     public void Inizio()
     {
         RivalList.SetActive(true);
-        MenuCanvas.SetActive(false);
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // Start is called before the first frame update
-    public void RivalScene()
-    {
-        SceneManager.LoadScene("RivalSelection");
+        StartCanvas.SetActive(false);
     }
     
-    public void OptionScene()
-    {
-        SceneManager.LoadScene("Options");
-    }
-    
-    public void HomeScene()
-    {
-        SceneManager.LoadScene("Start");
-    }
 }

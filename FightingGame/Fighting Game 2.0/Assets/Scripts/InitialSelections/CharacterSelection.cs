@@ -56,7 +56,7 @@ public class CharacterSelection : MonoBehaviour
     public void PulsanteConferma()
     {
         PlayerPrefs.SetInt("PersonaggioSelezionato", index);
-        switch (arena)
+        switch (PlayerPrefs.GetInt("ArenaSelezionata"))
         {
             case 0:
                 SceneManager.LoadScene("TrainingArena");

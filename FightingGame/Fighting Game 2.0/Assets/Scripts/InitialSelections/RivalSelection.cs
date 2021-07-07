@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class RivalSelection : MonoBehaviour
 {
     private GameObject[] rivalList;
     private int index;
+	public GameObject RivalList, CharacterList, ArenasCanvas;
 
     void Start()
     {
+		
         index = 0;
         rivalList = new GameObject[transform.childCount]; //instanziamo una nuova lista di GameObject per creare la lista dei personaggi
                                                               //childCount prende il numero di figli dell'oggetto a cui è associato lo script
@@ -23,6 +24,8 @@ public class RivalSelection : MonoBehaviour
         if (rivalList[index])
             rivalList[index].SetActive(true); //tranne il primo personaggio se c'è (nella scena di selezione)
                                                   //se è stato selezionato un personaggio attiviamo quello.
+		ArenasCanvas.SetActive(false);
+		CharacterList.SetActive(false);
     }
 
     public void PersonaggioPrecedente()
@@ -52,6 +55,7 @@ public class RivalSelection : MonoBehaviour
     public void PulsanteConferma()
     {
         PlayerPrefs.SetInt("AvversarioSelezionato", index);
-        SceneManager.LoadScene("ArenaSelection");
+        ArenasCanvas.SetActive(true);
+		RivalList.SetActive(false);
     }
 }

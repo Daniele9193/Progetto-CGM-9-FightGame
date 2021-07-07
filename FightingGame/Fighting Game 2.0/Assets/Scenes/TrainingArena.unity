@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1396306438}
-  m_IndirectSpecularColor: {r: 0.4455831, g: 0.41023523, b: 0.46090406, a: 1}
+  m_IndirectSpecularColor: {r: 0.44559294, g: 0.41024962, b: 0.46093035, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -568,12 +568,28 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172091186}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.05
   m_Height: 0.3
   m_Direction: 1
   m_Center: {x: 0, y: -0.06, z: 0.05}
+--- !u!114 &172091189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172091186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchName: 
+  damage: 0
+  owner: {fileID: 1622188665}
+  rival: {fileID: 0}
 --- !u!1 &180971271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5158949060673722797, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
@@ -739,6 +755,10 @@ PrefabInstance:
     - target: {fileID: 6569400541429423462, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
       propertyPath: m_Name
       value: Male_02_V01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6569400541429423462, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
+      propertyPath: m_TagString
+      value: Rival
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -3718,6 +3738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152074162}
   - component: {fileID: 1152074161}
+  - component: {fileID: 1152074163}
   m_Layer: 0
   m_Name: RivalList
   m_TagString: Untagged
@@ -3755,6 +3776,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &1152074163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152074160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 1000
+  healthBar: {fileID: 0}
+  powerBar: {fileID: 0}
+  power: 0
+  maxPower: 1000
+  loseUI: {fileID: 0}
 --- !u!1 &1201950969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3179229918728609395, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -3774,6 +3814,25 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0.1, z: 0.04}
+--- !u!114 &1201950972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201950969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 1000
+  healthBar: {fileID: 0}
+  powerBar: {fileID: 0}
+  power: 0
+  maxPower: 1000
+  loseUI: {fileID: 0}
 --- !u!850595691 &1205519333
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -4243,6 +4302,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6569400541429423462, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
   m_PrefabInstance: {fileID: 241146075}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1376975773
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376975772}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 1
 --- !u!114 &1376975774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4634,12 +4709,28 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511180927}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.05
   m_Height: 0.3
   m_Direction: 1
   m_Center: {x: 0, y: -0.06, z: 0.05}
+--- !u!114 &1511180930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511180927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchName: 
+  damage: 0
+  owner: {fileID: 1622188665}
+  rival: {fileID: 0}
 --- !u!1 &1515266511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4007152954641986594, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
@@ -4928,6 +5019,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2167348789335166318, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
   m_PrefabInstance: {fileID: 1622188652}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1622188661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622188656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchName: 
+  damage: 0
+  owner: {fileID: 1622188665}
+  rival: {fileID: 0}
 --- !u!135 &1622188662
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4936,7 +5043,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622188656}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1
@@ -4949,7 +5056,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622188657}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.1
@@ -4963,7 +5070,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1622188658}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.15
   m_Height: 1
   m_Direction: 1
@@ -5102,6 +5209,22 @@ MonoBehaviour:
   m_DefaultActionMap: Fighter
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1622188668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622188657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchName: 
+  damage: 0
+  owner: {fileID: 1622188665}
+  rival: {fileID: 1376975774}
 --- !u!54 &1622188673
 Rigidbody:
   m_ObjectHideFlags: 0

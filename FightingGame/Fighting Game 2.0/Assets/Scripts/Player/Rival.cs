@@ -27,7 +27,7 @@ public class Rival : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TakeDamage(1);
+        //TakeDamage(1);
         GainPower();
 		
         if (health == 0 && _anim.GetBool("Knocked") == false)

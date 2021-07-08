@@ -13,8 +13,10 @@ public class Rival : MonoBehaviour
     public Player player;
     public GameObject loseUI;
     private Animator _anim;
-
-
+    public Rival rival;
+    public float dist = 0.0f;
+    private float _speed = 2.0f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +31,7 @@ public class Rival : MonoBehaviour
     {
         //TakeDamage(1);
         GainPower();
-		
+		Movement();
         if (health == 0 && _anim.GetBool("Knocked") == false)
         {
             _anim.SetBool("Knocked", true);
@@ -55,6 +57,45 @@ public class Rival : MonoBehaviour
         {
             health -= damage;
             healthBar.SetHealth(health);
+        }
+    }
+
+    public void Movement()
+    {
+        dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
+        Debug.Log("Distance= " + dist);
+        if (dist > 2.0f)
+        {
+            transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
+        }
+
+        KickPunch();
+    }
+
+    public void KickPunch()
+    {
+        int random = Random.Range(0, 10);
+        Debug.Log(random);
+        if (dist <= 2.0f)
+        {
+            if (random == 0)
+            {
+                _anim.SetTrigger("KickLeft");
+            }
+            else if(random==1)
+            {
+                _anim.SetTrigger("KickRight");
+            }
+            else if (random==2)
+            {
+                _anim.SetTrigger("PunchLeft"); 
+            }
+            else if (random==3)
+            {
+                _anim.SetTrigger("PunchRight");
+            } else
+            {
+            }
         }
     }
 }

@@ -23,7 +23,7 @@ public class HitColider : MonoBehaviour
         Rival somebody = other.gameObject.GetComponent<Rival>();
         //GameObject somebody = GameObject.FindWithTag("Rival");
         
-        if (somebody != null)
+        if (somebody != null && (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown(KeyCode.L)))
         {
             Debug.Log("Hit "+somebody+" Punch");
             rival1.TakeDamage(100);

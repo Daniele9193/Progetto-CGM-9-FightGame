@@ -6,7 +6,6 @@ public class RivalSelection : MonoBehaviour
 {
     private GameObject[] rivalList;
     private int index;
-	public GameObject RivalList, CharacterList, ArenasCanvas;
 
     void Start()
     {
@@ -24,8 +23,8 @@ public class RivalSelection : MonoBehaviour
         if (rivalList[index])
             rivalList[index].SetActive(true); //tranne il primo personaggio se c'è (nella scena di selezione)
                                                   //se è stato selezionato un personaggio attiviamo quello.
-		ArenasCanvas.SetActive(false);
-		CharacterList.SetActive(false);
+
+		PlayerPrefs.SetInt("AvversarioSelezionato", index);
     }
 
     public void PersonaggioPrecedente()
@@ -38,7 +37,8 @@ public class RivalSelection : MonoBehaviour
 
         rivalList[index].SetActive(true); //abilitiamo il personaggio precedente al personaggio visualizzato prima di premere il pulsante
                                               //se il personaggio attuale è il primo visualizziamo l'ultimo personaggio della lista.
-    }
+    	PlayerPrefs.SetInt("AvversarioSelezionato", index);
+	}
     
     public void PersonaggioSuccessivo()
     {
@@ -50,12 +50,6 @@ public class RivalSelection : MonoBehaviour
 
         rivalList[index].SetActive(true); //abilitiamo il personaggio precedente al personaggio visualizzato prima di premere il pulsante
                                               //se il personaggio attuale è l'ultimo visualizziamo il primo personaggio della lista.
-    }
-    
-    public void PulsanteConferma()
-    {
-        PlayerPrefs.SetInt("AvversarioSelezionato", index);
-        ArenasCanvas.SetActive(true);
-		RivalList.SetActive(false);
+		PlayerPrefs.SetInt("AvversarioSelezionato", index);
     }
 }

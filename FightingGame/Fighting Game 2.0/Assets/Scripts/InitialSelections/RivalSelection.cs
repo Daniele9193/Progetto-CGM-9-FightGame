@@ -6,11 +6,9 @@ public class RivalSelection : MonoBehaviour
 {
     private GameObject[] rivalList;
     private int index;
-	public GameObject RivalList, CharacterList, ArenasCanvas;
 
     void Start()
     {
-		
         index = 0;
         rivalList = new GameObject[transform.childCount]; //instanziamo una nuova lista di GameObject per creare la lista dei personaggi
                                                               //childCount prende il numero di figli dell'oggetto a cui è associato lo script
@@ -23,9 +21,8 @@ public class RivalSelection : MonoBehaviour
 
         if (rivalList[index])
             rivalList[index].SetActive(true); //tranne il primo personaggio se c'è (nella scena di selezione)
-                                                  //se è stato selezionato un personaggio attiviamo quello.
-		ArenasCanvas.SetActive(false);
-		CharacterList.SetActive(false);
+                                              //se è stato selezionato un personaggio attiviamo quello.
+        PlayerPrefs.SetInt("AvversarioSelezionato", index);
     }
 
     public void PersonaggioPrecedente()
@@ -37,7 +34,8 @@ public class RivalSelection : MonoBehaviour
             index = rivalList.Length - 1;
 
         rivalList[index].SetActive(true); //abilitiamo il personaggio precedente al personaggio visualizzato prima di premere il pulsante
-                                              //se il personaggio attuale è il primo visualizziamo l'ultimo personaggio della lista.
+                                          //se il personaggio attuale è il primo visualizziamo l'ultimo personaggio della lista.
+        PlayerPrefs.SetInt("AvversarioSelezionato", index);
     }
     
     public void PersonaggioSuccessivo()
@@ -49,13 +47,7 @@ public class RivalSelection : MonoBehaviour
             index = 0;
 
         rivalList[index].SetActive(true); //abilitiamo il personaggio precedente al personaggio visualizzato prima di premere il pulsante
-                                              //se il personaggio attuale è l'ultimo visualizziamo il primo personaggio della lista.
-    }
-    
-    public void PulsanteConferma()
-    {
+                                          //se il personaggio attuale è l'ultimo visualizziamo il primo personaggio della lista.
         PlayerPrefs.SetInt("AvversarioSelezionato", index);
-        ArenasCanvas.SetActive(true);
-		RivalList.SetActive(false);
     }
 }

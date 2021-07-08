@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -321,8 +321,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -1060,8 +1060,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -1499,8 +1499,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -1707,9 +1707,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1918639448}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: InizioOpzioni
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: StartFromOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2204,7 +2204,6 @@ GameObject:
   - component: {fileID: 551984037}
   - component: {fileID: 551984036}
   - component: {fileID: 551984035}
-  - component: {fileID: 551984034}
   m_Layer: 5
   m_Name: ArenasCanvas
   m_TagString: Untagged
@@ -2212,20 +2211,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &551984034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551984033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f776ee0297d91d64ba92cd90c824cfa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ArenasCanvas: {fileID: 551984033}
-  CharacterList: {fileID: 693596305}
 --- !u!114 &551984035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2930,6 +2915,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631363580}
   m_CullTransparentMesh: 1
+--- !u!1 &634721274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 634721276}
+  - component: {fileID: 634721275}
+  m_Layer: 0
+  m_Name: ScriptManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &634721275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634721274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd7475397cddc240bd426d2e2dab883, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RivalList: {fileID: 2143861886}
+  CharacterList: {fileID: 693596305}
+  ArenasCanvas: {fileID: 551984033}
+  StartCanvas: {fileID: 1722295825}
+  OptionsCanvas: {fileID: 1918639443}
+--- !u!4 &634721276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634721274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &653663141
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,8 +3125,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -4721,8 +4754,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -4854,8 +4887,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -5272,8 +5305,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -5438,8 +5471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 841.0128, y: -436.69565}
-  m_SizeDelta: {x: 282.0256, y: 273.3913}
+  m_AnchoredPosition: {x: 800, y: -400}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1137258068
 MonoBehaviour:
@@ -5485,9 +5518,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1855602787}
-        m_TargetAssemblyTypeName: RivalSelection, Assembly-CSharp
-        m_MethodName: PulsanteConferma
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: PulsanteConfermaRivale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6251,9 +6284,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 703742150}
-        m_TargetAssemblyTypeName: CharacterSelection, Assembly-CSharp
-        m_MethodName: PulsanteConferma
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6805,8 +6838,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -7213,8 +7246,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -7738,8 +7771,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -8129,9 +8162,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722295830}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Opzioni
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: Options
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8245,7 +8278,6 @@ GameObject:
   - component: {fileID: 1722295828}
   - component: {fileID: 1722295827}
   - component: {fileID: 1722295826}
-  - component: {fileID: 1722295830}
   m_Layer: 5
   m_Name: StartCanvas
   m_TagString: Untagged
@@ -8336,23 +8368,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1722295830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722295825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 968e594c145b8a942a2a09a1dabdb29c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RivalList: {fileID: 2143861886}
-  CharacterList: {fileID: 693596305}
-  ArenasCanvas: {fileID: 551984033}
-  StartCanvas: {fileID: 1722295825}
-  OptionsCanvas: {fileID: 1918639443}
 --- !u!1001 &1731898004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8916,6 +8931,8 @@ MonoBehaviour:
   loseUI: {fileID: 0}
   _speed: 2
   _anim: {fileID: 0}
+  isKicking: 0
+  isPunching: 0
 --- !u!114 &1814428501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9264,9 +9281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b9ee9546e7baf478240140147b03e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RivalList: {fileID: 2143861886}
-  CharacterList: {fileID: 693596305}
-  ArenasCanvas: {fileID: 551984033}
 --- !u!1 &1864446721
 GameObject:
   m_ObjectHideFlags: 0
@@ -9350,8 +9364,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -9491,7 +9505,6 @@ GameObject:
   - component: {fileID: 1918639446}
   - component: {fileID: 1918639445}
   - component: {fileID: 1918639444}
-  - component: {fileID: 1918639448}
   m_Layer: 5
   m_Name: OptionsCanvas
   m_TagString: Untagged
@@ -9593,23 +9606,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1918639448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918639443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 968e594c145b8a942a2a09a1dabdb29c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RivalList: {fileID: 1855602785}
-  CharacterList: {fileID: 703742149}
-  ArenasCanvas: {fileID: 551984033}
-  StartCanvas: {fileID: 1722295825}
-  OptionsCanvas: {fileID: 1918639443}
 --- !u!1 &1934362448
 GameObject:
   m_ObjectHideFlags: 0
@@ -10174,8 +10170,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 551984034}
-        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -10485,9 +10481,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1722295830}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Inizio
+      - m_Target: {fileID: 634721275}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: Starting
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1396306438}
-  m_IndirectSpecularColor: {r: 0.4455831, g: 0.41023523, b: 0.46090406, a: 1}
+  m_IndirectSpecularColor: {r: 0.44559294, g: 0.41024962, b: 0.46093035, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -158,7 +158,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.15
-  m_Height: 1
+  m_Height: 1.15
   m_Direction: 1
   m_Center: {x: 0, y: 0.1, z: 0.04}
 --- !u!114 &25803239
@@ -413,6 +413,8 @@ MonoBehaviour:
   loseUI: {fileID: 1754707136}
   _speed: 2
   _anim: {fileID: 0}
+  isKicking: 0
+  isPunching: 0
 --- !u!54 &76064362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -638,6 +640,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3730138800602179565, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
   m_PrefabInstance: {fileID: 1622188652}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &172091187
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172091186}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!136 &172091188
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -665,12 +686,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   punchName: 
-  damage: 0
+  damageKick: 100
+  damagePunch: 50
   owner: {fileID: 1622188665}
   rival1: {fileID: 1285131088}
   rival2: {fileID: 79784355}
   rival3: {fileID: 1376975774}
   rival4: {fileID: 2139073222}
+  anim: {fileID: 0}
 --- !u!1 &180971271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5158949060673722797, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
@@ -924,7 +947,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.15
-  m_Height: 1
+  m_Height: 1.15
   m_Direction: 1
   m_Center: {x: 0, y: 0.1, z: 0.04}
 --- !u!114 &244347960
@@ -1500,6 +1523,8 @@ MonoBehaviour:
   loseUI: {fileID: 1754707136}
   _speed: 2
   _anim: {fileID: 0}
+  isKicking: 0
+  isPunching: 0
 --- !u!54 &437669136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1926,6 +1951,8 @@ MonoBehaviour:
   loseUI: {fileID: 1754707136}
   _speed: 2
   _anim: {fileID: 0}
+  isKicking: 0
+  isPunching: 0
 --- !u!54 &519464081
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4435,7 +4462,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.15
-  m_Height: 1
+  m_Height: 1.15
   m_Direction: 1
   m_Center: {x: 0, y: 0.1, z: 0.04}
 --- !u!114 &1201950972
@@ -4573,7 +4600,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.15
-  m_Height: 1
+  m_Height: 1.15
   m_Direction: 1
   m_Center: {x: 0, y: 0.1, z: 0.04}
 --- !u!114 &1235049703
@@ -5484,6 +5511,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1774246525550462402, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
   m_PrefabInstance: {fileID: 1622188652}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1511180928
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511180927}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!136 &1511180929
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5511,12 +5557,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   punchName: 
-  damage: 0
+  damageKick: 100
+  damagePunch: 50
   owner: {fileID: 1622188665}
   rival1: {fileID: 1285131088}
   rival2: {fileID: 79784355}
   rival3: {fileID: 1376975774}
   rival4: {fileID: 2139073222}
+  anim: {fileID: 0}
 --- !u!1 &1515266511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4007152954641986594, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
@@ -5878,12 +5926,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   punchName: 
-  damage: 0
+  damageKick: 100
+  damagePunch: 50
   owner: {fileID: 1622188665}
   rival1: {fileID: 1285131088}
   rival2: {fileID: 79784355}
   rival3: {fileID: 1376975774}
   rival4: {fileID: 2139073222}
+  anim: {fileID: 0}
 --- !u!135 &1622188662
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5945,6 +5995,8 @@ MonoBehaviour:
   loseUI: {fileID: 1754707136}
   _speed: 2
   _anim: {fileID: 0}
+  isKicking: 0
+  isPunching: 0
 --- !u!114 &1622188666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6088,12 +6140,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   punchName: 
-  damage: 0
+  damageKick: 100
+  damagePunch: 50
   owner: {fileID: 1622188665}
   rival1: {fileID: 1285131088}
   rival2: {fileID: 79784355}
   rival3: {fileID: 1376975774}
   rival4: {fileID: 2139073222}
+  anim: {fileID: 0}
 --- !u!54 &1622188673
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -22,6 +22,9 @@ public class Player : MonoBehaviour
     private bool backward = false;
     private bool block = false;
 
+    public bool isKicking = false;
+    public bool isPunching = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -100,13 +103,14 @@ public class Player : MonoBehaviour
     {
  //       if (Input.GetKeyDown(KeyCode.K))
  //       {
-            _anim.SetTrigger("KickRight");   
+        _anim.SetTrigger("KickRight");   
  //       }
     }
     public void LeftKick(InputAction.CallbackContext value)
     {
  //       if (Input.GetKeyDown(KeyCode.L))
  //       {
+     
             _anim.SetTrigger("KickLeft");   
  //       }
 

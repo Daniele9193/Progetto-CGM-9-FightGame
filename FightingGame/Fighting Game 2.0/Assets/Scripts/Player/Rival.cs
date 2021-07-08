@@ -64,6 +64,7 @@ public class Rival : MonoBehaviour
     {
         dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
         Debug.Log("Distance= " + dist);
+        _anim.SetFloat("Distance", dist);
         if (dist > 2.0f)
         {
             transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
@@ -74,28 +75,13 @@ public class Rival : MonoBehaviour
 
     public void KickPunch()
     {
-        int random = Random.Range(0, 10);
+        int random = Random.Range(0, 4);
         Debug.Log(random);
-        if (dist <= 2.0f)
-        {
-            if (random == 0)
-            {
-                _anim.SetTrigger("KickLeft");
-            }
-            else if(random==1)
-            {
-                _anim.SetTrigger("KickRight");
-            }
-            else if (random==2)
-            {
-                _anim.SetTrigger("PunchLeft"); 
-            }
-            else if (random==3)
-            {
-                _anim.SetTrigger("PunchRight");
-            } else
-            {
-            }
-        }
+        _anim.SetInteger("Random", random);
+        _anim.SetTrigger("KickLeft");
+        _anim.SetTrigger("KickRight");
+        _anim.SetTrigger("PunchLeft");
+        _anim.SetTrigger("PunchRight");
+        
     }
 }

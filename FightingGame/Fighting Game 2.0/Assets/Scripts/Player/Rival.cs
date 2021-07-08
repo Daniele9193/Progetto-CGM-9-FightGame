@@ -68,6 +68,7 @@ public class Rival : MonoBehaviour
         if (dist > 2.0f)
         {
             transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
+            _anim.SetBool("Forward", true);
         }
 
         KickPunch();
@@ -82,6 +83,6 @@ public class Rival : MonoBehaviour
         _anim.SetTrigger("KickRight");
         _anim.SetTrigger("PunchLeft");
         _anim.SetTrigger("PunchRight");
-        
     }
+    
 }

@@ -321,8 +321,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -1060,8 +1060,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -1499,8 +1499,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -2204,6 +2204,7 @@ GameObject:
   - component: {fileID: 551984037}
   - component: {fileID: 551984036}
   - component: {fileID: 551984035}
+  - component: {fileID: 551984034}
   m_Layer: 5
   m_Name: ArenasCanvas
   m_TagString: Untagged
@@ -2211,6 +2212,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &551984034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551984033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f776ee0297d91d64ba92cd90c824cfa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ArenasCanvas: {fileID: 551984033}
+  CharacterList: {fileID: 693596305}
 --- !u!114 &551984035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3077,8 +3092,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -4473,138 +4488,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4350637049652996, guid: ac1d6bc633cb75f43b455f34daf7fd73, type: 3}
   m_PrefabInstance: {fileID: 983249995}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &998694873
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 998694874}
-  - component: {fileID: 998694877}
-  - component: {fileID: 998694876}
-  - component: {fileID: 998694875}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &998694874
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998694873}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1918639447}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 811, y: -419.9}
-  m_SizeDelta: {x: 200, y: 200}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &998694875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998694873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 998694876}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: StartFromOptions
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &998694876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998694873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee09064370211334abdec1b1410d1cff, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &998694877
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998694873}
-  m_CullTransparentMesh: 1
 --- !u!1001 &1001114661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4838,8 +4721,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -4971,8 +4854,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -5389,8 +5272,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -5602,9 +5485,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: PulsanteConfermaRivale
+      - m_Target: {fileID: 1855602787}
+        m_TargetAssemblyTypeName: RivalSelection, Assembly-CSharp
+        m_MethodName: PulsanteConferma
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5976,10 +5859,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
-    - target: {fileID: 447807555, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
     - target: {fileID: 5791877957808588764, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6372,9 +6251,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 703742150}
+        m_TargetAssemblyTypeName: CharacterSelection, Assembly-CSharp
+        m_MethodName: PulsanteConferma
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6505,10 +6384,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
-    - target: {fileID: 1657215268, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
     - target: {fileID: 4724718385666933016, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
       propertyPath: m_Name
       value: Female_06_V02
@@ -6583,10 +6458,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
-    - target: {fileID: 256204662, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
     - target: {fileID: 2738338257192825438, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
       propertyPath: m_Name
       value: Female_03_V01
@@ -6934,8 +6805,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -7342,8 +7213,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -7867,8 +7738,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -8258,15 +8129,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
       - m_Target: {fileID: 1722295830}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Opzioni
-=======
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: Options
->>>>>>> Stashed changes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9399,6 +9264,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b9ee9546e7baf478240140147b03e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RivalList: {fileID: 2143861886}
+  CharacterList: {fileID: 693596305}
+  ArenasCanvas: {fileID: 551984033}
 --- !u!1 &1864446721
 GameObject:
   m_ObjectHideFlags: 0
@@ -9482,8 +9350,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -9611,59 +9479,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875371841}
   m_CullTransparentMesh: 1
---- !u!1 &1899854592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1899854594}
-  - component: {fileID: 1899854593}
-  m_Layer: 5
-  m_Name: ScriptManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1899854593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899854592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2f71da73676d0e4ca8c02fcd126d162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RivalList: {fileID: 2143861886}
-  CharacterList: {fileID: 693596305}
-  ArenasCanvas: {fileID: 551984033}
-  StartCanvas: {fileID: 1722295825}
-  OptionsCanvas: {fileID: 1918639443}
---- !u!224 &1899854594
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899854592}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 960, y: 540}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1918639443
 GameObject:
   m_ObjectHideFlags: 0
@@ -9769,11 +9584,7 @@ RectTransform:
   - {fileID: 626040394}
   - {fileID: 1973240266}
   - {fileID: 1205767102}
-<<<<<<< Updated upstream
   - {fileID: 409015240}
-=======
-  - {fileID: 998694874}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10363,8 +10174,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+      - m_Target: {fileID: 551984034}
+        m_TargetAssemblyTypeName: ArenaSelection, Assembly-CSharp
         m_MethodName: SelezionaArena
         m_Mode: 3
         m_Arguments:
@@ -10470,10 +10281,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
-    - target: {fileID: 606584777, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
     - target: {fileID: 8627781515068482464, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
       propertyPath: m_Name
       value: Male_05_V02
@@ -10678,15 +10485,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< Updated upstream
       - m_Target: {fileID: 1722295830}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Inizio
-=======
-      - m_Target: {fileID: 1899854593}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
-        m_MethodName: Starting
->>>>>>> Stashed changes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

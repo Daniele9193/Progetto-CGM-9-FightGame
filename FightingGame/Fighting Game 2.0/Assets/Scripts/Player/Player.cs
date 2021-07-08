@@ -70,17 +70,6 @@ public class Player : MonoBehaviour
 
         }
 
-        if (block)
-        {
-            _anim.SetBool("Blocking", true);
-        }
-        else if (!block)
-        {
-            _anim.SetBool("Blocking", false);
-        }
-
-
-
     }
 
 	private void GainPower()
@@ -109,44 +98,39 @@ public class Player : MonoBehaviour
 
     public void RightKick(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
+ //       if (Input.GetKeyDown(KeyCode.K))
+ //       {
             _anim.SetTrigger("KickRight");   
-        }
+ //       }
     }
     public void LeftKick(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.L))
-        {
+ //       if (Input.GetKeyDown(KeyCode.L))
+ //       {
             _anim.SetTrigger("KickLeft");   
-        }
+ //       }
 
     }
     public void RightPunch(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
+       // if (Input.GetKeyDown(KeyCode.I))
+        //{
             _anim.SetTrigger("PunchRight");   
-        }
+        //}
         
     }
     public void LeftPunch(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.J))
-        {
+ //       if (Input.GetKeyDown(KeyCode.J))
+ //       {
             _anim.SetTrigger("PunchLeft");
-        }
+//        }
     }
     
     public void Blocking(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //_anim.SetTrigger("Blocking");
-            //_anim.SetBool("Blocking", true);
-            block = !block;
-
-        }
+        block = !block;
+        _anim.SetBool("Blocking", block);
     }
     
     private void Animazione()
@@ -155,8 +139,6 @@ public class Player : MonoBehaviour
         _anim.SetBool("Forward", forward);
         backward = (_inputMovement.x < -0.1f) ? true: false;
         _anim.SetBool("Backward", backward);
-        
-        
-        
+
     }
 }

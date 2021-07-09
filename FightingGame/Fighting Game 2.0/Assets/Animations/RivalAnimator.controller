@@ -174,19 +174,19 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1729000956874485515}
-    m_Position: {x: 580, y: 320, z: 0}
+    m_Position: {x: 1010, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6840436472438959913}
-    m_Position: {x: 720, y: -250, z: 0}
+    m_Position: {x: 870, y: -210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2976259008494157417}
-    m_Position: {x: 430, y: 40, z: 0}
+    m_Position: {x: -80, y: 30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3681040251655560308}
-    m_Position: {x: 260, y: -210, z: 0}
+    m_Position: {x: 430, y: 30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -993124482463049826}
-    m_Position: {x: 1070, y: -330, z: 0}
+    m_Position: {x: 1000, y: -330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7190847707231627046}
     m_Position: {x: -80, y: -330, z: 0}
@@ -195,10 +195,10 @@ AnimatorStateMachine:
     m_Position: {x: -70, y: -540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7408804584869945855}
-    m_Position: {x: 1060, y: -540, z: 0}
+    m_Position: {x: 1000, y: -530, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5661374849963034350}
-    m_Position: {x: 600, y: -540, z: 0}
+    m_Position: {x: 610, y: -530, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5707637062732805050}
     m_Position: {x: 240, y: -540, z: 0}
@@ -214,11 +214,11 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 530, y: -770, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 1070, y: 100, z: 0}
+  m_AnyStatePosition: {x: 490, y: -780, z: 0}
+  m_EntryPosition: {x: 710, y: 30, z: 0}
+  m_ExitPosition: {x: 1030, y: -630, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -1729000956874485515}
+  m_DefaultState: {fileID: -4782164772320854261}
 --- !u!1102 &-5661374849963034350
 AnimatorState:
   serializedVersion: 6
@@ -293,7 +293,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 4
     m_ConditionEvent: Distance
     m_EventTreshold: 2.5
-  - m_ConditionMode: 3
+  - m_ConditionMode: 6
     m_ConditionEvent: Random
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
@@ -638,73 +638,73 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Backward
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Blocking
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Knocked
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Dead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Winner
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchLeft
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchRight
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickLeft
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickRight
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Distance
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Random
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

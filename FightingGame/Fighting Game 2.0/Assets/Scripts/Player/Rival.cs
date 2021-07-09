@@ -70,6 +70,10 @@ public class Rival : MonoBehaviour
             transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
             _anim.SetBool("Forward", true);
         }
+        else
+        {
+            _anim.SetBool("Forward", false);
+        }
 
         KickPunch();
     }

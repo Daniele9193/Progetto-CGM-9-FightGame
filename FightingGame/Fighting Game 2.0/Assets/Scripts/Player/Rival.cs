@@ -16,6 +16,11 @@ public class Rival : MonoBehaviour
     public Rival rival;
     public float dist = 0.0f;
     private float _speed = 2.0f;
+
+    private int index;
+    public GameObject characters;
+    private GameObject[] characterList;
+    private GameObject personaggio;
     
     // Start is called before the first frame update
     void Start()
@@ -24,14 +29,31 @@ public class Rival : MonoBehaviour
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
+        
+        index = PlayerPrefs.GetInt("PersonaggioSelezionato");
+        characterList = new GameObject[characters.transform.childCount];
+
+        for (int i = 0; i < characters.transform.childCount; i++)
+            characterList[i] = characters.transform.GetChild(i).gameObject; 
+        
+        if (characterList[index])
+            personaggio = characterList[index];
+        player = personaggio.GetComponent<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //TakeDamage(1);
         GainPower();
-		Movement();
+        if (_anim.GetBool("Knocked"))
+        {
+            GetUp();
+        }
+        else
+        {
+            Movement();
+        }
+        
         if (health == 0 && _anim.GetBool("Knocked") == false)
         {
             _anim.SetBool("Knocked", true);
@@ -51,37 +73,51 @@ public class Rival : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    private void GetUp()
+    {
+        _anim.SetBool("Knocked", false);
+    }
+
+    public void TakeDamage(int damage, bool crit)
     {
         if ((health - damage) >= 0)
         {
             health -= damage;
             healthBar.SetHealth(health);
         }
+
+        if (crit)
+        {
+            _anim.SetBool("Knocked", true);
+        }
     }
 
     public void Movement()
     {
-        dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
-        Debug.Log("Distance= " + dist);
-        _anim.SetFloat("Distance", dist);
-        if (dist > 2.0f)
-        {
-            transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
-            _anim.SetBool("Forward", true);
-        }
-        else
-        {
-            _anim.SetBool("Forward", false);
-        }
+        
+            dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
+            _anim.SetFloat("Distance", dist);
+            if (dist > 1.0f)
+            {
+                transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
+                _anim.SetBool("Forward", true);
+                _anim.SetBool("Backward", false);
+            }
+            else
+            {
+                transform.position += new Vector3(0.5f * _speed * Time.deltaTime, 0.0f, 0.0f );
+                _anim.SetBool("Forward", false);
+                _anim.SetBool("Backward", true);
+            }
 
-        KickPunch();
+            KickPunch();
+        
+        
     }
 
     public void KickPunch()
     {
         int random = Random.Range(0, 4);
-        Debug.Log(random);
         _anim.SetInteger("Random", random);
         _anim.SetTrigger("KickLeft");
         _anim.SetTrigger("KickRight");

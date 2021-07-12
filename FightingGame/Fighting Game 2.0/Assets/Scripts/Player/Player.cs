@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public int maxPower = 1000;
     
     public GameObject loseUI;
+    public GameObject rivale;
     
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
@@ -22,16 +23,39 @@ public class Player : MonoBehaviour
     private bool backward = false;
     private bool block = false;
 
+    public Rival rival;
+
     public bool isKicking = false;
     public bool isPunching = false;
+
+    private float dist = 0.0f;
+
+    private int index;
+    private GameObject[] rivalList;
+    public GameObject rivali;
 
     // Start is called before the first frame update
     void Start()
     {
         _anim = GetComponent<Animator>();
-		health = maxHealth;
+        health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
+        
+        index = PlayerPrefs.GetInt("AvversarioSelezionato");
+        rivalList = new GameObject[rivali.transform.childCount];
+
+        for (int i = 0; i < rivali.transform.childCount; i++)
+            rivalList[i] = rivali.transform.GetChild(i).gameObject;
+
+
+        if (rivalList[index])
+            rivale=rivalList[index];
+        rival = rivale.GetComponent<Rival>();
+        
+        
+        
+        
     }
 
     private void Awake()
@@ -57,10 +81,13 @@ public class Player : MonoBehaviour
     {
         Animazione();
         
-        if (_anim.GetBool("Dead") == false && _anim.GetBool("Knocked") == false && _anim.GetBool("Blocking")==false)
+        dist = Mathf.Abs(this.transform.position.x - rival.transform.position.x);
+        
+        if (_anim.GetBool("Dead") == false && _anim.GetBool("Knocked") == false && _anim.GetBool("Blocking")==false && dist>1.0f)
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         }
+        
 		
 		//TakeDamage(1);
         GainPower();
@@ -101,34 +128,34 @@ public class Player : MonoBehaviour
 
     public void RightKick(InputAction.CallbackContext value)
     {
- //       if (Input.GetKeyDown(KeyCode.K))
- //       {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
         _anim.SetTrigger("KickRight");   
- //       }
+        }
     }
     public void LeftKick(InputAction.CallbackContext value)
     {
- //       if (Input.GetKeyDown(KeyCode.L))
- //       {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
      
             _anim.SetTrigger("KickLeft");   
- //       }
+        }
 
     }
     public void RightPunch(InputAction.CallbackContext value)
     {
-       // if (Input.GetKeyDown(KeyCode.I))
-        //{
+        if (Input.GetKeyDown(KeyCode.I))
+        {
             _anim.SetTrigger("PunchRight");   
-        //}
+        }
         
     }
     public void LeftPunch(InputAction.CallbackContext value)
     {
- //       if (Input.GetKeyDown(KeyCode.J))
- //       {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
             _anim.SetTrigger("PunchLeft");
-//        }
+        }
     }
     
     public void Blocking(InputAction.CallbackContext value)

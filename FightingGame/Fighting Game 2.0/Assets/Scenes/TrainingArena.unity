@@ -413,10 +413,13 @@ MonoBehaviour:
   power: 0
   maxPower: 1000
   loseUI: {fileID: 1754707136}
+  rivale: {fileID: 0}
   _speed: 2
   _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
+  rivali: {fileID: 0}
 --- !u!54 &76064362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -672,7 +675,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1646,10 +1649,13 @@ MonoBehaviour:
   power: 0
   maxPower: 1000
   loseUI: {fileID: 1754707136}
+  rivale: {fileID: 0}
   _speed: 2
   _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
+  rivali: {fileID: 0}
 --- !u!54 &437669136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2078,10 +2084,13 @@ MonoBehaviour:
   power: 0
   maxPower: 1000
   loseUI: {fileID: 1754707136}
+  rivale: {fileID: 0}
   _speed: 2
   _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
+  rivali: {fileID: 0}
 --- !u!54 &519464081
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6169,10 +6178,13 @@ MonoBehaviour:
   power: 0
   maxPower: 1000
   loseUI: {fileID: 1754707136}
+  rivale: {fileID: 0}
   _speed: 2
   _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
+  rivali: {fileID: 1152074160}
 --- !u!114 &1622188666
 MonoBehaviour:
   m_ObjectHideFlags: 0

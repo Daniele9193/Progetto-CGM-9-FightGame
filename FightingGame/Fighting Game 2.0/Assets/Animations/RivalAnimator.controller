@@ -203,7 +203,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: hb_front_A
+  m_Name: Blocking
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -1392,7 +1392,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New State
+  m_Name: Waiting
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

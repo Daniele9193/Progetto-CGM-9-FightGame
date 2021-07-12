@@ -13,7 +13,7 @@ public class Rival : MonoBehaviour
     public Player player;
     public GameObject loseUI;
     private Animator _anim;
-    public Rival rival;
+    //public Rival rival;
     public float dist = 0.0f;
     private float _speed = 2.0f;
     
@@ -36,7 +36,7 @@ public class Rival : MonoBehaviour
         {
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
-            player._anim.SetBool("Winner", true);
+            //player._anim.SetBool("Winner", true);
             loseUI.SetActive(true);
 
         }
@@ -62,19 +62,22 @@ public class Rival : MonoBehaviour
 
     public void Movement()
     {
-        dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
+        dist = Mathf.Abs(player.transform.position.x - this.transform.position.x);
         Debug.Log("Distance= " + dist);
         _anim.SetFloat("Distance", dist);
         if (dist > 2.0f)
         {
             transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
             _anim.SetBool("Forward", true);
+            _anim.SetBool("Backward", false);
         }
         else
         {
+            transform.position += new Vector3(1 * _speed * Time.deltaTime, 0.0f, 0.0f );
             _anim.SetBool("Forward", false);
+            _anim.SetBool("Backward", true);
         }
-
+        
         KickPunch();
     }
 
@@ -82,11 +85,14 @@ public class Rival : MonoBehaviour
     {
         int random = Random.Range(0, 4);
         Debug.Log(random);
-        _anim.SetInteger("Random", random);
-        _anim.SetTrigger("KickLeft");
-        _anim.SetTrigger("KickRight");
-        _anim.SetTrigger("PunchLeft");
-        _anim.SetTrigger("PunchRight");
+        if (!_anim.GetBool("Knocked"))
+        {
+            _anim.SetInteger("Random", random);
+            _anim.SetTrigger("KickLeft");
+            _anim.SetTrigger("KickRight");
+            _anim.SetTrigger("PunchLeft");
+            _anim.SetTrigger("PunchRight");
+        }
     }
     
 }

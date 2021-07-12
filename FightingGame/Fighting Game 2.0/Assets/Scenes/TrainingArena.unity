@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1396306438}
-  m_IndirectSpecularColor: {r: 0.4421921, g: 0.4074663, b: 0.4575249, a: 1}
+  m_IndirectSpecularColor: {r: 0.4455831, g: 0.41023523, b: 0.46090406, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -173,16 +173,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &65301144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6006397979239551752, guid: beb9e839b531a744c877a785deeaa302, type: 3}
@@ -414,7 +408,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   _speed: 2
-  _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
 --- !u!54 &76064362
@@ -471,7 +465,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &79784355
 MonoBehaviour:
@@ -485,16 +479,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &91880291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3184067571931590617, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -578,16 +566,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &116451173
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -633,16 +615,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &171401647
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +648,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -805,10 +781,10 @@ MonoBehaviour:
   damageKick: 100
   damagePunch: 50
   owner: {fileID: 1622188665}
-  rival1: {fileID: 1285131088}
-  rival2: {fileID: 79784355}
+  rival1: {fileID: 0}
+  rival2: {fileID: 0}
   rival3: {fileID: 1376975774}
-  rival4: {fileID: 2139073222}
+  rival4: {fileID: 0}
 --- !u!1 &180971271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5158949060673722797, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
@@ -845,16 +821,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &184628179
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -919,16 +889,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &239972206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7359099288897856988, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
@@ -960,16 +924,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1001 &241146075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1083,16 +1041,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &262598541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,16 +1288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &338555791
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1647,7 +1593,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   _speed: 2
-  _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
 --- !u!54 &437669136
@@ -1816,16 +1762,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &497827900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1828239037689653372, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
@@ -1843,16 +1783,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &497827902
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2079,7 +2013,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   _speed: 2
-  _anim: {fileID: 0}
+  rival: {fileID: 0}
   isKicking: 0
   isPunching: 0
 --- !u!54 &519464081
@@ -2129,16 +2063,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &531317393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,16 +2304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &563384412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1121172552110213906, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
@@ -2436,16 +2358,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1001 &586876895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2555,16 +2471,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &602800997 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 853270941657880797, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
@@ -2596,16 +2506,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &622093437 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 280794504904700930, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -2623,16 +2527,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &622093439
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2753,16 +2651,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &720199610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,16 +2720,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &736415074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,16 +3035,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &774797268
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,16 +3435,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &805076018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5768370144194578276, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
@@ -3596,16 +3470,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &806931642 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1106651226215862165, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
@@ -3636,16 +3504,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &807143379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3735,16 +3597,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &845984321
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,7 +3898,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &955016395 stripped
 GameObject:
@@ -4061,16 +3917,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &955016397
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4146,16 +3996,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1015130041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8822306563963044082, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -4192,16 +4036,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1026765916
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4246,16 +4084,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1033641430 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8562229416372131289, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
@@ -4287,16 +4119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1061548743 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 437517478614654527, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -4346,16 +4172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1113703244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1937426409178992021, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
@@ -4373,16 +4193,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1113703246
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4557,7 +4371,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1152074162}
   - component: {fileID: 1152074161}
-  - component: {fileID: 1152074163}
   m_Layer: 0
   m_Name: RivalList
   m_TagString: Untagged
@@ -4593,30 +4406,8 @@ Transform:
   - {fileID: 241146076}
   - {fileID: 737709861}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1152074163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152074160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
-  healthBar: {fileID: 0}
-  powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
-  player: {fileID: 0}
-  loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1201950969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3179229918728609395, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -4648,16 +4439,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!850595691 &1205519333
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -4788,16 +4573,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1258973383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 962781022339945474, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
@@ -4853,16 +4632,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1282997379
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4910,16 +4683,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1298385780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5051,16 +4818,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1342344135
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5181,16 +4942,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1371006087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8308277797251949403, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
@@ -5249,7 +5004,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 124
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!114 &1376975774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5262,16 +5017,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
-  power: 0
-  maxPower: 1000
   player: {fileID: 1622188665}
   loseUI: {fileID: 845984321}
-  rival: {fileID: 1376975774}
-  dist: 0
 --- !u!1 &1396306436
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,16 +5131,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1402024635
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5456,16 +5199,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1429462926
 GameObject:
   m_ObjectHideFlags: 0
@@ -5555,16 +5292,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1499439786
 GameObject:
   m_ObjectHideFlags: 0
@@ -5732,10 +5463,10 @@ MonoBehaviour:
   damageKick: 100
   damagePunch: 50
   owner: {fileID: 1622188665}
-  rival1: {fileID: 1285131088}
-  rival2: {fileID: 79784355}
+  rival1: {fileID: 0}
+  rival2: {fileID: 0}
   rival3: {fileID: 1376975774}
-  rival4: {fileID: 2139073222}
+  rival4: {fileID: 0}
 --- !u!1 &1515266511 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4007152954641986594, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
@@ -5767,16 +5498,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1522639051
 GameObject:
   m_ObjectHideFlags: 0
@@ -5869,16 +5594,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1533009427
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5942,16 +5661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1001 &1622188652
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6106,10 +5819,10 @@ MonoBehaviour:
   damageKick: 100
   damagePunch: 50
   owner: {fileID: 1622188665}
-  rival1: {fileID: 1285131088}
-  rival2: {fileID: 79784355}
+  rival1: {fileID: 0}
+  rival2: {fileID: 0}
   rival3: {fileID: 1376975774}
-  rival4: {fileID: 2139073222}
+  rival4: {fileID: 0}
 --- !u!135 &1622188662
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6170,7 +5883,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   _speed: 2
-  _anim: {fileID: 0}
+  rival: {fileID: 1376975774}
   isKicking: 0
   isPunching: 0
 --- !u!114 &1622188666
@@ -6323,10 +6036,10 @@ MonoBehaviour:
   damageKick: 100
   damagePunch: 50
   owner: {fileID: 1622188665}
-  rival1: {fileID: 1285131088}
-  rival2: {fileID: 79784355}
+  rival1: {fileID: 0}
+  rival2: {fileID: 0}
   rival3: {fileID: 1376975774}
-  rival4: {fileID: 2139073222}
+  rival4: {fileID: 0}
 --- !u!54 &1622188673
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6393,16 +6106,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1001 &1666236131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6508,16 +6215,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1713436777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6582,16 +6283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1727496765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3923801182697255763, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -6609,16 +6304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1727496767
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6976,16 +6665,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1910139912 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2505878600041155721, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
@@ -7118,16 +6801,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1956565835 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7872084314853095506, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
@@ -7159,16 +6836,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &1968075405
 GameObject:
   m_ObjectHideFlags: 0
@@ -7313,16 +6984,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1975921510
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7354,16 +7019,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &1989435545
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7464,16 +7123,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!136 &2026949776
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7557,16 +7210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
-  rival: {fileID: 0}
-  dist: 0
 --- !u!1 &2093062248 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8246698510340689425, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -7700,7 +7347,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &2139073222
 MonoBehaviour:
@@ -7714,13 +7361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
-  power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  rival: {fileID: 0}
-  dist: 0

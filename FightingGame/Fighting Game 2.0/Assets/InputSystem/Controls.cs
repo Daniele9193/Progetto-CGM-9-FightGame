@@ -75,10 +75,10 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""Defense2"",
-                    ""type"": ""PassThrough"",
+                    ""name"": ""Impenetrability"",
+                    ""type"": ""Button"",
                     ""id"": ""8f22ca71-6e2f-43e8-bb64-af8f47697979"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -208,11 +208,11 @@ public class @Controls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""7ad25e9f-ae05-497c-9d19-80ca90134705"",
-                    ""path"": """",
+                    ""path"": ""<Keyboard>/enter"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Defense2"",
+                    ""action"": ""Impenetrability"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -230,7 +230,7 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Fighter_PunchLeft = m_Fighter.FindAction("PunchLeft", throwIfNotFound: true);
         m_Fighter_View = m_Fighter.FindAction("View", throwIfNotFound: true);
         m_Fighter_Defense = m_Fighter.FindAction("Defense", throwIfNotFound: true);
-        m_Fighter_Defense2 = m_Fighter.FindAction("Defense2", throwIfNotFound: true);
+        m_Fighter_Impenetrability = m_Fighter.FindAction("Impenetrability", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -287,7 +287,7 @@ public class @Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_Fighter_PunchLeft;
     private readonly InputAction m_Fighter_View;
     private readonly InputAction m_Fighter_Defense;
-    private readonly InputAction m_Fighter_Defense2;
+    private readonly InputAction m_Fighter_Impenetrability;
     public struct FighterActions
     {
         private @Controls m_Wrapper;
@@ -299,7 +299,7 @@ public class @Controls : IInputActionCollection, IDisposable
         public InputAction @PunchLeft => m_Wrapper.m_Fighter_PunchLeft;
         public InputAction @View => m_Wrapper.m_Fighter_View;
         public InputAction @Defense => m_Wrapper.m_Fighter_Defense;
-        public InputAction @Defense2 => m_Wrapper.m_Fighter_Defense2;
+        public InputAction @Impenetrability => m_Wrapper.m_Fighter_Impenetrability;
         public InputActionMap Get() { return m_Wrapper.m_Fighter; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -330,9 +330,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @Defense.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
                 @Defense.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
                 @Defense.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
-                @Defense2.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense2;
-                @Defense2.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense2;
-                @Defense2.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense2;
+                @Impenetrability.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnImpenetrability;
+                @Impenetrability.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnImpenetrability;
+                @Impenetrability.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnImpenetrability;
             }
             m_Wrapper.m_FighterActionsCallbackInterface = instance;
             if (instance != null)
@@ -358,9 +358,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @Defense.started += instance.OnDefense;
                 @Defense.performed += instance.OnDefense;
                 @Defense.canceled += instance.OnDefense;
-                @Defense2.started += instance.OnDefense2;
-                @Defense2.performed += instance.OnDefense2;
-                @Defense2.canceled += instance.OnDefense2;
+                @Impenetrability.started += instance.OnImpenetrability;
+                @Impenetrability.performed += instance.OnImpenetrability;
+                @Impenetrability.canceled += instance.OnImpenetrability;
             }
         }
     }
@@ -374,6 +374,6 @@ public class @Controls : IInputActionCollection, IDisposable
         void OnPunchLeft(InputAction.CallbackContext context);
         void OnView(InputAction.CallbackContext context);
         void OnDefense(InputAction.CallbackContext context);
-        void OnDefense2(InputAction.CallbackContext context);
+        void OnImpenetrability(InputAction.CallbackContext context);
     }
 }

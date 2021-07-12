@@ -17,11 +17,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
     [SerializeField] private Controls _inputControl;
-    private Animator _anim;
-
-	private float dist = 0.0f;
-	public Rival rival;
-
+    public Animator _anim;
     private bool forward = false;
     private bool backward = false;
     private bool block = false;
@@ -60,10 +56,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         Animazione();
-		
-		dist = Mathf.Abs(this.transform.position.x - rival.transform.position.x);
         
-        if (_anim.GetBool("Dead") == false && _anim.GetBool("Knocked") == false && _anim.GetBool("Blocking")==false && dist > 1.0f)
+        if (_anim.GetBool("Dead") == false && _anim.GetBool("Knocked") == false && _anim.GetBool("Blocking")==false)
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         }
@@ -107,23 +101,23 @@ public class Player : MonoBehaviour
 
     public void RightKick(InputAction.CallbackContext value)
     {
-       //if (Input.GetKeyDown(KeyCode.K))
-       //{
+ //       if (Input.GetKeyDown(KeyCode.K))
+ //       {
         _anim.SetTrigger("KickRight");   
-       //}
+ //       }
     }
     public void LeftKick(InputAction.CallbackContext value)
     {
-       //if (Input.GetKeyDown(KeyCode.L))
-       //{
+ //       if (Input.GetKeyDown(KeyCode.L))
+ //       {
      
             _anim.SetTrigger("KickLeft");   
-       //}
+ //       }
 
     }
     public void RightPunch(InputAction.CallbackContext value)
     {
-        //if (Input.GetKeyDown(KeyCode.I))
+       // if (Input.GetKeyDown(KeyCode.I))
         //{
             _anim.SetTrigger("PunchRight");   
         //}
@@ -131,10 +125,10 @@ public class Player : MonoBehaviour
     }
     public void LeftPunch(InputAction.CallbackContext value)
     {
-       //if (Input.GetKeyDown(KeyCode.J))
-       //{
+ //       if (Input.GetKeyDown(KeyCode.J))
+ //       {
             _anim.SetTrigger("PunchLeft");
-       //}
+//        }
     }
     
     public void Blocking(InputAction.CallbackContext value)

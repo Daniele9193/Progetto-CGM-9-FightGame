@@ -62,10 +62,10 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Impenetrability",
-                    "type": "Button",
+                    "name": "Defense2",
+                    "type": "PassThrough",
                     "id": "8f22ca71-6e2f-43e8-bb64-af8f47697979",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 }
@@ -195,11 +195,11 @@
                 {
                     "name": "",
                     "id": "7ad25e9f-ae05-497c-9d19-80ca90134705",
-                    "path": "<Keyboard>/enter",
+                    "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Impenetrability",
+                    "action": "Defense2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

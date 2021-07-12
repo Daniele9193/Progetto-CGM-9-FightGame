@@ -46,14 +46,6 @@
                     "interactions": ""
                 },
                 {
-                    "name": "View",
-                    "type": "PassThrough",
-                    "id": "0ac14430-ecab-41e1-9de7-92341b811c02",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": ""
-                },
-                {
                     "name": "Defense",
                     "type": "PassThrough",
                     "id": "7b8e6923-fdf4-4969-a01c-53df3f26a9ae",
@@ -172,17 +164,6 @@
                 },
                 {
                     "name": "",
-                    "id": "adb5a23c-080e-4fd8-9c75-1f896429710d",
-                    "path": "<Mouse>/delta",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "View",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "650d9541-4ff1-4b1b-b73b-eecd125a9a11",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -200,6 +181,33 @@
                     "processors": "",
                     "groups": "",
                     "action": "Defense2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "InteractionMouse",
+            "id": "95ec0664-ec73-40bc-a2a0-9b36a704c7ca",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "6906f4ab-992b-4002-93a1-226de57719cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dac6e40e-9cd4-4692-8eba-e7229d008969",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -59,14 +59,6 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""View"",
-                    ""type"": ""PassThrough"",
-                    ""id"": ""0ac14430-ecab-41e1-9de7-92341b811c02"",
-                    ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
-                    ""interactions"": """"
-                },
-                {
                     ""name"": ""Defense"",
                     ""type"": ""PassThrough"",
                     ""id"": ""7b8e6923-fdf4-4969-a01c-53df3f26a9ae"",
@@ -185,17 +177,6 @@ public class @Controls : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""adb5a23c-080e-4fd8-9c75-1f896429710d"",
-                    ""path"": ""<Mouse>/delta"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""View"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""650d9541-4ff1-4b1b-b73b-eecd125a9a11"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
@@ -217,6 +198,33 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""InteractionMouse"",
+            ""id"": ""95ec0664-ec73-40bc-a2a0-9b36a704c7ca"",
+            ""actions"": [
+                {
+                    ""name"": ""Click"",
+                    ""type"": ""Button"",
+                    ""id"": ""6906f4ab-992b-4002-93a1-226de57719cb"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""dac6e40e-9cd4-4692-8eba-e7229d008969"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Click"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": []
@@ -228,9 +236,11 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Fighter_KickRight = m_Fighter.FindAction("KickRight", throwIfNotFound: true);
         m_Fighter_PunchRight = m_Fighter.FindAction("PunchRight", throwIfNotFound: true);
         m_Fighter_PunchLeft = m_Fighter.FindAction("PunchLeft", throwIfNotFound: true);
-        m_Fighter_View = m_Fighter.FindAction("View", throwIfNotFound: true);
         m_Fighter_Defense = m_Fighter.FindAction("Defense", throwIfNotFound: true);
         m_Fighter_Defense2 = m_Fighter.FindAction("Defense2", throwIfNotFound: true);
+        // InteractionMouse
+        m_InteractionMouse = asset.FindActionMap("InteractionMouse", throwIfNotFound: true);
+        m_InteractionMouse_Click = m_InteractionMouse.FindAction("Click", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -285,7 +295,6 @@ public class @Controls : IInputActionCollection, IDisposable
     private readonly InputAction m_Fighter_KickRight;
     private readonly InputAction m_Fighter_PunchRight;
     private readonly InputAction m_Fighter_PunchLeft;
-    private readonly InputAction m_Fighter_View;
     private readonly InputAction m_Fighter_Defense;
     private readonly InputAction m_Fighter_Defense2;
     public struct FighterActions
@@ -297,7 +306,6 @@ public class @Controls : IInputActionCollection, IDisposable
         public InputAction @KickRight => m_Wrapper.m_Fighter_KickRight;
         public InputAction @PunchRight => m_Wrapper.m_Fighter_PunchRight;
         public InputAction @PunchLeft => m_Wrapper.m_Fighter_PunchLeft;
-        public InputAction @View => m_Wrapper.m_Fighter_View;
         public InputAction @Defense => m_Wrapper.m_Fighter_Defense;
         public InputAction @Defense2 => m_Wrapper.m_Fighter_Defense2;
         public InputActionMap Get() { return m_Wrapper.m_Fighter; }
@@ -324,9 +332,6 @@ public class @Controls : IInputActionCollection, IDisposable
                 @PunchLeft.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnPunchLeft;
                 @PunchLeft.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnPunchLeft;
                 @PunchLeft.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnPunchLeft;
-                @View.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnView;
-                @View.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnView;
-                @View.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnView;
                 @Defense.started -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
                 @Defense.performed -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
                 @Defense.canceled -= m_Wrapper.m_FighterActionsCallbackInterface.OnDefense;
@@ -352,9 +357,6 @@ public class @Controls : IInputActionCollection, IDisposable
                 @PunchLeft.started += instance.OnPunchLeft;
                 @PunchLeft.performed += instance.OnPunchLeft;
                 @PunchLeft.canceled += instance.OnPunchLeft;
-                @View.started += instance.OnView;
-                @View.performed += instance.OnView;
-                @View.canceled += instance.OnView;
                 @Defense.started += instance.OnDefense;
                 @Defense.performed += instance.OnDefense;
                 @Defense.canceled += instance.OnDefense;
@@ -365,6 +367,39 @@ public class @Controls : IInputActionCollection, IDisposable
         }
     }
     public FighterActions @Fighter => new FighterActions(this);
+
+    // InteractionMouse
+    private readonly InputActionMap m_InteractionMouse;
+    private IInteractionMouseActions m_InteractionMouseActionsCallbackInterface;
+    private readonly InputAction m_InteractionMouse_Click;
+    public struct InteractionMouseActions
+    {
+        private @Controls m_Wrapper;
+        public InteractionMouseActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Click => m_Wrapper.m_InteractionMouse_Click;
+        public InputActionMap Get() { return m_Wrapper.m_InteractionMouse; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(InteractionMouseActions set) { return set.Get(); }
+        public void SetCallbacks(IInteractionMouseActions instance)
+        {
+            if (m_Wrapper.m_InteractionMouseActionsCallbackInterface != null)
+            {
+                @Click.started -= m_Wrapper.m_InteractionMouseActionsCallbackInterface.OnClick;
+                @Click.performed -= m_Wrapper.m_InteractionMouseActionsCallbackInterface.OnClick;
+                @Click.canceled -= m_Wrapper.m_InteractionMouseActionsCallbackInterface.OnClick;
+            }
+            m_Wrapper.m_InteractionMouseActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Click.started += instance.OnClick;
+                @Click.performed += instance.OnClick;
+                @Click.canceled += instance.OnClick;
+            }
+        }
+    }
+    public InteractionMouseActions @InteractionMouse => new InteractionMouseActions(this);
     public interface IFighterActions
     {
         void OnMove(InputAction.CallbackContext context);
@@ -372,8 +407,11 @@ public class @Controls : IInputActionCollection, IDisposable
         void OnKickRight(InputAction.CallbackContext context);
         void OnPunchRight(InputAction.CallbackContext context);
         void OnPunchLeft(InputAction.CallbackContext context);
-        void OnView(InputAction.CallbackContext context);
         void OnDefense(InputAction.CallbackContext context);
         void OnDefense2(InputAction.CallbackContext context);
+    }
+    public interface IInteractionMouseActions
+    {
+        void OnClick(InputAction.CallbackContext context);
     }
 }

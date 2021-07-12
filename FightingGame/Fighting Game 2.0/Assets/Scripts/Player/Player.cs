@@ -99,7 +99,6 @@ public class Player : MonoBehaviour
             loseUI.SetActive(true);
 
         }
-
     }
 
 	private void GainPower()
@@ -118,7 +117,6 @@ public class Player : MonoBehaviour
             health -= damage;
             healthBar.SetHealth(health);
         }
-        
     }
 
     public void OnMovement(InputAction.CallbackContext value)
@@ -128,23 +126,21 @@ public class Player : MonoBehaviour
 
     public void RightKick(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        if (value.performed)
         {
-        _anim.SetTrigger("KickRight");   
+            _anim.SetTrigger("KickRight");   
         }
     }
     public void LeftKick(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (value.performed)
         {
-     
             _anim.SetTrigger("KickLeft");   
         }
-
     }
     public void RightPunch(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (value.performed)
         {
             _anim.SetTrigger("PunchRight");   
         }
@@ -152,7 +148,7 @@ public class Player : MonoBehaviour
     }
     public void LeftPunch(InputAction.CallbackContext value)
     {
-        if (Input.GetKeyDown(KeyCode.J))
+        if (value.performed)
         {
             _anim.SetTrigger("PunchLeft");
         }

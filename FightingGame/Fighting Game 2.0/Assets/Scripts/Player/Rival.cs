@@ -45,22 +45,14 @@ public class Rival : MonoBehaviour
     void Update()
     {
         GainPower();
-        if (_anim.GetBool("Knocked"))
-        {
-            GetUp();
-        }
-        else
-        {
-            Movement();
-        }
-        
-        if (health == 0 && _anim.GetBool("Knocked") == false)
+        Movement();
+
+            if (health == 0 && _anim.GetBool("Knocked") == false)
         {
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
             player._anim.SetBool("Winner", true);
             loseUI.SetActive(true);
-
         }
     }
     
@@ -89,30 +81,36 @@ public class Rival : MonoBehaviour
         if (crit)
         {
             _anim.SetBool("Knocked", true);
+            _anim.Play("Knockdown");
         }
     }
 
     public void Movement()
     {
-        
+        if (_anim.GetBool("Knocked"))
+        {
+            GetUp(); //metti IEnumerator
+        }
+        else
+        {
             dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
             _anim.SetFloat("Distance", dist);
             if (dist > 1.0f)
             {
-                transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f );
+                transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f);
                 _anim.SetBool("Forward", true);
                 _anim.SetBool("Backward", false);
             }
             else
             {
-                transform.position += new Vector3(0.5f * _speed * Time.deltaTime, 0.0f, 0.0f );
+                transform.position += new Vector3(0.5f * _speed * Time.deltaTime, 0.0f, 0.0f);
                 _anim.SetBool("Forward", false);
                 _anim.SetBool("Backward", true);
             }
 
             KickPunch();
-        
-        
+
+        }
     }
 
     public void KickPunch()

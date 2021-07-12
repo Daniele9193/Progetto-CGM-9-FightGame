@@ -28,11 +28,11 @@ public class HitColider : MonoBehaviour
         {
             if (random<0)
             {
-                owner.rivale.GetComponent<Rival>().TakeDamage(damageKick, true);
+                owner.rivale.GetComponent<Rival>().TakeDamage(damageKick, false);
             }
             else
             {
-                owner.rivale.GetComponent<Rival>().TakeDamage(damageKick*2, false);
+                owner.rivale.GetComponent<Rival>().TakeDamage(damageKick*2, true);
             }
         }
         
@@ -42,11 +42,11 @@ public class HitColider : MonoBehaviour
 
             if (random<0)
             {
-                owner.rivale.GetComponent<Rival>().TakeDamage(damagePunch, true);
+                owner.rivale.GetComponent<Rival>().TakeDamage(damagePunch, false);
             }
             else
             {
-                owner.rivale.GetComponent<Rival>().TakeDamage(damagePunch*2, false);
+                owner.rivale.GetComponent<Rival>().TakeDamage(damagePunch*2, true);
             }
         }
         

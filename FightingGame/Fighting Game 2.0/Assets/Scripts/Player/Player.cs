@@ -11,28 +11,25 @@ public class Player : MonoBehaviour
     public PowerBar powerBar;
     public int power=0;
     public int maxPower = 1000;
-    
     public GameObject loseUI;
     public GameObject rivale;
+    public GameObject rivali;
+    public Animator _anim;
+    public Rival rival;
     
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
     [SerializeField] private Controls _inputControl;
-    public Animator _anim;
     private bool forward = false;
     private bool backward = false;
     private bool block = false;
-
-    public Rival rival;
-
-    public bool isKicking = false;
-    public bool isPunching = false;
-
+    
+    private bool isKicking = false;
+    private bool isPunching = false;
     private float dist = 0.0f;
-
     private int index;
     private GameObject[] rivalList;
-    public GameObject rivali;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -47,14 +44,10 @@ public class Player : MonoBehaviour
 
         for (int i = 0; i < rivali.transform.childCount; i++)
             rivalList[i] = rivali.transform.GetChild(i).gameObject;
-
-
+        
         if (rivalList[index])
             rivale=rivalList[index];
         rival = rivale.GetComponent<Rival>();
-        
-        
-        
         
     }
 
@@ -88,14 +81,13 @@ public class Player : MonoBehaviour
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         }
         
-		
-		//TakeDamage(1);
         GainPower();
 		
 		if (health == 0 && _anim.GetBool("Knocked") == false)
         {
 			_anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
+            rival._anim.SetBool("Winner", true);
             loseUI.SetActive(true);
 
         }
@@ -110,12 +102,18 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage, bool crit)
     {
         if ((health - damage) >= 0)
         {
             health -= damage;
             healthBar.SetHealth(health);
+        }
+
+        if (crit)
+        {
+            _anim.SetBool("Knocked", true);
+            _anim.Play("Knockdown");
         }
     }
 

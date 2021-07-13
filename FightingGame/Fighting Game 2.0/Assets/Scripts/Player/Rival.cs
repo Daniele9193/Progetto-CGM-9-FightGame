@@ -12,15 +12,15 @@ public class Rival : MonoBehaviour
     public int maxPower = 1000;
     public Player player;
     public GameObject loseUI;
-    private Animator _anim;
-    public Rival rival;
-    public float dist = 0.0f;
-    private float _speed = 2.0f;
-
-    private int index;
     public GameObject characters;
+    public GameObject personaggio;
+    public Animator _anim;
+    
+    private float dist = 0.0f;
+    private float _speed = 2.0f;
+    private int index;
     private GameObject[] characterList;
-    private GameObject personaggio;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -85,15 +85,20 @@ public class Rival : MonoBehaviour
         }
     }
 
+    public IEnumerator GettingUp()
+    {
+        yield return new WaitForSeconds(2.0f);
+        GetUp();
+    }
     public void Movement()
     {
         if (_anim.GetBool("Knocked"))
         {
-            GetUp(); //metti IEnumerator
+            StartCoroutine(GettingUp());
         }
         else
         {
-            dist = Mathf.Abs(player.transform.position.x - rival.transform.position.x);
+            dist = Mathf.Abs(player.transform.position.x - this.transform.position.x);
             _anim.SetFloat("Distance", dist);
             if (dist > 1.0f)
             {

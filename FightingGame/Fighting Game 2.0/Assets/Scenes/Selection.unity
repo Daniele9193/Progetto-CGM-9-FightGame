@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5868,6 +5868,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
+    - target: {fileID: 447807555, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 5791877957808588764, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6468,6 +6472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
+    - target: {fileID: 1657215268, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 4724718385666933016, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
       propertyPath: m_Name
       value: Female_06_V02
@@ -6542,6 +6550,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
+    - target: {fileID: 256204662, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 2738338257192825438, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
       propertyPath: m_Name
       value: Female_03_V01
@@ -10302,6 +10314,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1855602786}
     m_Modifications:
+    - target: {fileID: 606584777, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 8627781515068482464, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
       propertyPath: m_Name
       value: Male_05_V02

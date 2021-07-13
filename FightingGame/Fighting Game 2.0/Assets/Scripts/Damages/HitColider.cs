@@ -21,7 +21,7 @@ public class HitColider : MonoBehaviour
         
         int random = Random.Range(0, 100);
         
-        Rival somebody = other.gameObject.GetComponent<Rival>();
+        ColiderRival somebody = other.gameObject.GetComponent<ColiderRival>();
         //GameObject somebody = GameObject.FindWithTag("Rival");
         
         if (somebody != null && (Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown(KeyCode.L)))

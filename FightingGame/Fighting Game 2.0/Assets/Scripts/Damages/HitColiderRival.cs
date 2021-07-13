@@ -16,7 +16,7 @@ public class HitColiderRival : MonoBehaviour
         
         ColiderPlayer somebody = other.gameObject.GetComponent<ColiderPlayer>();
 
-        if (somebody != null && (Keyboard.current[Key.K].isPressed||Keyboard.current[Key.L].isPressed))
+        if (somebody != null && (owner.random==1||owner.random==0))
         {
             if (random<80)
             {
@@ -29,7 +29,7 @@ public class HitColiderRival : MonoBehaviour
         }
         
         
-        if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed))
+        if (somebody != null && (owner.random==2||owner.random==3))
         {
 
             if (random<80)

@@ -15,7 +15,7 @@ public class Rival : MonoBehaviour
     public GameObject characters;
     public GameObject personaggio;
     public Animator _anim;
-    
+    public int random;
     private float dist = 0.0f;
     private float _speed = 2.0f;
     private int index;
@@ -120,7 +120,7 @@ public class Rival : MonoBehaviour
 
     public void KickPunch()
     {
-        int random = Random.Range(0, 4);
+        random = Random.Range(0, 4);
         _anim.SetInteger("Random", random);
         _anim.SetTrigger("KickLeft");
         _anim.SetTrigger("KickRight");

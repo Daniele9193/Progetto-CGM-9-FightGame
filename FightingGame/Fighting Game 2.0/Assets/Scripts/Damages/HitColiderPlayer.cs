@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 
 public class HitColiderPlayer : MonoBehaviour
 {
-    public int damageKick = 100;
-    public int damagePunch = 50;
+    public int damageKick = 25;
+    public int damagePunch = 10;
     public Player owner;
 
     public void OnTriggerEnter(Collider other)
@@ -16,9 +16,8 @@ public class HitColiderPlayer : MonoBehaviour
         int random = Random.Range(0, 100);
         
         ColiderRival somebody = other.gameObject.GetComponent<ColiderRival>();
-        //GameObject somebody = GameObject.FindWithTag("Rival");
-        
-        if (somebody != null && (Keyboard.current[Key.K].isPressed||Keyboard.current[Key.L].isPressed))
+
+        if (somebody != null && (Keyboard.current[Key.K].isPressed||Keyboard.current[Key.L].isPressed) && !owner._anim.GetBool("Knocked"))
         {
             if (random<80)
             {
@@ -31,7 +30,7 @@ public class HitColiderPlayer : MonoBehaviour
         }
         
         
-        if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed))
+        if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed) && !owner._anim.GetBool("Knocked"))
         {
 
             if (random<80)

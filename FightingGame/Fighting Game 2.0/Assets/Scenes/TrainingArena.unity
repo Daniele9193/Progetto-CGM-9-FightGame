@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1396306438}
-  m_IndirectSpecularColor: {r: 0.4455831, g: 0.41023523, b: 0.46090406, a: 1}
+  m_IndirectSpecularColor: {r: 0.44559294, g: 0.41024962, b: 0.46093035, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -461,6 +461,7 @@ MonoBehaviour:
   rivali: {fileID: 0}
   _anim: {fileID: 0}
   rival: {fileID: 0}
+  isAttacking: 0
   _speed: 2
 --- !u!114 &76064357
 MonoBehaviour:
@@ -564,7 +565,10 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 0}
   personaggio: {fileID: 0}
+  sound: {fileID: 171401647}
   _anim: {fileID: 0}
+  random: 0
+  isAttacking: 0
 --- !u!1 &91880291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3184067571931590617, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -740,7 +744,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.209
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1735,6 +1739,7 @@ MonoBehaviour:
   rivali: {fileID: 0}
   _anim: {fileID: 0}
   rival: {fileID: 0}
+  isAttacking: 0
   _speed: 2
 --- !u!114 &437669131
 MonoBehaviour:
@@ -2205,6 +2210,7 @@ MonoBehaviour:
   rivali: {fileID: 0}
   _anim: {fileID: 0}
   rival: {fileID: 0}
+  isAttacking: 0
   _speed: 2
 --- !u!114 &519464076
 MonoBehaviour:
@@ -4661,7 +4667,10 @@ MonoBehaviour:
   loseUI: {fileID: 0}
   characters: {fileID: 0}
   personaggio: {fileID: 0}
+  sound: {fileID: 0}
   _anim: {fileID: 0}
+  random: 0
+  isAttacking: 0
 --- !u!1 &1201950969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3179229918728609395, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -4983,7 +4992,10 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 0}
   personaggio: {fileID: 0}
+  sound: {fileID: 171401647}
   _anim: {fileID: 0}
+  random: 0
+  isAttacking: 0
 --- !u!1 &1298385780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5352,7 +5364,10 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 0}
   personaggio: {fileID: 0}
+  sound: {fileID: 171401647}
   _anim: {fileID: 0}
+  random: 0
+  isAttacking: 0
 --- !u!1 &1396306436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,6 +6259,7 @@ MonoBehaviour:
   rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
+  isAttacking: 0
   _speed: 2
 --- !u!114 &1622188666
 MonoBehaviour:
@@ -7852,4 +7868,7 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 0}
   personaggio: {fileID: 0}
+  sound: {fileID: 171401647}
   _anim: {fileID: 0}
+  random: 0
+  isAttacking: 0

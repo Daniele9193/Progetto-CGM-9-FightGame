@@ -14,11 +14,14 @@ public class Rival : MonoBehaviour
     public GameObject loseUI;
     public GameObject characters;
     public GameObject personaggio;
+    public GameObject sound;
     public Animator _anim;
     public int random;
+    public bool isAttacking = false;
     private float dist = 0.0f;
     private float _speed = 2.0f;
     private int index;
+    private bool isBlocking = false;
     private GameObject[] characterList;
     
     
@@ -47,12 +50,23 @@ public class Rival : MonoBehaviour
         GainPower();
         Movement();
 
-            if (health == 0 && _anim.GetBool("Knocked") == false)
+        if (health <= 0)
         {
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
-            player._anim.SetBool("Winner", true);
             loseUI.SetActive(true);
+            sound.SetActive(false);
+        }
+        
+        if (player.health <= 0)
+        {
+            _anim.SetBool("Winner", true);
+            sound.SetActive(false);
+        }
+
+        if (!_anim.GetBool("Winner") && !_anim.GetBool("Knocked") && !_anim.GetBool("Dead"))
+        {
+            KickPunch();
         }
     }
     
@@ -72,17 +86,23 @@ public class Rival : MonoBehaviour
 
     public void TakeDamage(int damage, bool crit)
     {
-        if ((health - damage) >= 0)
+        if (!isBlocking)
         {
             health -= damage;
             healthBar.SetHealth(health);
+            if (crit)
+            {
+                _anim.SetBool("Knocked", true);
+                _anim.Play("Knockdown");
+            }
+        }
+        else
+        {
+            health -= damage/2;
+            healthBar.SetHealth(health);
         }
 
-        if (crit)
-        {
-            _anim.SetBool("Knocked", true);
-            _anim.Play("Knockdown");
-        }
+       
     }
 
     public IEnumerator GettingUp()
@@ -92,7 +112,7 @@ public class Rival : MonoBehaviour
     }
     public void Movement()
     {
-        if (_anim.GetBool("Knocked"))
+        if (_anim.GetBool("Knocked") && !_anim.GetBool("Dead"))
         {
             StartCoroutine(GettingUp());
         }
@@ -100,20 +120,18 @@ public class Rival : MonoBehaviour
         {
             dist = Mathf.Abs(player.transform.position.x - this.transform.position.x);
             _anim.SetFloat("Distance", dist);
-            if (dist > 1.0f)
+            if (dist > 1.0f && !_anim.GetBool("Winner") && !_anim.GetBool("Knocked"))
             {
                 transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f);
                 _anim.SetBool("Forward", true);
                 _anim.SetBool("Backward", false);
             }
-            else
+            else if(dist <= 1.0f && !_anim.GetBool("Winner") && !_anim.GetBool("Knocked"))
             {
-                transform.position += new Vector3(0.5f * _speed * Time.deltaTime, 0.0f, 0.0f);
+                transform.position += new Vector3(0.5f * _speed/2 * Time.deltaTime, 0.0f, 0.0f);
                 _anim.SetBool("Forward", false);
                 _anim.SetBool("Backward", true);
             }
-
-            KickPunch();
 
         }
     }

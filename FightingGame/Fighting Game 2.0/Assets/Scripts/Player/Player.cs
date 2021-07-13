@@ -16,16 +16,16 @@ public class Player : MonoBehaviour
     public GameObject rivali;
     public Animator _anim;
     public Rival rival;
-    
+    public bool isAttacking = false;
+
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
     [SerializeField] private Controls _inputControl;
     private bool forward = false;
     private bool backward = false;
     private bool block = false;
-    
-    private bool isKicking = false;
-    private bool isPunching = false;
+    private bool isBlocking = false;
+
     private float dist = 0.0f;
     private int index;
     private GameObject[] rivalList;
@@ -76,20 +76,23 @@ public class Player : MonoBehaviour
         
         dist = Mathf.Abs(this.transform.position.x - rival.transform.position.x);
         
-        if (_anim.GetBool("Dead") == false && _anim.GetBool("Knocked") == false && _anim.GetBool("Blocking")==false && dist>1.0f)
+        if (!_anim.GetBool("Dead") && !_anim.GetBool("Knocked") && !_anim.GetBool("Blocking") && dist>1.0f && !_anim.GetBool("Winner"))
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
-        }
+        } 
         
         GainPower();
 		
-		if (health == 0 && _anim.GetBool("Knocked") == false)
+		if (health <= 0)
         {
 			_anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
-            rival._anim.SetBool("Winner", true);
             loseUI.SetActive(true);
+        }
 
+        if (rival.health <= 0)
+        {
+            _anim.SetBool("Winner", true);
         }
     }
 
@@ -104,58 +107,75 @@ public class Player : MonoBehaviour
 
     public void TakeDamage(int damage, bool crit)
     {
-        if ((health - damage) >= 0)
+        if (!isBlocking)
         {
             health -= damage;
             healthBar.SetHealth(health);
+            if (crit)
+            {
+                _anim.SetBool("Knocked", true);
+                _anim.Play("Knockdown");
+            }
         }
-
-        if (crit)
+        else
         {
-            _anim.SetBool("Knocked", true);
-            _anim.Play("Knockdown");
+            health -= damage/2;
+            healthBar.SetHealth(health);
         }
+        
     }
 
     public void OnMovement(InputAction.CallbackContext value)
     {
         _inputMovement = value.ReadValue<Vector2>();
+        if (!_anim.GetBool("Dead") && _anim.GetBool("Knocked"))
+        {
+            _anim.SetBool("Knocked", false);
+        }
     }
 
     public void RightKick(InputAction.CallbackContext value)
     {
-        if (value.performed)
+        if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
-            _anim.SetTrigger("KickRight");   
+            _anim.SetTrigger("KickRight");
+            isAttacking = true;
         }
     }
     public void LeftKick(InputAction.CallbackContext value)
     {
-        if (value.performed)
+        if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
-            _anim.SetTrigger("KickLeft");   
+            _anim.SetTrigger("KickLeft");
+            isAttacking = true;
         }
     }
     public void RightPunch(InputAction.CallbackContext value)
     {
-        if (value.performed)
+        if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
-            _anim.SetTrigger("PunchRight");   
+            _anim.SetTrigger("PunchRight");  
+            isAttacking = true;
         }
         
     }
     public void LeftPunch(InputAction.CallbackContext value)
     {
-        if (value.performed)
+        if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("PunchLeft");
+            isAttacking = true;
         }
     }
     
     public void Blocking(InputAction.CallbackContext value)
     {
-        block = !block;
-        _anim.SetBool("Blocking", block);
+        if (!_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
+        {
+            block = !block;
+            _anim.SetBool("Blocking", block);
+            isBlocking = true;
+        }
     }
     
     private void Animazione()

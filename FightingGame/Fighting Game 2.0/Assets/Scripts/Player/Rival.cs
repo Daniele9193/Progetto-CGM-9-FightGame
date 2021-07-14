@@ -30,7 +30,6 @@ public class Rival : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _anim = GetComponent<Animator>();
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
@@ -103,6 +102,7 @@ public class Rival : MonoBehaviour
             {
                 health -= damage;
                 healthBar.SetHealth(health);
+                _anim.SetTrigger("Hitted");
                 if (crit)
                 {
                     _anim.SetBool("Knocked", true);

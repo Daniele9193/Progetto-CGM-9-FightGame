@@ -456,7 +456,7 @@ MonoBehaviour:
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
-  _anim: {fileID: 0}
+  _anim: {fileID: 76064361}
   rival: {fileID: 0}
   isAttacking: 0
   imp: 0
@@ -473,6 +473,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd963e606f5bed4485698ceac154490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &76064361 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1697247590, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
+  m_PrefabInstance: {fileID: 76064342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &76064362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -576,10 +581,16 @@ MonoBehaviour:
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
-  _anim: {fileID: 0}
+  _anim: {fileID: 79784356}
   random: 0
   isAttacking: 0
   imp: 0
+  dist: 0
+--- !u!95 &79784356 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1657215268, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
+  m_PrefabInstance: {fileID: 586876895}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &79784357
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1748,7 +1759,7 @@ MonoBehaviour:
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
-  _anim: {fileID: 0}
+  _anim: {fileID: 437669135}
   rival: {fileID: 0}
   isAttacking: 0
   imp: 0
@@ -1765,6 +1776,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd963e606f5bed4485698ceac154490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &437669135 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1707974322, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
+  m_PrefabInstance: {fileID: 437669116}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &437669136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2303,7 +2319,7 @@ MonoBehaviour:
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 486408412}
-  _anim: {fileID: 0}
+  _anim: {fileID: 519464080}
   rival: {fileID: 0}
   isAttacking: 0
   imp: 0
@@ -2320,6 +2336,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd963e606f5bed4485698ceac154490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &519464080 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1214968665, guid: beb9e839b531a744c877a785deeaa302, type: 3}
+  m_PrefabInstance: {fileID: 519464061}
+  m_PrefabAsset: {fileID: 0}
 --- !u!54 &519464081
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5092,7 +5113,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1152074162}
   - component: {fileID: 1152074161}
-  - component: {fileID: 1152074163}
   m_Layer: 0
   m_Name: RivalList
   m_TagString: Untagged
@@ -5130,32 +5150,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!114 &1152074163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152074160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8de8127b4bc74184a85cd328bf27266e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  healthBar: {fileID: 0}
-  powerBar: {fileID: 0}
-  power: 0
-  player: {fileID: 0}
-  loseUI: {fileID: 0}
-  characters: {fileID: 0}
-  personaggio: {fileID: 0}
-  sound: {fileID: 0}
-  impIcon: {fileID: 0}
-  _anim: {fileID: 0}
-  random: 0
-  isAttacking: 0
-  imp: 0
 --- !u!1 &1201950969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3179229918728609395, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -5477,10 +5471,16 @@ MonoBehaviour:
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
-  _anim: {fileID: 0}
+  _anim: {fileID: 1285131089}
   random: 0
   isAttacking: 0
   imp: 0
+  dist: 0
+--- !u!95 &1285131089 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 256204662, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
+  m_PrefabInstance: {fileID: 1876974484}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1285131090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5862,10 +5862,11 @@ MonoBehaviour:
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
-  _anim: {fileID: 0}
+  _anim: {fileID: 1376975776}
   random: 0
   isAttacking: 0
   imp: 0
+  dist: 0
 --- !u!65 &1376975775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5879,6 +5880,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!95 &1376975776 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 447807555, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
+  m_PrefabInstance: {fileID: 241146075}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1396306436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6758,7 +6764,7 @@ MonoBehaviour:
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
-  _anim: {fileID: 0}
+  _anim: {fileID: 1622188671}
   rival: {fileID: 0}
   isAttacking: 0
   imp: 0
@@ -6922,6 +6928,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   owner: {fileID: 1622188665}
+--- !u!95 &1622188671 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1051180292, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
+  m_PrefabInstance: {fileID: 1622188652}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &1622188672
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8384,10 +8395,16 @@ MonoBehaviour:
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
-  _anim: {fileID: 0}
+  _anim: {fileID: 2139073223}
   random: 0
   isAttacking: 0
   imp: 0
+  dist: 0
+--- !u!95 &2139073223 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 606584777, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
+  m_PrefabInstance: {fileID: 737709860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &2139073224
 BoxCollider:
   m_ObjectHideFlags: 0

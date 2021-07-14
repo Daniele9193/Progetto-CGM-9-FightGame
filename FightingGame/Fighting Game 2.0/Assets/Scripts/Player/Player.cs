@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _anim = GetComponent<Animator>();
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
@@ -66,27 +65,28 @@ public class Player : MonoBehaviour
         _inputControl.Fighter.KickRight.performed += RightKick;
         _inputControl.Fighter.PunchRight.performed += RightPunch;
         _inputControl.Fighter.PunchLeft.performed += LeftPunch;
+        _inputControl.Fighter.Defense.performed += Blocking;
+        _inputControl.Fighter.Impenetrability.performed += Impenetrability;
         _inputControl.Fighter.Move.Enable();
         _inputControl.Fighter.KickLeft.Enable();
         _inputControl.Fighter.KickRight.Enable();
         _inputControl.Fighter.PunchLeft.Enable();
         _inputControl.Fighter.PunchRight.Enable();
+        _inputControl.Fighter.Defense.Enable();
+        _inputControl.Fighter.Impenetrability.Enable();
     }
     // Update is called once per frame
     void Update()
     {
         Animazione();
-        
-        //Debug.Log(health);
-        
-        dist = Mathf.Abs(this.transform.position.x - rival.transform.position.x);
+
+        dist = Mathf.Abs(transform.position.x - rival.transform.position.x);
         
         if (!_anim.GetBool("Dead") && !_anim.GetBool("Knocked") && !_anim.GetBool("Blocking") && dist>1.0f && !_anim.GetBool("Winner"))
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         } 
-
-		
+        
 		if (health <= 0)
         {
 			_anim.SetBool("Knocked", true);
@@ -117,6 +117,7 @@ public class Player : MonoBehaviour
             {
                 health -= damage;
                 healthBar.SetHealth(health);
+                _anim.SetTrigger("Hitted");
                 if (crit)
                 {
                     _anim.SetBool("Knocked", true);

@@ -20,7 +20,7 @@ public class Rival : MonoBehaviour
     public int random;
     public bool isAttacking = false;
     public bool imp;
-    private float dist = 0.0f;
+    public float dist = 0.0f;
     private float _speed = 2.0f;
     private int index;
     private bool isBlocking = false;
@@ -150,12 +150,27 @@ public class Rival : MonoBehaviour
 
     public void KickPunch()
     {
-        random = Random.Range(0, 4);
+        _anim.SetBool("Blocking", false);
+        random = Random.Range(0, 5);
         _anim.SetInteger("Random", random);
-        _anim.SetTrigger("KickLeft");
-        _anim.SetTrigger("KickRight");
-        _anim.SetTrigger("PunchLeft");
-        _anim.SetTrigger("PunchRight");
+        switch (random)
+        {
+            case 0:
+                _anim.SetTrigger("KickLeft");
+                break;
+            case 1:
+                _anim.SetTrigger("KickRight");
+                break;
+            case 2:
+                _anim.SetTrigger("RightPunch");
+                break;
+            case 3:
+                _anim.SetTrigger("PunchLeft");
+                break;
+            case 4:
+                _anim.SetBool("Blocking", true);
+                break;
+        }
     }
 
     public IEnumerator SetImp()

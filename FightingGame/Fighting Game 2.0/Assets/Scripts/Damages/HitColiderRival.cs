@@ -16,7 +16,7 @@ public class HitColiderRival : MonoBehaviour
         
         ColiderPlayer somebody = other.gameObject.GetComponent<ColiderPlayer>();
 
-        if (somebody != null && (owner.random==1||owner.random==0) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked"))
+        if (somebody != null && (owner.random==1||owner.random==0) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked") && owner.dist < 2.5f)
         {
             if (random<80)
             {
@@ -29,7 +29,7 @@ public class HitColiderRival : MonoBehaviour
                 owner.GainPower(damageKick*2);
             }
         }
-        else if (somebody != null && (owner.random==2||owner.random==3) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked"))
+        else if (somebody != null && (owner.random==2||owner.random==3) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked") && owner.dist < 2.0f)
         {
 
             if (random<80)

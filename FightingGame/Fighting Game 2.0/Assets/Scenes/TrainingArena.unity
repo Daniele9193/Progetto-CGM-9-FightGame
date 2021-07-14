@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1396306438}
-  m_IndirectSpecularColor: {r: 0.4455831, g: 0.41023523, b: 0.46090406, a: 1}
+  m_IndirectSpecularColor: {r: 0.44559294, g: 0.41024962, b: 0.46093035, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -364,8 +364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 76064356}
 --- !u!135 &76064352
 SphereCollider:
@@ -405,8 +403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 76064356}
 --- !u!114 &76064355
 MonoBehaviour:
@@ -458,7 +454,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
-  rivali: {fileID: 0}
+  rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
@@ -541,7 +537,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &79784355
 MonoBehaviour:
@@ -556,14 +552,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
   power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  characters: {fileID: 0}
+  characters: {fileID: 113877470}
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   _anim: {fileID: 0}
@@ -586,8 +580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 76064356}
 --- !u!136 &91880293
 CapsuleCollider:
@@ -712,8 +704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1376975774}
 --- !u!1 &171401647
 GameObject:
@@ -873,8 +863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1622188665}
 --- !u!1 &180971271 stripped
 GameObject:
@@ -955,8 +943,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 519464075}
 --- !u!136 &220340803
 CapsuleCollider:
@@ -1003,8 +989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1376975774}
 --- !u!1 &239972206 stripped
 GameObject:
@@ -1200,7 +1184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1642,8 +1626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 437669130}
 --- !u!135 &437669126
 SphereCollider:
@@ -1683,8 +1665,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 437669130}
 --- !u!114 &437669129
 MonoBehaviour:
@@ -1736,7 +1716,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
-  rivali: {fileID: 0}
+  rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
@@ -1931,8 +1911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 79784355}
 --- !u!1 &497827900 stripped
 GameObject:
@@ -2113,8 +2091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 519464075}
 --- !u!135 &519464071
 SphereCollider:
@@ -2154,8 +2130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 519464075}
 --- !u!114 &519464074
 MonoBehaviour:
@@ -2207,7 +2181,7 @@ MonoBehaviour:
   maxPower: 1000
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
-  rivali: {fileID: 0}
+  rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
@@ -2508,8 +2482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 2139073222}
 --- !u!1 &563384412 stripped
 GameObject:
@@ -2583,7 +2555,7 @@ PrefabInstance:
     - target: {fileID: 1657215268, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 4724718385666933016, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
       propertyPath: m_Name
       value: Female_06_V02
@@ -2713,8 +2685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1285131088}
 --- !u!1 &622093437 stripped
 GameObject:
@@ -3050,8 +3020,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 79784355}
 --- !u!1 &736415074
 GameObject:
@@ -3138,7 +3106,7 @@ PrefabInstance:
     - target: {fileID: 606584777, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 8627781515068482464, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
       propertyPath: m_Name
       value: Male_05_V02
@@ -3522,9 +3490,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1000
+  m_MaxValue: 500
   m_WholeNumbers: 1
-  m_Value: 1000
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3704,7 +3672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3821,8 +3789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 79784355}
 --- !u!1 &807143379
 GameObject:
@@ -3881,8 +3847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 519464075}
 --- !u!136 &829851742
 CapsuleCollider:
@@ -4060,8 +4024,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1285131088}
 --- !u!1 &845984321
 GameObject:
@@ -4591,8 +4553,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1285131088}
 --- !u!1 &1031135221
 GameObject:
@@ -4729,8 +4689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 2139073222}
 --- !u!1 &1113703244 stripped
 GameObject:
@@ -4974,11 +4932,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 1000
   healthBar: {fileID: 0}
   powerBar: {fileID: 0}
   power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 0}
   characters: {fileID: 0}
@@ -5299,14 +5255,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
   power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  characters: {fileID: 0}
+  characters: {fileID: 113877470}
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   _anim: {fileID: 0}
@@ -5671,14 +5625,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
   power: 0
-  maxPower: 1000
-  player: {fileID: 1622188665}
+  player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  characters: {fileID: 0}
+  characters: {fileID: 113877470}
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   _anim: {fileID: 0}
@@ -5825,8 +5777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 437669130}
 --- !u!136 &1410890399
 CapsuleCollider:
@@ -5873,8 +5823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 2139073222}
 --- !u!1 &1429462926
 GameObject:
@@ -5977,8 +5925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1376975774}
 --- !u!1 &1499439786
 GameObject:
@@ -6063,9 +6009,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1000
+  m_MaxValue: 500
   m_WholeNumbers: 0
-  m_Value: 1000
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -6129,8 +6075,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1622188665}
 --- !u!136 &1511180929
 CapsuleCollider:
@@ -6344,8 +6288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1376975774}
 --- !u!1001 &1622188652
 PrefabInstance:
@@ -6509,8 +6451,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1622188665}
 --- !u!135 &1622188662
 SphereCollider:
@@ -6723,8 +6663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1622188665}
 --- !u!54 &1622188673
 Rigidbody:
@@ -6909,8 +6847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 2139073222}
 --- !u!1 &1713436777
 GameObject:
@@ -7238,8 +7174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 437669130}
 --- !u!136 &1774606758
 CapsuleCollider:
@@ -7327,7 +7261,7 @@ PrefabInstance:
     - target: {fileID: 256204662, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6148a64877b9c25419304e2faf4ab088, type: 2}
+      objectReference: {fileID: 9100000, guid: ea442f14421284cbea5bf9ca96fc3db4, type: 2}
     - target: {fileID: 2738338257192825438, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
       propertyPath: m_Name
       value: Female_03_V01
@@ -7426,8 +7360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 79784355}
 --- !u!1 &1910139912 stripped
 GameObject:
@@ -7934,8 +7866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 537d1314cbaab4168b3f80a663424cba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 76064356}
 --- !u!136 &2053684410
 CapsuleCollider:
@@ -8013,8 +7943,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00bb52b3a1478444780cd487e70017c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageKick: 100
-  damagePunch: 50
   owner: {fileID: 1285131088}
 --- !u!1 &2093062248 stripped
 GameObject:
@@ -8161,7 +8089,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &2139073222
 MonoBehaviour:
@@ -8176,14 +8104,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 1000
   healthBar: {fileID: 531317396}
   powerBar: {fileID: 792115930}
   power: 0
-  maxPower: 1000
   player: {fileID: 0}
   loseUI: {fileID: 845984321}
-  characters: {fileID: 0}
+  characters: {fileID: 113877470}
   personaggio: {fileID: 0}
   sound: {fileID: 171401647}
   _anim: {fileID: 0}

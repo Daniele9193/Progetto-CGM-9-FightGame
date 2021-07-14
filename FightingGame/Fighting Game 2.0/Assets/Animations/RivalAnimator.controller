@@ -371,6 +371,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Winner
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Knocked
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2400498778940753448}
   m_Solo: 0
@@ -546,6 +549,9 @@ AnimatorStateTransition:
     m_EventTreshold: 3
   - m_ConditionMode: 2
     m_ConditionEvent: Winner
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Knocked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 760062566123629384}
@@ -1031,6 +1037,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Winner
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Knocked
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8386156489053061659}
   m_Solo: 0
@@ -1434,6 +1443,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: Winner
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Knocked
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6304432537209482338}
   m_Solo: 0
@@ -1793,6 +1805,9 @@ AnimatorStateTransition:
     m_EventTreshold: 2
   - m_ConditionMode: 2
     m_ConditionEvent: Winner
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: Knocked
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8014731271380395415}

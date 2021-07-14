@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 
 public class HitColiderPlayer : MonoBehaviour
 {
-    public int damageKick = 25;
-    public int damagePunch = 10;
+    private int damageKick = 25;
+    private int damagePunch = 10;
     public Player owner;
 
     public void OnTriggerEnter(Collider other)
@@ -22,24 +22,26 @@ public class HitColiderPlayer : MonoBehaviour
             if (random<80)
             {
                 owner.rival.TakeDamage(damageKick, false);
+                owner.GainPower(damageKick);
             }
             else
             {
                 owner.rival.TakeDamage(damageKick*2, true);
+                owner.GainPower(damageKick*2);
             }
         }
-        
-        
-        if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed) && !owner._anim.GetBool("Knocked"))
+        else if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed) && !owner._anim.GetBool("Knocked"))
         {
 
             if (random<80)
             {
                 owner.rival.TakeDamage(damagePunch, false);
+                owner.GainPower(damagePunch);
             }
             else
             {
                 owner.rival.TakeDamage(damagePunch*2, true);
+                owner.GainPower(damagePunch*2);
             }
         }
         

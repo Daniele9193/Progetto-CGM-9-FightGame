@@ -5,11 +5,11 @@ using UnityEngine;
 public class Rival : MonoBehaviour
 {
     public int health;
-    public int maxHealth= 1000;
+    private int maxHealth= 1000;
     public HealthBar healthBar;
     public PowerBar powerBar;
     public int power=0;
-    public int maxPower = 1000;
+    private int maxPower = 500;
     public Player player;
     public GameObject loseUI;
     public GameObject characters;
@@ -47,8 +47,9 @@ public class Rival : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GainPower();
         Movement();
+
+        Debug.Log(health);
 
         if (health <= 0)
         {
@@ -70,11 +71,11 @@ public class Rival : MonoBehaviour
         }
     }
     
-    private void GainPower()
+    public void GainPower(int p)
     {
         if (power<maxPower)
         {
-            power += 1;
+            power += p;
             powerBar.SetPower(power);
         }
     }
@@ -98,11 +99,9 @@ public class Rival : MonoBehaviour
         }
         else
         {
-            health -= damage/2;
+            health -= damage / 2;
             healthBar.SetHealth(health);
         }
-
-       
     }
 
     public IEnumerator GettingUp()
@@ -112,7 +111,7 @@ public class Rival : MonoBehaviour
     }
     public void Movement()
     {
-        if (_anim.GetBool("Knocked") && !_anim.GetBool("Dead"))
+        if (_anim.GetBool("Knocked") && health > 0 && !_anim.GetBool("Dead"))
         {
             StartCoroutine(GettingUp());
         }

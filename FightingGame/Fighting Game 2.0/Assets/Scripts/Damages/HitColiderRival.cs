@@ -5,8 +5,8 @@ using UnityEngine.InputSystem;
 
 public class HitColiderRival : MonoBehaviour
 {
-    public int damageKick = 25;
-    public int damagePunch = 10;
+    private int damageKick = 25;
+    private int damagePunch = 10;
     public Rival owner;
 
     public void OnTriggerEnter(Collider other)
@@ -21,24 +21,26 @@ public class HitColiderRival : MonoBehaviour
             if (random<80)
             {
                 owner.player.TakeDamage(damageKick, false);
+                owner.GainPower(damageKick);
             }
             else
             {
                 owner.player.TakeDamage(damageKick*2, true);
+                owner.GainPower(damageKick*2);
             }
         }
-        
-        
-        if (somebody != null && (owner.random==2||owner.random==3) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked"))
+        else if (somebody != null && (owner.random==2||owner.random==3) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked"))
         {
 
             if (random<80)
             {
                 owner.player.TakeDamage(damagePunch, false);
+                owner.GainPower(damagePunch);
             }
             else
             {
                 owner.player.TakeDamage(damagePunch*2, true);
+                owner.GainPower(damagePunch*2);
             }
         }
         

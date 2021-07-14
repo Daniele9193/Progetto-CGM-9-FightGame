@@ -10,13 +10,14 @@ public class Player : MonoBehaviour
     public HealthBar healthBar;
     public PowerBar powerBar;
     public int power=0;
-    public int maxPower = 1000;
+    public int maxPower = 500;
     public GameObject loseUI;
     public GameObject rivale;
     public GameObject rivali;
     public Animator _anim;
     public Rival rival;
     public bool isAttacking = false;
+    public bool imp;
 
     [SerializeField] private float _speed = 2.0f;
     private Vector2 _inputMovement;
@@ -74,14 +75,15 @@ public class Player : MonoBehaviour
     {
         Animazione();
         
+        Debug.Log(health);
+        
         dist = Mathf.Abs(this.transform.position.x - rival.transform.position.x);
         
         if (!_anim.GetBool("Dead") && !_anim.GetBool("Knocked") && !_anim.GetBool("Blocking") && dist>1.0f && !_anim.GetBool("Winner"))
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         } 
-        
-        GainPower();
+
 		
 		if (health <= 0)
         {
@@ -96,33 +98,36 @@ public class Player : MonoBehaviour
         }
     }
 
-	private void GainPower()
+	public void GainPower(int p)
     {
         if (power<maxPower)
         {
-            power += 1;
+            power += p;
             powerBar.SetPower(power);
         }
     }
 
     public void TakeDamage(int damage, bool crit)
     {
-        if (!isBlocking)
+        if (!imp)
         {
-            health -= damage;
-            healthBar.SetHealth(health);
-            if (crit)
+            if (!isBlocking)
             {
-                _anim.SetBool("Knocked", true);
-                _anim.Play("Knockdown");
+                health -= damage;
+                healthBar.SetHealth(health);
+                if (crit)
+                {
+                    _anim.SetBool("Knocked", true);
+                    _anim.Play("Knockdown");
+                }
+            }
+            else
+            {
+                health -= damage / 2;
+                healthBar.SetHealth(health);
             }
         }
-        else
-        {
-            health -= damage/2;
-            healthBar.SetHealth(health);
-        }
-        
+
     }
 
     public void OnMovement(InputAction.CallbackContext value)
@@ -185,5 +190,20 @@ public class Player : MonoBehaviour
         backward = (_inputMovement.x < -0.1f) ? true: false;
         _anim.SetBool("Backward", backward);
 
+    }
+
+    public void Impenetrability(InputAction.CallbackContext value)
+    {
+        if (power == maxPower)
+        {
+            imp = true;
+            StartCoroutine(SetImp());
+        }
+    }
+
+    public IEnumerator SetImp()
+    {
+        yield return new WaitForSeconds(5.0f);
+        imp = false;
     }
 }

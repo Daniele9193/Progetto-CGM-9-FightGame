@@ -1,5 +1,5 @@
 {
-    "name": "Controls2",
+    "name": "Controls",
     "maps": [
         {
             "name": "Fighter",
@@ -54,10 +54,10 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Defense2",
-                    "type": "PassThrough",
+                    "name": "Impenetrability",
+                    "type": "Button",
                     "id": "c363675a-5e07-45fa-b08b-705a9dd80401",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
                 }
@@ -176,11 +176,11 @@
                 {
                     "name": "",
                     "id": "43728408-eb02-4cb5-a458-a737f059e569",
-                    "path": "",
+                    "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Defense2",
+                    "action": "Impenetrability",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

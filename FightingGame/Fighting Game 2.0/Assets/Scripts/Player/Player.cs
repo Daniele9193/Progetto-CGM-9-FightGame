@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     public GameObject loseUI;
     public GameObject rivale;
     public GameObject rivali;
+    public GameObject impIcon;
     public Animator _anim;
     public Rival rival;
     public bool isAttacking = false;
@@ -39,6 +40,7 @@ public class Player : MonoBehaviour
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
+        impIcon.SetActive(false);
         
         index = PlayerPrefs.GetInt("AvversarioSelezionato");
         rivalList = new GameObject[rivali.transform.childCount];
@@ -136,6 +138,7 @@ public class Player : MonoBehaviour
         if (!_anim.GetBool("Dead") && _anim.GetBool("Knocked"))
         {
             _anim.SetBool("Knocked", false);
+            _anim.Play("GetUp");
         }
     }
 
@@ -197,6 +200,7 @@ public class Player : MonoBehaviour
         if (power >= maxPower)
         {
             imp = true;
+            impIcon.SetActive(true);
             power = 0;
             powerBar.SetPower(power);
             StartCoroutine(SetImp());
@@ -207,5 +211,6 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(5.0f);
         imp = false;
+        impIcon.SetActive(false);
     }
 }

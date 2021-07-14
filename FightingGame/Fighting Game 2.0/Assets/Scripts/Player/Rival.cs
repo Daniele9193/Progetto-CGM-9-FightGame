@@ -15,9 +15,11 @@ public class Rival : MonoBehaviour
     public GameObject characters;
     public GameObject personaggio;
     public GameObject sound;
+    public GameObject impIcon;
     public Animator _anim;
     public int random;
     public bool isAttacking = false;
+    public bool imp;
     private float dist = 0.0f;
     private float _speed = 2.0f;
     private int index;
@@ -32,6 +34,7 @@ public class Rival : MonoBehaviour
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
+        impIcon.SetActive(false);
         
         index = PlayerPrefs.GetInt("PersonaggioSelezionato");
         characterList = new GameObject[characters.transform.childCount];
@@ -48,9 +51,16 @@ public class Rival : MonoBehaviour
     void Update()
     {
         Movement();
-
-        //Debug.Log(health);
-
+        
+        if (power >= maxPower)
+        {
+            imp = true;
+            impIcon.SetActive(true);
+            power = 0;
+            powerBar.SetPower(power);
+            StartCoroutine(SetImp());
+        }
+        
         if (health <= 0)
         {
             _anim.SetBool("Knocked", true);
@@ -87,20 +97,23 @@ public class Rival : MonoBehaviour
 
     public void TakeDamage(int damage, bool crit)
     {
-        if (!isBlocking)
+        if (!imp)
         {
-            health -= damage;
-            healthBar.SetHealth(health);
-            if (crit)
+            if (!isBlocking)
             {
-                _anim.SetBool("Knocked", true);
-                _anim.Play("Knockdown");
+                health -= damage;
+                healthBar.SetHealth(health);
+                if (crit)
+                {
+                    _anim.SetBool("Knocked", true);
+                    _anim.Play("Knockdown");
+                }
             }
-        }
-        else
-        {
-            health -= damage / 2;
-            healthBar.SetHealth(health);
+            else
+            {
+                health -= damage / 2;
+                healthBar.SetHealth(health);
+            }    
         }
     }
 
@@ -143,6 +156,13 @@ public class Rival : MonoBehaviour
         _anim.SetTrigger("KickRight");
         _anim.SetTrigger("PunchLeft");
         _anim.SetTrigger("PunchRight");
+    }
+
+    public IEnumerator SetImp()
+    {
+        yield return new WaitForSeconds(5.0f);
+        imp = false;
+        impIcon.SetActive(false);
     }
     
 }

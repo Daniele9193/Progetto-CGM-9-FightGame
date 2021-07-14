@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
     {
         Animazione();
         
-        Debug.Log(health);
+        //Debug.Log(health);
         
         dist = Mathf.Abs(this.transform.position.x - rival.transform.position.x);
         
@@ -194,9 +194,11 @@ public class Player : MonoBehaviour
 
     public void Impenetrability(InputAction.CallbackContext value)
     {
-        if (power == maxPower)
+        if (power >= maxPower)
         {
             imp = true;
+            power = 0;
+            powerBar.SetPower(power);
             StartCoroutine(SetImp());
         }
     }

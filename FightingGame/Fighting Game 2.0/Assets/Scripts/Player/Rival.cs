@@ -49,7 +49,7 @@ public class Rival : MonoBehaviour
     {
         Movement();
 
-        Debug.Log(health);
+        //Debug.Log(health);
 
         if (health <= 0)
         {

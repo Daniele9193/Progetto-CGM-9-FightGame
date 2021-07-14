@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: e8ea851a90ffd374e92afe85eb4a3939, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -451,13 +451,14 @@ MonoBehaviour:
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
   power: 0
-  maxPower: 1000
+  maxPower: 500
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
+  imp: 0
   _speed: 2
 --- !u!114 &76064357
 MonoBehaviour:
@@ -487,6 +488,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!65 &76064363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76064349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &78674255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1302772879379133171, guid: beb9e839b531a744c877a785deeaa302, type: 3}
@@ -563,6 +577,19 @@ MonoBehaviour:
   _anim: {fileID: 0}
   random: 0
   isAttacking: 0
+--- !u!65 &79784357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79784353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &91880291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3184067571931590617, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -1713,13 +1740,14 @@ MonoBehaviour:
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
   power: 0
-  maxPower: 1000
+  maxPower: 500
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
+  imp: 0
   _speed: 2
 --- !u!114 &437669131
 MonoBehaviour:
@@ -1749,6 +1777,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!65 &437669137
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437669123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &443530456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5180153207628564800, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -2178,13 +2219,14 @@ MonoBehaviour:
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
   power: 0
-  maxPower: 1000
+  maxPower: 500
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
+  imp: 0
   _speed: 2
 --- !u!114 &519464076
 MonoBehaviour:
@@ -2214,6 +2256,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
+--- !u!65 &519464082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519464068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &529321196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7902584865928169864, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
@@ -5266,6 +5321,19 @@ MonoBehaviour:
   _anim: {fileID: 0}
   random: 0
   isAttacking: 0
+--- !u!65 &1285131090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285131086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1298385780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5636,6 +5704,19 @@ MonoBehaviour:
   _anim: {fileID: 0}
   random: 0
   isAttacking: 0
+--- !u!65 &1376975775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376975772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1396306436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6509,13 +6590,14 @@ MonoBehaviour:
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
   power: 0
-  maxPower: 1000
+  maxPower: 500
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   _anim: {fileID: 0}
   rival: {fileID: 0}
   isAttacking: 0
+  imp: 0
   _speed: 2
 --- !u!114 &1622188666
 MonoBehaviour:
@@ -6639,7 +6721,19 @@ MonoBehaviour:
     m_ActionId: 86b708ae-79ed-401f-96ef-1f1b44b337de
     m_ActionName: Fighter/Defense[/Keyboard/space]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1622188665}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Impenetrability
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: c363675a-5e07-45fa-b08b-705a9dd80401
     m_ActionName: Fighter/Defense2
   - m_PersistentCalls:
@@ -6664,6 +6758,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   owner: {fileID: 1622188665}
+--- !u!65 &1622188672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622188659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1622188673
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8115,3 +8222,16 @@ MonoBehaviour:
   _anim: {fileID: 0}
   random: 0
   isAttacking: 0
+--- !u!65 &2139073224
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139073220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Center: {x: 0, y: 1, z: 0}

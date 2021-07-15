@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -968,7 +968,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: J
+  m_Text: I
 --- !u!222 &230761591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1982,7 +1982,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I
+  m_Text: J
 --- !u!222 &472934162
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7293,7 +7293,7 @@ GameObject:
   - component: {fileID: 1480134294}
   - component: {fileID: 1480134293}
   m_Layer: 5
-  m_Name: TastoI
+  m_Name: TastoJ
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8113,7 +8113,7 @@ GameObject:
   - component: {fileID: 1655458173}
   - component: {fileID: 1655458172}
   m_Layer: 5
-  m_Name: TastoJ
+  m_Name: TastoI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

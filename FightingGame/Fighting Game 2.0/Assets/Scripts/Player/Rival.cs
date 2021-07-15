@@ -162,7 +162,7 @@ public class Rival : MonoBehaviour
                 _anim.SetTrigger("KickRight");
                 break;
             case 2:
-                _anim.SetTrigger("RightPunch");
+                _anim.SetTrigger("PunchRight");
                 break;
             case 3:
                 _anim.SetTrigger("PunchLeft");

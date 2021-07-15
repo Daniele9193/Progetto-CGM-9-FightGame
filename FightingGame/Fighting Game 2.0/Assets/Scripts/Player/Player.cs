@@ -139,7 +139,7 @@ public class Player : MonoBehaviour
         if (!_anim.GetBool("Dead") && _anim.GetBool("Knocked"))
         {
             _anim.SetBool("Knocked", false);
-            _anim.Play("GetUp");
+            //_anim.Play("GetUp");
         }
     }
 

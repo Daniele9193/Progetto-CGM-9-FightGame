@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Selection.unity
+    guid: 7f1d313bab5d68f4cbd88c4f7cbe18ae
+  - enabled: 1
+    path: Assets/Scenes/TrainingArena.unity
+    guid: afe124a1136d6bb4fb53732b0a2cd1bf
+  - enabled: 1
+    path: Assets/Scenes/SkullArena.unity
+    guid: 04a8ca893833c1d448952edf207df61c
+  - enabled: 1
+    path: Assets/Scenes/BoxArena.unity
+    guid: d6ad7bf60af392144b11b97cceb0e6f2
+  - enabled: 1
+    path: Assets/Scenes/HouseArena.unity
+    guid: d368fb64b6d89d342b6aebb1a09b4484
+  - enabled: 1
+    path: Assets/Scenes/RomanArena.unity
+    guid: 7e61cf7b368f7ec408f907f6e2d07988
+  - enabled: 1
+    path: Assets/Scenes/RuinsArena.unity
+    guid: 813a6b2e531349c4ca46119440ac42ef
   m_configObjects: {}

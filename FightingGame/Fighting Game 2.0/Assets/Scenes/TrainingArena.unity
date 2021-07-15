@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1396306438}
-  m_IndirectSpecularColor: {r: 0.44559264, g: 0.41024926, b: 0.4609301, a: 1}
+  m_IndirectSpecularColor: {r: 0.44559294, g: 0.41024962, b: 0.46093035, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: e8ea851a90ffd374e92afe85eb4a3939, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: b4932bffd492fcc4b84bef18d451e97c, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -428,7 +428,123 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: OnMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 96b3c385-24a3-4bfb-8c82-a200e9135eaa
+    m_ActionName: Fighter/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: LeftKick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3c1a250a-08e4-4f89-b33b-521c86f893a1
+    m_ActionName: Fighter/KickLeft[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RightKick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c6e5fdf2-10d6-43fa-8fd7-fef1f5a84094
+    m_ActionName: Fighter/KickRight[/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RightPunch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3bcdcec7-4459-422d-87a7-edd42e3badbf
+    m_ActionName: Fighter/PunchRight[/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: LeftPunch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7158b20d-79f6-4406-9fc6-533cc04594a4
+    m_ActionName: Fighter/PunchLeft[/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Blocking
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 86b708ae-79ed-401f-96ef-1f1b44b337de
+    m_ActionName: Fighter/Defense[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76064356}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Impenetrability
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c363675a-5e07-45fa-b08b-705a9dd80401
+    m_ActionName: Fighter/Impenetrability[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c488f080-976b-427b-a4c4-dc599eb45e5f
+    m_ActionName: InteractionMouse/Click[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Fighter
@@ -505,7 +621,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &78674255 stripped
 GameObject:
@@ -602,7 +718,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &91880291 stripped
 GameObject:
@@ -1719,8 +1835,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: e8ea851a90ffd374e92afe85eb4a3939, type: 3}
-  m_NotificationBehavior: 0
+  m_Actions: {fileID: -944628639613478452, guid: b4932bffd492fcc4b84bef18d451e97c, type: 3}
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -1731,7 +1847,123 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: OnMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 96b3c385-24a3-4bfb-8c82-a200e9135eaa
+    m_ActionName: Fighter/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: LeftKick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3c1a250a-08e4-4f89-b33b-521c86f893a1
+    m_ActionName: Fighter/KickLeft[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RightKick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c6e5fdf2-10d6-43fa-8fd7-fef1f5a84094
+    m_ActionName: Fighter/KickRight[/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RightPunch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3bcdcec7-4459-422d-87a7-edd42e3badbf
+    m_ActionName: Fighter/PunchRight[/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: LeftPunch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7158b20d-79f6-4406-9fc6-533cc04594a4
+    m_ActionName: Fighter/PunchLeft[/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Blocking
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 86b708ae-79ed-401f-96ef-1f1b44b337de
+    m_ActionName: Fighter/Defense[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 437669130}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Impenetrability
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c363675a-5e07-45fa-b08b-705a9dd80401
+    m_ActionName: Fighter/Impenetrability[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c488f080-976b-427b-a4c4-dc599eb45e5f
+    m_ActionName: InteractionMouse/Click[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Fighter
@@ -1808,7 +2040,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &443530456 stripped
 GameObject:
@@ -1985,7 +2217,7 @@ GameObject:
   - component: {fileID: 486408415}
   - component: {fileID: 486408414}
   m_Layer: 5
-  m_Name: Impenetrability
+  m_Name: Impenetrability2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2279,8 +2511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: e8ea851a90ffd374e92afe85eb4a3939, type: 3}
-  m_NotificationBehavior: 0
+  m_Actions: {fileID: -944628639613478452, guid: b4932bffd492fcc4b84bef18d451e97c, type: 3}
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -2291,7 +2523,123 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: OnMovement
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 96b3c385-24a3-4bfb-8c82-a200e9135eaa
+    m_ActionName: Fighter/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: LeftKick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3c1a250a-08e4-4f89-b33b-521c86f893a1
+    m_ActionName: Fighter/KickLeft[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RightKick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c6e5fdf2-10d6-43fa-8fd7-fef1f5a84094
+    m_ActionName: Fighter/KickRight[/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: RightPunch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3bcdcec7-4459-422d-87a7-edd42e3badbf
+    m_ActionName: Fighter/PunchRight[/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: LeftPunch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7158b20d-79f6-4406-9fc6-533cc04594a4
+    m_ActionName: Fighter/PunchLeft[/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Blocking
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 86b708ae-79ed-401f-96ef-1f1b44b337de
+    m_ActionName: Fighter/Defense[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519464075}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: Impenetrability
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c363675a-5e07-45fa-b08b-705a9dd80401
+    m_ActionName: Fighter/Impenetrability[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c488f080-976b-427b-a4c4-dc599eb45e5f
+    m_ActionName: InteractionMouse/Click[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Fighter
@@ -2318,7 +2666,7 @@ MonoBehaviour:
   loseUI: {fileID: 1754707136}
   rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
-  impIcon: {fileID: 486408412}
+  impIcon: {fileID: 547661698}
   _anim: {fileID: 519464080}
   rival: {fileID: 0}
   isAttacking: 0
@@ -2368,7 +2716,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &529321196 stripped
 GameObject:
@@ -2651,7 +2999,7 @@ GameObject:
   - component: {fileID: 547661701}
   - component: {fileID: 547661700}
   m_Layer: 5
-  m_Name: Impenetrability
+  m_Name: Impenetrability1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5492,7 +5840,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1298385780
 GameObject:
@@ -5878,7 +6226,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!95 &1376975776 stripped
 Animator:
@@ -6944,7 +7292,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1622188673
 Rigidbody:
@@ -8416,5 +8764,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6, y: 2, z: 0.6}
+  m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}

@@ -151,7 +151,7 @@ public class Rival : MonoBehaviour
     public void KickPunch()
     {
         _anim.SetBool("Blocking", false);
-        random = Random.Range(0, 5);
+        random = Random.Range(0, 8);
         _anim.SetInteger("Random", random);
         switch (random)
         {
@@ -169,6 +169,8 @@ public class Rival : MonoBehaviour
                 break;
             case 4:
                 _anim.SetBool("Blocking", true);
+                break;
+            default:
                 break;
         }
     }

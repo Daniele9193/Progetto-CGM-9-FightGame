@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -625,7 +625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219968359}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 9, y: 1.7, z: -3}
+  m_LocalPosition: {x: 9, y: 1.7, z: -2}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 1591569544}
@@ -1288,7 +1288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393268680}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.7, z: -3}
+  m_LocalPosition: {x: 0, y: 1.7, z: -2}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 770115021}
@@ -1325,8 +1325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432573025}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.57, y: -2.99, z: 6.5}
-  m_LocalScale: {x: 30, y: 0.099999994, z: 5}
+  m_LocalPosition: {x: 0, y: -2.9, z: 6.5}
+  m_LocalScale: {x: 15, y: 0.099999994, z: 5}
   m_Children: []
   m_Father: {fileID: 1466964759}
   m_RootOrder: 5
@@ -2795,7 +2795,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &770115068
 Rigidbody:
@@ -3726,7 +3726,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &987409049
 Rigidbody:
@@ -4700,7 +4700,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1388877503
 Rigidbody:
@@ -5463,7 +5463,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1591569588
 Rigidbody:
@@ -6642,7 +6642,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &1982352624
 Rigidbody:
@@ -7191,7 +7191,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &2045103426
 Rigidbody:
@@ -7985,7 +7985,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &2141011336
 Rigidbody:
@@ -8704,7 +8704,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 0.6}
+  m_Size: {x: 1, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &2146017723
 Rigidbody:

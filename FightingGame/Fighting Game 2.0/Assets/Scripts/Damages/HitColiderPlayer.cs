@@ -17,7 +17,7 @@ public class HitColiderPlayer : MonoBehaviour
         
         ColiderRival somebody = other.gameObject.GetComponent<ColiderRival>();
 
-        if (somebody != null && (Keyboard.current[Key.K].isPressed||Keyboard.current[Key.L].isPressed) && !owner._anim.GetBool("Knocked"))
+        if (somebody != null && (Keyboard.current[Key.K].isPressed||Keyboard.current[Key.L].isPressed) && !owner._anim.GetBool("Knocked") && !owner.rival._anim.GetBool("Knocked"))
         {
             if (random<95)
             {
@@ -30,7 +30,7 @@ public class HitColiderPlayer : MonoBehaviour
                 owner.GainPower(damageKick*2);
             }
         }
-        else if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed) && !owner._anim.GetBool("Knocked"))
+        else if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed) && !owner._anim.GetBool("Knocked") && !owner.rival._anim.GetBool("Knocked"))
         {
 
             if (random<95)

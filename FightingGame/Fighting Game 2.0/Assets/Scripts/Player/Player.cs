@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
     public GameObject impIcon;
     public Animator _anim;
     public Rival rival;
-    public bool isAttacking = false;
     public bool imp;
 
     [SerializeField] private float _speed = 2.0f;
@@ -30,7 +29,11 @@ public class Player : MonoBehaviour
 
     private float dist = 0.0f;
     private int index;
+    private int indexArena;
+    private float distMax, distMin;
     private GameObject[] rivalList;
+    
+    private Vector3 _rivalPos;
     
 
     // Start is called before the first frame update
@@ -42,6 +45,7 @@ public class Player : MonoBehaviour
         impIcon.SetActive(false);
         
         index = PlayerPrefs.GetInt("AvversarioSelezionato");
+        indexArena = PlayerPrefs.GetInt("ArenaSelezionata");
         rivalList = new GameObject[rivali.transform.childCount];
 
         for (int i = 0; i < rivali.transform.childCount; i++)
@@ -50,6 +54,58 @@ public class Player : MonoBehaviour
         if (rivalList[index])
             rivale=rivalList[index];
         rival = rivale.GetComponent<Rival>();
+        
+        switch (indexArena)
+        {
+            case 0:
+                //"TrainingArena"
+                distMin = -6.5f;
+                distMax = 5.91f;
+                break;
+            case 1:
+                //"SkullArena"
+                distMin = -10.38f;
+                distMax = 10.11f;
+                break;
+            case 2:
+                //"BoxArena"
+                distMin = -10.0f;
+                distMax = 10.0f;
+                break;
+            case 3:
+                //"RomanArena"
+                distMin = -13.0f;
+                distMax = 13.0f;
+                break;
+            case 4:
+                //"HouseArena"
+                distMin = -6.07f;
+                distMax = 5.93f;
+                break;
+            case 5:
+                //"RuinsArena"
+                distMin = -15.5f;
+                distMax = 5.0f;
+                break;
+            case 6:
+                //SceneManager.LoadScene("VillageArena");
+                break;
+            case 7:
+                //SceneManager.LoadScene("CityArena");
+                break;
+            case 8:
+                //SceneManager.LoadScene("SkyArena");
+                break;
+            case 9:
+                //SceneManager.LoadScene("HospitalArena");
+                break;
+            case 10:
+                //SceneManager.LoadScene("TempleArena");
+                break;
+            case 11:
+                //SceneManager.LoadScene("VolcanoArena");
+                break;
+        }
         
     }
 
@@ -78,11 +134,12 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         Animazione();
+        
 
         dist = Mathf.Abs(transform.position.x - rival.transform.position.x);
-        
-        if (!_anim.GetBool("Dead") && !_anim.GetBool("Knocked") && !_anim.GetBool("Blocking") && dist>1.0f && !_anim.GetBool("Winner"))
+        if ((transform.position.x + _inputMovement.x * _speed * Time.deltaTime) > distMin && (transform.position.x + _inputMovement.x * _speed * Time.deltaTime) < distMax && !_anim.GetBool("Dead") && !_anim.GetBool("Knocked") && !_anim.GetBool("Blocking") && dist>1.0f && !_anim.GetBool("Winner"))
         {
             transform.position += new Vector3(_inputMovement.x * _speed * Time.deltaTime, 0.0f, 0.0f );
         } 
@@ -138,8 +195,8 @@ public class Player : MonoBehaviour
         _inputMovement = value.ReadValue<Vector2>();
         if (!_anim.GetBool("Dead") && _anim.GetBool("Knocked"))
         {
-            _anim.SetBool("Knocked", false);
-            //_anim.Play("GetUp");
+            _anim.SetBool("GetUp", true);
+            StartCoroutine(SetGetUp());
         }
     }
 
@@ -148,7 +205,6 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("KickRight");
-            isAttacking = true;
         }
     }
     public void LeftKick(InputAction.CallbackContext value)
@@ -156,7 +212,6 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("KickLeft");
-            isAttacking = true;
         }
     }
     public void RightPunch(InputAction.CallbackContext value)
@@ -164,7 +219,6 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("PunchRight");  
-            isAttacking = true;
         }
         
     }
@@ -173,7 +227,6 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("PunchLeft");
-            isAttacking = true;
         }
     }
     
@@ -200,6 +253,7 @@ public class Player : MonoBehaviour
     {
         if (power >= maxPower)
         {
+            _anim.SetTrigger("PowerUp");
             imp = true;
             impIcon.SetActive(true);
             power = 0;
@@ -213,5 +267,12 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(5.0f);
         imp = false;
         impIcon.SetActive(false);
+    }
+    
+    public IEnumerator SetGetUp()
+    {
+        yield return new WaitForSeconds(1.0f);
+        _anim.SetBool("Knocked", false);
+        _anim.SetBool("GetUp", false);
     }
 }

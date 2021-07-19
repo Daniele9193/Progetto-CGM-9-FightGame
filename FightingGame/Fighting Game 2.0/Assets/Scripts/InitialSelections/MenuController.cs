@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public GameObject RivalList, CharacterList, ArenasCanvas, StartCanvas, OptionsCanvas;
+    public GameObject RivalList, CharacterList, ArenasCanvas, StartCanvas, OptionsCanvas, audioManager;
     
     void Start()
     {
@@ -18,6 +18,7 @@ public class MenuController : MonoBehaviour
 
     public void Starting()
     {
+        audioManager.GetComponent<AudioManager>().Play("start");
         StartCanvas.SetActive(false);
         RivalList.SetActive(true);
     }

@@ -16,11 +16,9 @@ public class Rival : MonoBehaviour
     public GameObject loseUI;
     public GameObject characters;
     public GameObject personaggio;
-    public GameObject sound;
     public GameObject impIcon;
     public Animator _anim;
     public int random;
-    public bool isAttacking = false;
     public bool imp;
     public float dist = 0.0f;
     private float _speed = 2.0f;
@@ -30,6 +28,7 @@ public class Rival : MonoBehaviour
     private bool isBlocking = false;
     private GameObject[] characterList;
     private Vector3 _rivalPos;
+    private float sbalzoCritico = 3.0f;
     
     
     // Start is called before the first frame update
@@ -75,13 +74,13 @@ public class Rival : MonoBehaviour
                 break;
             case 4:
                 //"HouseArena"
-                distMin = 5.93f;
-                distMax = -6.07f;
+                distMin = 10.5f;
+                distMax = -1.5f;
                 break;
             case 5:
                 //"RuinsArena"
-                distMin = 5.0f;
-                distMax = -15.5f;
+                distMin = 10.3f;
+                distMax = -10.0f;
                 break;
             case 6:
                 //SceneManager.LoadScene("VillageArena");
@@ -120,6 +119,7 @@ public class Rival : MonoBehaviour
             power = 0;
             powerBar.SetPower(power);
             StartCoroutine(SetImp());
+            GetComponent<AudioManager>().Play("powerup");
         }
         
         if (health <= 0)
@@ -127,13 +127,11 @@ public class Rival : MonoBehaviour
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
             loseUI.SetActive(true);
-            sound.SetActive(false);
         }
         
         if (player.health <= 0)
         {
             _anim.SetBool("Winner", true);
-            sound.SetActive(false);
         }
 
         if (!_anim.GetBool("Winner") && !_anim.GetBool("Knocked") && !_anim.GetBool("Dead"))
@@ -160,16 +158,24 @@ public class Rival : MonoBehaviour
                 health -= damage;
                 healthBar.SetHealth(health);
                 _anim.SetTrigger("Hitted");
+                float delta = Mathf.Abs(transform.position.x - distMin);
                 if (crit)
                 {
+                    if (delta >= sbalzoCritico)
+                    {
+                        transform.Translate(0.0f,0.0f,-sbalzoCritico); 
+                    }
                     _anim.SetBool("Knocked", true);
                     _anim.Play("Knockdown");
                 }
+                GetComponent<AudioManager>().Play("colpitovoce");
+                GetComponent<AudioManager>().Play("colporicevuto");
             }
             else
             {
                 health -= damage / 2;
                 healthBar.SetHealth(health);
+                GetComponent<AudioManager>().Play("block");
             }    
         }
     }
@@ -187,14 +193,14 @@ public class Rival : MonoBehaviour
             //Debug.Log(transform.position.x);
             if ((transform.position.x - _speed * Time.deltaTime) < distMin && (transform.position.x + _speed * Time.deltaTime) > distMax)
             {
-                if (dist > 1.0f &&  !_anim.GetBool("Winner") && !_anim.GetBool("Knocked"))
+                if (dist > 1.5f &&  !_anim.GetBool("Winner") && !_anim.GetBool("Knocked"))
                 {
                     transform.Translate(0.0f,0.0f,_speed * Time.deltaTime);
                     //transform.position += new Vector3(-1 * _speed * Time.deltaTime, 0.0f, 0.0f);
                     _anim.SetBool("Forward", true);
                     _anim.SetBool("Backward", false);
                 }
-                else if(dist <= 1.0f && !_anim.GetBool("Winner") && !_anim.GetBool("Knocked"))
+                else if(dist <= 1.5f && !_anim.GetBool("Winner") && !_anim.GetBool("Knocked"))
                 {
                     transform.Translate(0.0f,0.0f, -_speed * Time.deltaTime);
                     //transform.position += new Vector3(0.5f * _speed/2 * Time.deltaTime, 0.0f, 0.0f);
@@ -214,15 +220,19 @@ public class Rival : MonoBehaviour
         {
             case 0:
                 _anim.SetTrigger("KickLeft");
+                GetComponent<AudioManager>().Play("kick");
                 break;
             case 1:
                 _anim.SetTrigger("KickRight");
+                GetComponent<AudioManager>().Play("kick");
                 break;
             case 2:
                 _anim.SetTrigger("PunchRight");
+                GetComponent<AudioManager>().Play("punch");
                 break;
             case 3:
                 _anim.SetTrigger("PunchLeft");
+                GetComponent<AudioManager>().Play("punch");
                 break;
             case 4:
                 _anim.SetBool("Blocking", true);

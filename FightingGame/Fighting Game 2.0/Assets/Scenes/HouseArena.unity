@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.45073867, g: 0.4988706, b: 0.5650887, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -366,7 +366,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 15, z: 10}
   m_Children: []
   m_Father: {fileID: 1466964759}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &171401647
 GameObject:
@@ -581,13 +581,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183627893}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.19929232, y: -0.023652676, z: 0.13152356, w: 0.97078556}
   m_LocalPosition: {x: -4.57, y: -0.029999971, z: 7.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1466964759}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 23.151, y: 0.405, z: 15.514}
 --- !u!1 &219968359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,7 +1661,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 15, z: 10}
   m_Children: []
   m_Father: {fileID: 1466964759}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &634572068
 GameObject:
@@ -2294,7 +2294,6 @@ MonoBehaviour:
   impIcon: {fileID: 1299975821}
   _anim: {fileID: 770115023}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!136 &770115040
@@ -2805,11 +2804,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770115037}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 60
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -3239,7 +3238,6 @@ MonoBehaviour:
   impIcon: {fileID: 1299975821}
   _anim: {fileID: 987409006}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!136 &987409022
@@ -3736,11 +3734,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987409019}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 75
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -4710,14 +4708,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388877474}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 75
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!1 &1394780528
 GameObject:
   m_ObjectHideFlags: 0
@@ -4877,8 +4875,8 @@ Transform:
   m_LocalPosition: {x: 4.57, y: 3.03, z: -7.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 123575259}
   - {fileID: 614503238}
+  - {fileID: 123575259}
   - {fileID: 1490899962}
   - {fileID: 378456023}
   - {fileID: 183627895}
@@ -5473,11 +5471,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591569559}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 60
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -6652,11 +6650,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982352595}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 75
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -7201,11 +7199,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045103397}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 60
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -7498,7 +7496,6 @@ MonoBehaviour:
   impIcon: {fileID: 1299975821}
   _anim: {fileID: 2141011293}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!136 &2141011309
@@ -7995,11 +7992,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141011306}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 60
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -8217,7 +8214,6 @@ MonoBehaviour:
   impIcon: {fileID: 1299975821}
   _anim: {fileID: 2146017680}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!136 &2146017696
@@ -8714,11 +8710,11 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146017693}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 75
+  m_Drag: 200
+  m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0

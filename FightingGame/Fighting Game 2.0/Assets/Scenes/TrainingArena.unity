@@ -574,7 +574,6 @@ MonoBehaviour:
   impIcon: {fileID: 547661698}
   _anim: {fileID: 76064361}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!114 &76064357
@@ -589,6 +588,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd963e606f5bed4485698ceac154490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &76064358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76064349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!95 &76064361 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1697247590, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -606,7 +660,7 @@ Rigidbody:
   m_Drag: 200
   m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -673,7 +727,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 124
   m_CollisionDetection: 0
 --- !u!114 &79784355
 MonoBehaviour:
@@ -695,11 +749,9 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 113877470}
   personaggio: {fileID: 0}
-  sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
   _anim: {fileID: 79784356}
   random: 0
-  isAttacking: 0
   imp: 0
   dist: 0
 --- !u!95 &79784356 stripped
@@ -720,6 +772,61 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &79784358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79784353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &91880291 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3184067571931590617, guid: 0b370994ff1266140ad55b8b24ef039d, type: 3}
@@ -797,7 +904,7 @@ Transform:
   - {fileID: 519464062}
   - {fileID: 437669117}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &116451171 stripped
 GameObject:
@@ -862,133 +969,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   owner: {fileID: 1376975774}
---- !u!1 &171401647
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 171401649}
-  - component: {fileID: 171401648}
-  m_Layer: 0
-  m_Name: SoundController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &171401648
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171401647}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.25
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &171401649
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171401647}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &172091186 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3730138800602179565, guid: 71bb1e3f87423f040a503675f8e80f37, type: 3}
@@ -1993,7 +1973,6 @@ MonoBehaviour:
   impIcon: {fileID: 547661698}
   _anim: {fileID: 437669135}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!114 &437669131
@@ -2008,6 +1987,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd963e606f5bed4485698ceac154490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &437669132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437669123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!95 &437669135 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1707974322, guid: 2a711c012aef2f4418b90b07195f0504, type: 3}
@@ -2025,7 +2059,7 @@ Rigidbody:
   m_Drag: 200
   m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -2167,7 +2201,7 @@ RectTransform:
   - {fileID: 1429462927}
   - {fileID: 807143380}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2669,7 +2703,6 @@ MonoBehaviour:
   impIcon: {fileID: 547661698}
   _anim: {fileID: 519464080}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!114 &519464076
@@ -2684,6 +2717,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd963e606f5bed4485698ceac154490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &519464077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519464068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!95 &519464080 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1214968665, guid: beb9e839b531a744c877a785deeaa302, type: 3}
@@ -2701,7 +2789,7 @@ Rigidbody:
   m_Drag: 200
   m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -3561,10 +3649,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 2135636966}
+  - {fileID: 1298385784}
   - {fileID: 1713436778}
   - {fileID: 2003349279}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &723575400 stripped
 GameObject:
@@ -4698,7 +4788,7 @@ RectTransform:
   - {fileID: 737932228}
   - {fileID: 649973612}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4945,7 +5035,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &955016395 stripped
 GameObject:
@@ -4978,6 +5068,57 @@ CapsuleCollider:
   m_Height: 0.34
   m_Direction: 1
   m_Center: {x: 0, y: 0.15, z: 0}
+--- !u!1 &978730957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978730959}
+  - component: {fileID: 978730958}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &978730958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978730957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: base
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+--- !u!4 &978730959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978730957}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1008042415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4700812979983660878, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
@@ -5143,7 +5284,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1033641430 stripped
 GameObject:
@@ -5464,7 +5605,7 @@ Transform:
   - {fileID: 241146076}
   - {fileID: 737709861}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &1201950969 stripped
 GameObject:
@@ -5761,7 +5902,7 @@ Rigidbody:
   m_Drag: 200
   m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -5785,11 +5926,9 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 113877470}
   personaggio: {fileID: 0}
-  sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
   _anim: {fileID: 1285131089}
   random: 0
-  isAttacking: 0
   imp: 0
   dist: 0
 --- !u!95 &1285131089 stripped
@@ -5810,6 +5949,61 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1285131091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285131086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &1298385780
 GameObject:
   m_ObjectHideFlags: 0
@@ -5898,11 +6092,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298385780}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.51, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 8.51, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 20, z: 5}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 720199611}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315786095 stripped
@@ -6152,10 +6346,10 @@ Rigidbody:
   m_Drag: 200
   m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!114 &1376975774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6176,11 +6370,9 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 113877470}
   personaggio: {fileID: 0}
-  sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
   _anim: {fileID: 1376975776}
   random: 0
-  isAttacking: 0
   imp: 0
   dist: 0
 --- !u!65 &1376975775
@@ -6201,6 +6393,61 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 447807555, guid: 1ce6bdc03e86f854a86e058e1a9ee456, type: 3}
   m_PrefabInstance: {fileID: 241146075}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1376975777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376975772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!1 &1396306436
 GameObject:
   m_ObjectHideFlags: 0
@@ -7082,7 +7329,6 @@ MonoBehaviour:
   impIcon: {fileID: 547661698}
   _anim: {fileID: 1622188671}
   rival: {fileID: 0}
-  isAttacking: 0
   imp: 0
   _speed: 2
 --- !u!114 &1622188666
@@ -7231,6 +7477,61 @@ MonoBehaviour:
   m_DefaultActionMap: Fighter
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1622188667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622188659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
 --- !u!114 &1622188668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7477,7 +7778,7 @@ Transform:
   - {fileID: 1944969845}
   - {fileID: 794695624}
   m_Father: {fileID: 720199611}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1714284188 stripped
 GameObject:
@@ -7698,7 +7999,7 @@ RectTransform:
   - {fileID: 774797269}
   - {fileID: 833811804}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8364,7 +8665,7 @@ Transform:
   m_Children:
   - {fileID: 1666236132}
   m_Father: {fileID: 720199611}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2007181716 stripped
 GameObject:
@@ -8642,11 +8943,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135636962}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.51, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: -8.51, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 20, z: 5}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 720199611}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2139073220 stripped
@@ -8666,7 +8967,7 @@ Rigidbody:
   m_Drag: 200
   m_AngularDrag: 200
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 124
   m_CollisionDetection: 0
@@ -8690,11 +8991,9 @@ MonoBehaviour:
   loseUI: {fileID: 845984321}
   characters: {fileID: 113877470}
   personaggio: {fileID: 0}
-  sound: {fileID: 171401647}
   impIcon: {fileID: 486408412}
   _anim: {fileID: 2139073223}
   random: 0
-  isAttacking: 0
   imp: 0
   dist: 0
 --- !u!95 &2139073223 stripped
@@ -8715,3 +9014,58 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 0.6}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &2139073225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139073220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c45e3c651a2468c8194124a8e6aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: colpitovoce
+    clip: {fileID: 8300000, guid: 8d1ac63ac88c72e49981e256baf1baab, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: punch
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: kick
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: block
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: powerup
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}
+  - name: colporicevuto
+    clip: {fileID: 8300000, guid: 9b70b28bf104c754bb361faa09b81289, type: 3}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.25
+    pitch: 1
+    source: {fileID: 0}

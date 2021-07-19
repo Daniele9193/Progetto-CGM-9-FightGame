@@ -26,13 +26,13 @@ public class Player : MonoBehaviour
     private bool backward = false;
     private bool block = false;
     private bool isBlocking = false;
+    private float sbalzoCritico;
 
     private float dist = 0.0f;
     private int index;
     private int indexArena;
     private float distMax, distMin;
     private GameObject[] rivalList;
-    
     private Vector3 _rivalPos;
     
 
@@ -79,13 +79,13 @@ public class Player : MonoBehaviour
                 break;
             case 4:
                 //"HouseArena"
-                distMin = -6.07f;
-                distMax = 5.93f;
+                distMin = -1.5f;
+                distMax = 10.5f;
                 break;
             case 5:
                 //"RuinsArena"
-                distMin = -15.5f;
-                distMax = 5.0f;
+                distMin = -10.0f;
+                distMax = 10.3f;
                 break;
             case 6:
                 //SceneManager.LoadScene("VillageArena");
@@ -175,16 +175,25 @@ public class Player : MonoBehaviour
                 health -= damage;
                 healthBar.SetHealth(health);
                 _anim.SetTrigger("Hitted");
+                float delta = Mathf.Abs(transform.position.x - distMin);
+                
                 if (crit)
                 {
+                    if (delta >= sbalzoCritico)
+                    {
+                        transform.Translate(0.0f,0.0f,sbalzoCritico); 
+                    }
                     _anim.SetBool("Knocked", true);
                     _anim.Play("Knockdown");
                 }
+                GetComponent<AudioManager>().Play("colporicevuto");
+                GetComponent<AudioManager>().Play("colpitovoce");
             }
             else
             {
                 health -= damage / 2;
                 healthBar.SetHealth(health);
+                GetComponent<AudioManager>().Play("block");
             }
         }
 
@@ -205,6 +214,7 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("KickRight");
+            GetComponent<AudioManager>().Play("kick");
         }
     }
     public void LeftKick(InputAction.CallbackContext value)
@@ -212,13 +222,15 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("KickLeft");
+            GetComponent<AudioManager>().Play("kick");
         }
     }
     public void RightPunch(InputAction.CallbackContext value)
     {
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
-            _anim.SetTrigger("PunchRight");  
+            _anim.SetTrigger("PunchRight"); 
+            GetComponent<AudioManager>().Play("punch");
         }
         
     }
@@ -227,6 +239,7 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("PunchLeft");
+            GetComponent<AudioManager>().Play("punch");
         }
     }
     
@@ -259,6 +272,7 @@ public class Player : MonoBehaviour
             power = 0;
             powerBar.SetPower(power);
             StartCoroutine(SetImp());
+            GetComponent<AudioManager>().Play("powerup");
         }
     }
 

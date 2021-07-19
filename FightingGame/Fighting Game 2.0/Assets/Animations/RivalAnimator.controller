@@ -1100,6 +1100,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: GetUp
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: PunchLeft
     m_Type: 9
     m_DefaultFloat: 0
@@ -1206,8 +1212,8 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
-    m_ConditionEvent: Knocked
+  - m_ConditionMode: 1
+    m_ConditionEvent: GetUp
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1239226982533302583}
@@ -1215,7 +1221,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.24813652
   m_TransitionOffset: 0
   m_ExitTime: 0.6938776
   m_HasExitTime: 0
@@ -1844,6 +1850,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Hitted
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: GetUp
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2002689284568199450}

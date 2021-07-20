@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Opponent : MonoBehaviour
 {
     private int index;
-
     private GameObject[] rivalList;
 
     void Start()

@@ -1,39 +1,36 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
+
 
 public class Rival : MonoBehaviour
 {
     [HideInInspector]
     public int health;
-    private int maxHealth= 1000;
-    public HealthBar healthBar;
-    public PowerBar powerBar;
     [HideInInspector]
-    public int power=0;
-    private int maxPower = 500;
-    [HideInInspector]
-    public Player player;
-    public GameObject loseUI;
-    public GameObject characters;
+    public int power;
     [HideInInspector]
     public GameObject personaggio;
-    public GameObject impIcon;
-    public Animator _anim;
+    [HideInInspector]
+    public Player player;
     [HideInInspector]
     public int random;
     [HideInInspector]
     public bool imp;
-    [HideInInspector]
-    public float dist = 0.0f;
+    [HideInInspector] public float dist;
+    private int maxHealth= 1000;
+    public HealthBar healthBar;
+    public PowerBar powerBar;
+    private int maxPower = 500;
+    public GameObject loseUI;
+    public GameObject characters;
+    public GameObject impIcon;
+    public Animator _anim;
     [SerializeField]
     private float _speed = 2.0f;
     private int index;
     private int indexArena;
     private float distMax, distMin;
-    private bool isBlocking = false;
+    private bool isBlocking;
     private GameObject[] characterList;
     private Vector3 _rivalPos;
     private float sbalzoCritico = 3.0f;
@@ -234,6 +231,7 @@ public class Rival : MonoBehaviour
 
     public void KickPunch()
     {
+        isBlocking = false;
         _anim.SetBool("Blocking", false);
         random = Random.Range(0, 10);
         _anim.SetInteger("Random", random);
@@ -270,6 +268,7 @@ public class Rival : MonoBehaviour
                 break;
             case 4:
                 _anim.SetBool("Blocking", true);
+                isBlocking = true;
                 break;
             default:
                 random = 5;

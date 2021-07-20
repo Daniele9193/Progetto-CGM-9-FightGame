@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [HideInInspector]
     public int health;
     [HideInInspector]
-    public int power=0;
+    public int power;
     [HideInInspector]
     public GameObject rivale;
     [HideInInspector]
@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     private bool backward;
     private bool block;
     private bool isBlocking;
-    private float sbalzoCritico;
+    private float sbalzoCritico=3.0f;
     private AudioManager sound;
     private float dist;
     private int index;

@@ -26,8 +26,7 @@ public class Player : MonoBehaviour
     
     [SerializeField] 
     private float _speed = 2.0f;
-    [SerializeField]
-    private Controls _inputControl;
+    [SerializeField] private Controls _inputControl;
     private Vector2 _inputMovement;
     private bool forward;
     private bool backward;
@@ -41,12 +40,11 @@ public class Player : MonoBehaviour
     private float distMax, distMin;
     private GameObject[] rivalList;
     private Vector3 _rivalPos;
-    
+    private bool morte = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        sound = GetComponent<AudioManager>();
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
@@ -120,6 +118,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         _inputControl = new Controls();
+        sound = GetComponent<AudioManager>();
     }
 
     private void OnEnable()
@@ -157,7 +156,12 @@ public class Player : MonoBehaviour
 			_anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
             loseUI.SetActive(true);
-            sound.Play("dead");
+            if (morte)
+            {
+                sound.Play("dead");
+                morte = false;
+            }
+
         }
 
         if (rival.health <= 0)

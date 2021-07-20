@@ -39,6 +39,7 @@ public class Rival : MonoBehaviour
     private float sbalzoCritico = 3.0f;
     private AudioManager sound;
     private int NextUpdate = 1;
+    private bool morte = true;
     
     
     // Start is called before the first frame update
@@ -138,7 +139,11 @@ public class Rival : MonoBehaviour
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
             loseUI.SetActive(true);
-            sound.Play("dead");
+            if (morte)
+            {
+                sound.Play("dead");
+                morte = false;
+            }
         }
         
         if (player.health <= 0)

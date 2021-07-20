@@ -194,7 +194,7 @@ public class Player : MonoBehaviour
                 {
                     if (delta >= sbalzoCritico)
                     {
-                        transform.Translate(0.0f,0.0f,sbalzoCritico); 
+                        transform.Translate(0.0f,0.0f,-sbalzoCritico); 
                     }
                     _anim.SetBool("Knocked", true);
                     _anim.Play("Knockdown");

@@ -18,12 +18,18 @@ public class HitColiderRival : MonoBehaviour
             if (random<95)
             {
                 owner.player.TakeDamage(damageKick, false);
-                owner.GainPower(damageKick);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damageKick);    
+                }
             }
             else
             {
                 owner.player.TakeDamage(damageKick*2, true);
-                owner.GainPower(damageKick*2);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damageKick*2);    
+                }
             }
         }
         else if (somebody != null && (owner.random==2||owner.random==3) && !owner._anim.GetBool("Knocked") && !owner.player._anim.GetBool("Knocked"))
@@ -32,12 +38,17 @@ public class HitColiderRival : MonoBehaviour
             if (random<95)
             {
                 owner.player.TakeDamage(damagePunch, false);
-                owner.GainPower(damagePunch);
+                {
+                    owner.GainPower(damagePunch);
+                }
             }
             else
             {
                 owner.player.TakeDamage(damagePunch*2, true);
-                owner.GainPower(damagePunch*2);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damagePunch*2);    
+                }
             }
         }
         

@@ -19,12 +19,18 @@ public class HitColiderPlayer : MonoBehaviour
             if (random<95)
             {
                 owner.rival.TakeDamage(damageKick, false);
-                owner.GainPower(damageKick);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damageKick);    
+                }
             }
             else
             {
                 owner.rival.TakeDamage(damageKick*2, true);
-                owner.GainPower(damageKick*2);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damageKick*2);    
+                }
             }
         }
         else if (somebody != null && (Keyboard.current[Key.J].isPressed||Keyboard.current[Key.I].isPressed) && !owner._anim.GetBool("Knocked") && !owner.rival._anim.GetBool("Knocked"))
@@ -33,12 +39,18 @@ public class HitColiderPlayer : MonoBehaviour
             if (random<95)
             {
                 owner.rival.TakeDamage(damagePunch, false);
-                owner.GainPower(damagePunch);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damagePunch);
+                }
             }
             else
             {
                 owner.rival.TakeDamage(damagePunch*2, true);
-                owner.GainPower(damagePunch*2);
+                if (!owner.imp)
+                {
+                    owner.GainPower(damagePunch*2);    
+                }
             }
         }
         

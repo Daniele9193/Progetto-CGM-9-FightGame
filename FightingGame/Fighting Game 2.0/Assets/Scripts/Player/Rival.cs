@@ -29,11 +29,13 @@ public class Rival : MonoBehaviour
     private GameObject[] characterList;
     private Vector3 _rivalPos;
     private float sbalzoCritico = 3.0f;
+    private AudioManager sound;
     
     
     // Start is called before the first frame update
     void Start()
     {
+        sound = GetComponent<AudioManager>();
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
@@ -119,7 +121,7 @@ public class Rival : MonoBehaviour
             power = 0;
             powerBar.SetPower(power);
             StartCoroutine(SetImp());
-            GetComponent<AudioManager>().Play("powerup");
+            sound.Play("powerup");
         }
         
         if (health <= 0)
@@ -127,6 +129,7 @@ public class Rival : MonoBehaviour
             _anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
             loseUI.SetActive(true);
+            sound.Play("dead");
         }
         
         if (player.health <= 0)
@@ -168,14 +171,14 @@ public class Rival : MonoBehaviour
                     _anim.SetBool("Knocked", true);
                     _anim.Play("Knockdown");
                 }
-                GetComponent<AudioManager>().Play("colpitovoce");
-                GetComponent<AudioManager>().Play("colporicevuto");
+                sound.Play("colpitovoce");
+                sound.Play("colporicevuto");
             }
             else
             {
                 health -= damage / 2;
                 healthBar.SetHealth(health);
-                GetComponent<AudioManager>().Play("block");
+                sound.Play("block");
             }    
         }
     }
@@ -216,23 +219,24 @@ public class Rival : MonoBehaviour
         _anim.SetBool("Blocking", false);
         random = Random.Range(0, 10);
         _anim.SetInteger("Random", random);
+        
         switch (random)
         {
             case 0:
                 _anim.SetTrigger("KickLeft");
-                GetComponent<AudioManager>().Play("kick");
+                sound.Play("kick");
                 break;
             case 1:
                 _anim.SetTrigger("KickRight");
-                GetComponent<AudioManager>().Play("kick");
+                sound.Play("kick");
                 break;
             case 2:
                 _anim.SetTrigger("PunchRight");
-                GetComponent<AudioManager>().Play("punch");
+                sound.Play("punch");
                 break;
             case 3:
                 _anim.SetTrigger("PunchLeft");
-                GetComponent<AudioManager>().Play("punch");
+                sound.Play("punch");
                 break;
             case 4:
                 _anim.SetBool("Blocking", true);
@@ -242,7 +246,7 @@ public class Rival : MonoBehaviour
                 break;
         }
     }
-
+    
     public IEnumerator SetImp()
     {
         yield return new WaitForSeconds(5.0f);

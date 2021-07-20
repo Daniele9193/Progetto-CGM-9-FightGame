@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     private bool block = false;
     private bool isBlocking = false;
     private float sbalzoCritico;
-
+    private AudioManager sound;
     private float dist = 0.0f;
     private int index;
     private int indexArena;
@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
         impIcon.SetActive(false);
-        
+        sound = GetComponent<AudioManager>();
         index = PlayerPrefs.GetInt("AvversarioSelezionato");
         indexArena = PlayerPrefs.GetInt("ArenaSelezionata");
         rivalList = new GameObject[rivali.transform.childCount];
@@ -149,6 +149,7 @@ public class Player : MonoBehaviour
 			_anim.SetBool("Knocked", true);
             _anim.SetBool("Dead", true);
             loseUI.SetActive(true);
+            sound.Play("dead");
         }
 
         if (rival.health <= 0)
@@ -186,14 +187,14 @@ public class Player : MonoBehaviour
                     _anim.SetBool("Knocked", true);
                     _anim.Play("Knockdown");
                 }
-                GetComponent<AudioManager>().Play("colporicevuto");
-                GetComponent<AudioManager>().Play("colpitovoce");
+                sound.Play("colporicevuto");
+                sound.Play("colpitovoce");
             }
             else
             {
                 health -= damage / 2;
                 healthBar.SetHealth(health);
-                GetComponent<AudioManager>().Play("block");
+                sound.Play("block");
             }
         }
 
@@ -214,7 +215,7 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("KickRight");
-            GetComponent<AudioManager>().Play("kick");
+            sound.Play("kick");
         }
     }
     public void LeftKick(InputAction.CallbackContext value)
@@ -222,7 +223,7 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("KickLeft");
-            GetComponent<AudioManager>().Play("kick");
+            sound.Play("kick");
         }
     }
     public void RightPunch(InputAction.CallbackContext value)
@@ -230,7 +231,7 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("PunchRight"); 
-            GetComponent<AudioManager>().Play("punch");
+            sound.Play("punch");
         }
         
     }
@@ -239,7 +240,7 @@ public class Player : MonoBehaviour
         if (value.performed && !_anim.GetBool("Knocked") && !_anim.GetBool("Winner"))
         {
             _anim.SetTrigger("PunchLeft");
-            GetComponent<AudioManager>().Play("punch");
+            sound.Play("punch");
         }
     }
     
@@ -272,7 +273,7 @@ public class Player : MonoBehaviour
             power = 0;
             powerBar.SetPower(power);
             StartCoroutine(SetImp());
-            GetComponent<AudioManager>().Play("powerup");
+            sound.Play("powerup");
         }
     }
 

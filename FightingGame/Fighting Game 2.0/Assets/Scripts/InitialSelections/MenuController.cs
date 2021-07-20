@@ -6,9 +6,10 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     public GameObject RivalList, CharacterList, ArenasCanvas, StartCanvas, OptionsCanvas, audioManager;
-    
+    private AudioManager sounds;
     void Start()
     {
+        sounds = audioManager.GetComponent<AudioManager>();
         RivalList.SetActive(false);
         CharacterList.SetActive(false);
         ArenasCanvas.SetActive(false);
@@ -18,31 +19,35 @@ public class MenuController : MonoBehaviour
 
     public void Starting()
     {
-        audioManager.GetComponent<AudioManager>().Play("start");
+        sounds.Play("confirm");
         StartCanvas.SetActive(false);
         RivalList.SetActive(true);
     }
 
     public void Options()
     {
+        sounds.Play("confirm");
         StartCanvas.SetActive(false);
         OptionsCanvas.SetActive(true);
     }
 
     public void StartFromOptions()
     {
+        sounds.Play("confirm");
         OptionsCanvas.SetActive(false);
         StartCanvas.SetActive(true);
     }
     
     public void PulsanteConfermaRivale()
     {
+        sounds.Play("confirm");
         ArenasCanvas.SetActive(true);
         RivalList.SetActive(false);
     }
     
     public void SelezionaArena(int x)
     {
+        sounds.Play("confirm");
         PlayerPrefs.SetInt("ArenaSelezionata", x);
         CharacterList.SetActive(true);
         ArenasCanvas.SetActive(false);
@@ -50,6 +55,7 @@ public class MenuController : MonoBehaviour
 
     public void PlayGame()
     {
+        sounds.Play("confirm");
         switch (PlayerPrefs.GetInt("ArenaSelezionata"))
                 {
                     case 0:

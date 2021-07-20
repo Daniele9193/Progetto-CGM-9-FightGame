@@ -1,34 +1,41 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
+    [HideInInspector]
     public int health;
+    [HideInInspector]
+    public int power=0;
+    [HideInInspector]
+    public GameObject rivale;
+    [HideInInspector]
+    public Rival rival;
+    [HideInInspector]
+    public bool imp;
+    
     public int maxHealth= 1000;
     public HealthBar healthBar;
     public PowerBar powerBar;
-    public int power=0;
     public int maxPower = 500;
     public GameObject loseUI;
-    public GameObject rivale;
     public GameObject rivali;
     public GameObject impIcon;
     public Animator _anim;
-    public Rival rival;
-    public bool imp;
-
-    [SerializeField] private float _speed = 2.0f;
+    
+    [SerializeField] 
+    private float _speed = 2.0f;
+    [SerializeField]
+    private Controls _inputControl;
     private Vector2 _inputMovement;
-    [SerializeField] private Controls _inputControl;
-    private bool forward = false;
-    private bool backward = false;
-    private bool block = false;
-    private bool isBlocking = false;
+    private bool forward;
+    private bool backward;
+    private bool block;
+    private bool isBlocking;
     private float sbalzoCritico;
     private AudioManager sound;
-    private float dist = 0.0f;
+    private float dist;
     private int index;
     private int indexArena;
     private float distMax, distMin;
@@ -39,11 +46,12 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sound = GetComponent<AudioManager>();
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.SetActive(false);
         impIcon.SetActive(false);
-        sound = GetComponent<AudioManager>();
+        
         index = PlayerPrefs.GetInt("AvversarioSelezionato");
         indexArena = PlayerPrefs.GetInt("ArenaSelezionata");
         rivalList = new GameObject[rivali.transform.childCount];

@@ -563,18 +563,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  power: 0
+  rivale: {fileID: 0}
+  rival: {fileID: 0}
+  imp: 0
   maxHealth: 1000
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
-  power: 0
   maxPower: 500
   loseUI: {fileID: 1754707136}
-  rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
   _anim: {fileID: 76064361}
-  rival: {fileID: 0}
-  imp: 0
   _speed: 2
 --- !u!114 &76064357
 MonoBehaviour:
@@ -761,6 +761,7 @@ MonoBehaviour:
   random: 0
   imp: 0
   dist: 0
+  _speed: 2
 --- !u!95 &79784356 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1657215268, guid: eec2f43d2bd178a4c870b251bff8e62e, type: 3}
@@ -1976,18 +1977,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  power: 0
+  rivale: {fileID: 0}
+  rival: {fileID: 0}
+  imp: 0
   maxHealth: 1000
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
-  power: 0
   maxPower: 500
   loseUI: {fileID: 1754707136}
-  rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
   _anim: {fileID: 437669135}
-  rival: {fileID: 0}
-  imp: 0
   _speed: 2
 --- !u!114 &437669131
 MonoBehaviour:
@@ -2713,18 +2714,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  power: 0
+  rivale: {fileID: 0}
+  rival: {fileID: 0}
+  imp: 0
   maxHealth: 1000
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
-  power: 0
   maxPower: 500
   loseUI: {fileID: 1754707136}
-  rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
   _anim: {fileID: 519464080}
-  rival: {fileID: 0}
-  imp: 0
   _speed: 2
 --- !u!114 &519464076
 MonoBehaviour:
@@ -5959,6 +5960,7 @@ MonoBehaviour:
   random: 0
   imp: 0
   dist: 0
+  _speed: 2
 --- !u!95 &1285131089 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 256204662, guid: 2eb8f8e6ac0b42a4895e1b4844a3a1d4, type: 3}
@@ -6410,6 +6412,7 @@ MonoBehaviour:
   random: 0
   imp: 0
   dist: 0
+  _speed: 2
 --- !u!65 &1376975775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7360,18 +7363,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  power: 0
+  rivale: {fileID: 0}
+  rival: {fileID: 0}
+  imp: 0
   maxHealth: 1000
   healthBar: {fileID: 290800000}
   powerBar: {fileID: 1499439789}
-  power: 0
   maxPower: 500
   loseUI: {fileID: 1754707136}
-  rivale: {fileID: 0}
   rivali: {fileID: 1152074160}
   impIcon: {fileID: 547661698}
   _anim: {fileID: 1622188671}
-  rival: {fileID: 0}
-  imp: 0
   _speed: 2
 --- !u!114 &1622188666
 MonoBehaviour:
@@ -9045,6 +9048,7 @@ MonoBehaviour:
   random: 0
   imp: 0
   dist: 0
+  _speed: 2
 --- !u!95 &2139073223 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 606584777, guid: d22a4e793689c1c42863bc82ea7c61c8, type: 3}
